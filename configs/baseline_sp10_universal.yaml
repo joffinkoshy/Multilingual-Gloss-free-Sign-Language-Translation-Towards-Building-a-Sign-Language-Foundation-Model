@@ -1,0 +1,10 @@
+# Table 4/8's "Universal (1)": one shared Architecture-(A) model trained on
+# all 10 source languages -> English, no LID branch. "Individual (10)" is NOT
+# a separate config — it's baseline_sp10_one_to_one.yaml run once per
+# language pair (10 independent models), per Section 4.3.
+extends: sp10_many_to_one.yaml
+model:
+  variant: baseline
+  use_lid_branch: false
+loss:
+  lambda_lid: 0.0

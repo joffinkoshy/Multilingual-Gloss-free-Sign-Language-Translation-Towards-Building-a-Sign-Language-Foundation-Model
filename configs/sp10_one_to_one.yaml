@@ -1,0 +1,28 @@
+# One-to-one SLT on SP-10 (Table 2). lambda1=0, LID branch disabled entirely
+# (paper: "purely gloss-free SLT setting" — Section 2.3).
+extends: base_reproduction.yaml
+
+task: one_to_one
+
+model:
+  use_lid_branch: false
+
+loss:
+  lambda_lid: 0.0
+
+data:
+  dataset: sp10
+  # All 10 SP-10 one-to-one pairs (Section 2.1); each is trained/evaluated as
+  # an independent model — this list drives scripts/run_ablation.sh's loop,
+  # it is not a multi-task config.
+  language_pairs:
+    - {src: csl, tgt: zh}
+    - {src: ukl, tgt: uk}
+    - {src: rsl, tgt: ru}
+    - {src: icl, tgt: is}
+    - {src: gsg, tgt: de}
+    - {src: ise, tgt: it}
+    - {src: bqn, tgt: bg}
+    - {src: swl, tgt: sv}
+    - {src: lls, tgt: lt}
+    - {src: bfi, tgt: en}

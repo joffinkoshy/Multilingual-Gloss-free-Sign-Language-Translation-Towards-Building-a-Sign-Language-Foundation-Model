@@ -1,0 +1,4 @@
+# Architecture (A) comparator for Table 2/3's "Baseline" row.
+extends: sp10_one_to_one.yaml
+model:
+  variant: baseline

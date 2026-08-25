@@ -1,0 +1,8 @@
+# Improvement 3: frozen-backbone contrastive pretraining head, cumulative on
+# top of +routing+augmentation. This is V1 combined (Section 9).
+extends: v1_augmentation.yaml
+
+data:
+  pretraining:
+    enabled: true
+    checkpoint: experiments/v1_pretraining/contrastive_head.pt

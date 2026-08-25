@@ -1,0 +1,4 @@
+# Architecture (A) comparator for Table 3's "Baseline" row (PHOENIX14T).
+extends: phoenix14t.yaml
+model:
+  variant: baseline

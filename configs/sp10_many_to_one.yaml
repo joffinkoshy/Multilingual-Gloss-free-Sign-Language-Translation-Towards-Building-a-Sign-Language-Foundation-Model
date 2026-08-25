@@ -1,0 +1,15 @@
+# Many-to-one SLT on SP-10, English target (Table 4). lambda=(1,5,3), full model.
+extends: base_reproduction.yaml
+
+task: many_to_one
+
+model:
+  use_lid_branch: true
+
+loss:
+  lambda_lid: 1.0
+
+data:
+  dataset: sp10
+  target_language: en
+  source_languages: [csl, ukl, rsl, icl, gsg, ise, bqn, swl, lls, bfi]

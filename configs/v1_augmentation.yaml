@@ -1,0 +1,10 @@
+# Improvement 2: cost-reduced data augmentation, cumulative on top of
+# +routing (Section 9's sequential ablation ladder — this is NOT
+# baseline+augmentation alone).
+extends: v1_family_routing.yaml
+
+data:
+  augmentation:
+    enabled: true
+    video_transforms: [crop, flip, time_warp, time_mask]
+    feature_transforms: [spec_augment, mixup]

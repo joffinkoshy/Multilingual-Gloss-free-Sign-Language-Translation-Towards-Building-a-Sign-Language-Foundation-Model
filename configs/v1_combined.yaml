@@ -1,0 +1,5 @@
+# V1 combined = routing + augmentation + pretraining, all three (Section 9's
+# final rung of the ladder). Identical to v1_pretraining.yaml — kept as a
+# separate file per Section 7's layout so "the V1 combined run" has one
+# canonical, unambiguous config name distinct from "the pretraining-step run".
+extends: v1_pretraining.yaml

@@ -1,0 +1,4 @@
+# Architecture (A) comparator for Table 3's "Baseline" row (CSL-Daily).
+extends: csl_daily.yaml
+model:
+  variant: baseline

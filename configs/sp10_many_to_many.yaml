@@ -1,0 +1,36 @@
+# Many-to-many SLT on SP-10 (Table 5). Pairs added incrementally 2->2 .. 10->10
+# in the exact order from Appendix F (dev-set one-to-one BLEU rank, highest to
+# lowest) — see IMPLEMENTATION_HANDOFF.md Section 2.1. `stages` drives
+# scripts/run_ablation.sh; each stage is trained as its own run, cumulative
+# on language pairs, not on model weights.
+extends: base_reproduction.yaml
+
+task: many_to_many
+
+model:
+  use_lid_branch: true
+
+loss:
+  lambda_lid: 1.0
+
+data:
+  dataset: sp10
+  stages:
+    - name: "2to2"
+      pairs: [{src: csl, tgt: zh}, {src: bfi, tgt: en}]
+    - name: "3to3"
+      pairs: [{src: csl, tgt: zh}, {src: bfi, tgt: en}, {src: swl, tgt: sv}]
+    - name: "4to4"
+      pairs: [{src: csl, tgt: zh}, {src: bfi, tgt: en}, {src: swl, tgt: sv}, {src: ukl, tgt: uk}]
+    - name: "5to5"
+      pairs: [{src: csl, tgt: zh}, {src: bfi, tgt: en}, {src: swl, tgt: sv}, {src: ukl, tgt: uk}, {src: gsg, tgt: de}]
+    - name: "6to6"
+      pairs: [{src: csl, tgt: zh}, {src: bfi, tgt: en}, {src: swl, tgt: sv}, {src: ukl, tgt: uk}, {src: gsg, tgt: de}, {src: ise, tgt: it}]
+    - name: "7to7"
+      pairs: [{src: csl, tgt: zh}, {src: bfi, tgt: en}, {src: swl, tgt: sv}, {src: ukl, tgt: uk}, {src: gsg, tgt: de}, {src: ise, tgt: it}, {src: rsl, tgt: ru}]
+    - name: "8to8"
+      pairs: [{src: csl, tgt: zh}, {src: bfi, tgt: en}, {src: swl, tgt: sv}, {src: ukl, tgt: uk}, {src: gsg, tgt: de}, {src: ise, tgt: it}, {src: rsl, tgt: ru}, {src: icl, tgt: is}]
+    - name: "9to9"
+      pairs: [{src: csl, tgt: zh}, {src: bfi, tgt: en}, {src: swl, tgt: sv}, {src: ukl, tgt: uk}, {src: gsg, tgt: de}, {src: ise, tgt: it}, {src: rsl, tgt: ru}, {src: icl, tgt: is}, {src: bqn, tgt: bg}]
+    - name: "10to10"
+      pairs: [{src: csl, tgt: zh}, {src: bfi, tgt: en}, {src: swl, tgt: sv}, {src: ukl, tgt: uk}, {src: gsg, tgt: de}, {src: ise, tgt: it}, {src: rsl, tgt: ru}, {src: icl, tgt: is}, {src: bqn, tgt: bg}, {src: lls, tgt: lt}]

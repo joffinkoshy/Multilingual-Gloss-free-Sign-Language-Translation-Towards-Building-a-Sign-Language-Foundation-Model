@@ -1,0 +1,24 @@
+# Improvement 1: language-family-aware routing, composed on top of the
+# baseline many-to-one config (Section 8/9). Everything else = baseline.
+extends: sp10_many_to_one.yaml
+
+family_routing:
+  enabled: true
+  bottleneck_dim: 64
+  # Language -> family mapping. NOT a carried-over research decision — this
+  # was never finalized during the research phase (Section 12 item 9). This
+  # is a judgment call made during implementation: linguistic-family grouping
+  # of SP-10's 10 sign languages, kept deliberately coarse given only
+  # 830 examples/language. Revisit if the failure map (task 29) shows a
+  # family split that doesn't help.
+  language_to_family:
+    rsl: slavic
+    ukl: slavic
+    bqn: slavic       # Bulgarian
+    gsg: germanic
+    swl: germanic
+    bfi: germanic     # British Sign Language, Germanic-language-community
+    ise: romance       # Italian
+    icl: isolate        # Icelandic Sign Language
+    lls: isolate          # Lithuanian
+    csl: isolate            # Chinese, unrelated to the above families

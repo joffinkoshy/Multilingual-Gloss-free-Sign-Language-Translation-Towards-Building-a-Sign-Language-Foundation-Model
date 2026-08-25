@@ -1,0 +1,113 @@
+# base_reproduction.yaml
+#
+# Every field is set to either (a) the paper's explicit spec (IMPLEMENTATION_HANDOFF.md
+# Section 2.3), or (b) a documented assumption where the paper is silent. Run
+# `python -m src.utils.config --assumptions` to print which fields are (b).
+#
+# This file is not runnable directly (task="one_to_one" here is a placeholder
+# assertion target) — task configs `extends: base_reproduction.yaml` and only
+# override what differs.
+
+task: one_to_one  # one_to_one | many_to_one | many_to_many
+
+model:
+  variant: sign2_lid_text     # baseline | sign2_lid_text (Section 2.3, Architecture A vs B)
+  d_model: 256              # paper: Table/Eq., d_model=256 throughout
+  d_feat: 1024               # ASSUMPTION, GROUNDED (Section 12 #1): not stated by the
+                              # paper, but 1024 is slr_network_multi.SLRModel's literal
+                              # `hidden_size` constructor default (kaistmm/SlowFastSign) —
+                              # every head in that class is built off this value. Caveat:
+                              # that's the gloss-CSLR checkpoint's dimension; if MLSLT's
+                              # authors changed it when retraining for spoken-text
+                              # supervision, confirm against your actual checkpoint.
+  num_encoder_layers: 6       # paper: 6-layer Transformer encoder
+  num_decoder_layers: 6       # paper: 6-layer Transformer decoder
+  num_heads: 8                 # ASSUMPTION: not stated; Vaswani et al. base-model default
+  ff_size: 2048                # paper: ffn=2048
+  dropout: 0.1                  # ASSUMPTION (Section 12 #4): standard Transformer default;
+                                  # reference repo's own code default is 0.0 if unset in its
+                                  # YAML — no confirmed value could be recovered (no config
+                                  # files ship in Claire874/Gloss-free-MLSLT).
+  lid_split_layer: 1             # paper Eq.3: h_int = Enc_int(F) after exactly 1 encoder layer
+  use_lid_branch: false           # paper: lambda1=0 disables LID branch's forward pass
+                                    # entirely for one_to_one (Section 2.3) — this flag must
+                                    # gate module instantiation, not just the loss weight.
+  positional_encoding: sinusoidal  # ASSUMPTION (Section 12): not specified; matches the
+                                     # paper's explicit Vaswani et al. 2017 backbone citation.
+  init: xavier                       # paper Appendix B
+
+loss:
+  lambda_lid: 0.0     # paper Eq.5: lambda=(1,5,3) for many-to-one/many-to-many, but
+  lambda_txt: 5.0      # lambda1=0 for one_to_one (Section 2.3). Task configs override
+  lambda_attn: 3.0      # lambda_lid; lambda_txt/lambda_attn are constant across tasks.
+  label_smoothing: 0.0   # ASSUMPTION (Section 12 #6): reference repo (signjoey/loss.py)
+                           # supports it but defaults to 0.0 (off) — confirmed, not guessed.
+
+optimizer:
+  name: adam
+  lr: 1.0e-3            # paper: Adam, LR=1e-3
+  betas: [0.9, 0.999]    # ASSUMPTION (Section 12): paper silent on beta1/beta2/eps.
+  eps: 1.0e-8             # Superseding deep-research-report.md's guess of (0.9, 0.98, 1e-9)
+                           # after reading the actual reference repo (signjoey/builders.py
+                           # build_optimizer default) — that repo's real default is
+                           # (0.9, 0.999)/1e-8, i.e. plain PyTorch Adam defaults, not the
+                           # Vaswani et al. Transformer-paper betas.
+  weight_decay: 0.0       # paper silent; Adam default (Section 2.3)
+
+scheduler:
+  name: plateau          # ASSUMPTION, CORRECTED (Section 12 #3): paper states only a
+                           # constant LR=1e-3 with no schedule mentioned. Handoff's original
+                           # default was "constant, add warmup only if unstable." After
+                           # inspecting Claire874/Gloss-free-MLSLT's actual training.py /
+                           # builders.py, its real scheduler is ReduceLROnPlateau tracking
+                           # dev BLEU (scheduler_mode="max"), which composes naturally with
+                           # this handoff's own early-stopping-on-dev-BLEU strategy
+                           # (Section 2.3). Adopting that as the default per Section 3's
+                           # instruction to "reproduce its actual training config ... once
+                           # inspected." Set name: constant to fall back to the paper-literal
+                           # reading.
+  patience: 10            # reference repo default (signjoey/builders.py build_scheduler)
+  decrease_factor: 0.1     # reference repo default
+  learning_rate_min: 1.0e-8
+
+training:
+  batch_size: 32          # ASSUMPTION: not stated by the paper.
+  seed: 42
+  grad_clip_norm: 5.0       # ASSUMPTION (Section 12): safe default for joint CTC+attention.
+  early_stopping_patience: 10  # epochs with no dev-BLEU improvement (Section 2.3)
+  max_epochs: null          # null = run until early stopping fires; no fixed epoch count
+                              # is claimed by the paper (Section 12 #2).
+  checkpoint_every_epochs: 1
+  checkpoint_every_minutes: 30  # for long single-epoch runs on the larger datasets (Sec 2.6)
+  use_cuda: true
+
+decode:
+  beam_size: 5           # ASSUMPTION (Section 12 #7): not specified by the paper.
+  ctc_weight: 0.3          # ASSUMPTION (Section 12 #7): decode-time CTC weight, separate
+                            # from training-time lambda2; ESPnet-style default.
+
+data:
+  dataset: sp10          # sp10 | phoenix14t | csl_daily
+  tokenizer:
+    type: word            # CORRECTED (Section 12 #5): deep-research-report.md assumed
+                            # SentencePiece subwords based on vocab-size shape. Reading the
+                            # actual reference repo (signjoey/vocabulary.py, build_vocab)
+                            # shows a plain word-level Counter vocabulary (torchtext-style
+                            # tokens, min_freq/max_size cutoff) — not a learned subword
+                            # model. Adopting word-level as the corrected default.
+    min_freq: 1
+    max_size: 50000         # per-dataset vocab sizes (Table 6) come from the actual token
+                              # counts at min_freq=1 on the real corpus, not this cap.
+  feature_cache_dir: data/features
+  splits_dir: data/splits
+  frame_subsampling_ratio: null
+  augmentation:
+    enabled: false            # Improvement 2 — off in the baseline reproduction
+    video_transforms: []
+    feature_transforms: []
+  pretraining:
+    enabled: false            # Improvement 3 — off in the baseline reproduction
+    checkpoint: null
+
+family_routing:
+  enabled: false          # Improvement 1 — off in the baseline reproduction

@@ -1,0 +1,15 @@
+# One-to-one SLT on CSL-Daily (Table 3), csl->zh. lambda1=0.
+extends: base_reproduction.yaml
+
+task: one_to_one
+
+model:
+  use_lid_branch: false
+
+loss:
+  lambda_lid: 0.0
+
+data:
+  dataset: csl_daily
+  language_pairs:
+    - {src: csl, tgt: zh}
