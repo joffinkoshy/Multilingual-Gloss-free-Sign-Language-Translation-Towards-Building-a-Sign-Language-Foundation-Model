@@ -21,13 +21,21 @@ Sources (verified by directly fetching each project's own page/repo):
     language's video). Only the actual video files still need downloading.
   - PHOENIX14T: https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/
     — direct download (39GB tarball), no request form found; cite Camgoz et
-    al. 2018. If the RWTH link is down, community mirrors exist on Hugging
-    Face (e.g. search "RWTH-PHOENIX-Weather-2014T").
+    al. 2018. Text annotations alone (small, standalone CSVs, independent of
+    the video archive) are separately mirrored at
+    https://huggingface.co/datasets/quagrain/RWTH-Phoenix-2014T and already
+    converted by scripts/convert_phoenix14t_index.py -> real
+    data/splits/phoenix14t/{train,dev,test}.json (7,096/519/642 records,
+    exact match to Section 2.1). Only the actual video frames still need the
+    official RWTH release or an equivalent mirror.
   - CSL-Daily: https://ustc-slr.github.io/datasets/2021_csl_daily/ — requires
     a signed release agreement (must be signed by a full-time staff member,
     not a student) emailed to ustc_vslrg@126.com, CC'd to the dataset's PI;
     cite Zhou et al. 2021 (CVPR, "Improving Sign Language Translation with
-    Monolingual Data by Sign Back-Translation").
+    Monolingual Data by Sign Back-Translation"). DEFERRED for now per user
+    decision (2026-08-26) — no readily available staff signatory. Per
+    Section 9's own dataset-priority order this is "least central to the
+    multilingual story," so work proceeds on SP-10 + PHOENIX14T first.
 
 Once real video is available, follow SlowFastSign's own data-prep instructions
 (https://github.com/hulianyuyy/CorrNet, linked from kaistmm/SlowFastSign's

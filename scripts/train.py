@@ -36,10 +36,14 @@ DATASET_MODULES = {"sp10": sp10, "phoenix14t": phoenix14t, "csl_daily": csl_dail
 ALL_SP10_LANGUAGES = ["csl", "ukl", "rsl", "icl", "gsg", "ise", "bqn", "swl", "lls", "bfi"]
 
 
-def build_tokenizers(config: dict, splits_dir: str):
+def build_tokenizers(config: dict, splits_dir: str, language_pair=None):
     dataset = config["data"]["dataset"]
     train_index_path = os.path.join(splits_dir, dataset, "train.json")
     examples = load_index(train_index_path)
+    if language_pair is not None:
+        examples = [e for e in examples if (e.src_lang, e.tgt_lang) == language_pair]
+        if not examples:
+            raise ValueError(f"No training examples found for language pair {language_pair} in {train_index_path}")
     tok_cfg = config["data"]["tokenizer"]
     tokenizer = WordTokenizer(min_freq=tok_cfg["min_freq"], max_size=tok_cfg["max_size"])
     tokenizer.build([e.text for e in examples])
@@ -58,17 +62,32 @@ def main():
     parser.add_argument("--model-dir", required=True)
     parser.add_argument("--device", default="cpu")
     parser.add_argument("--resume", default=None)
+    parser.add_argument(
+        "--language-pair", default=None, metavar="SRC:TGT",
+        help="restrict a one_to_one run to a single (src_lang, tgt_lang) pair, "
+             "e.g. csl:zh — required for SP-10 one_to_one, since its index files "
+             "hold all 10 pairs (plus cross-to-English augmentation) together; "
+             "each pair is trained as its own independent model (Section 2.1).",
+    )
     args = parser.parse_args()
 
     config = load_config(args.config)
     splits_dir = args.splits_dir or config["data"]["splits_dir"]
     set_seed(config["training"]["seed"])
 
-    tokenizer, lid_tokenizer = build_tokenizers(config, splits_dir)
-    dataset_module = DATASET_MODULES[config["data"]["dataset"]]
+    language_pair = tuple(args.language_pair.split(":")) if args.language_pair else None
+    if config["task"] == "one_to_one" and config["data"]["dataset"] == "sp10" and language_pair is None:
+        raise ValueError(
+            "SP-10 one_to_one runs require --language-pair SRC:TGT (e.g. csl:zh) — "
+            "its index file holds all 10 pairs together, see scripts/run_one_to_one.sh."
+        )
 
-    train_ds = dataset_module.build("train", splits_dir, tokenizer, d_feat=config["model"]["d_feat"])
-    dev_ds = dataset_module.build("dev", splits_dir, tokenizer, d_feat=config["model"]["d_feat"])
+    tokenizer, lid_tokenizer = build_tokenizers(config, splits_dir, language_pair)
+    dataset_module = DATASET_MODULES[config["data"]["dataset"]]
+    ds_kwargs = {"language_filter": [language_pair]} if language_pair else {}
+
+    train_ds = dataset_module.build("train", splits_dir, tokenizer, d_feat=config["model"]["d_feat"], **ds_kwargs)
+    dev_ds = dataset_module.build("dev", splits_dir, tokenizer, d_feat=config["model"]["d_feat"], **ds_kwargs)
 
     train_loader = DataLoader(
         train_ds, batch_size=config["training"]["batch_size"], shuffle=True,

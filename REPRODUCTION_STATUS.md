@@ -58,9 +58,27 @@ sanity check that the many-to-one construction (Section 2.1) is right.
 **Only the actual video files are still missing** — `video_downloader.py`
 needs to actually run (ffmpeg, real bandwidth, thousands of small files) on
 your machine, then real SlowFastSign feature extraction still has the
-blocker described below. PHOENIX14T and CSL-Daily still need their own
-access processes; see `scripts/download_data.py`'s docstring for the
-exact, verified steps for all three datasets.
+blocker described below.
+
+**PHOENIX14T's text data is now real too.** Its annotation CSVs are
+separately mirrored on Hugging Face
+(`quagrain/RWTH-Phoenix-2014T`, small pipe-delimited files, independent of
+the ~39GB video archive) and converted via `scripts/convert_phoenix14t_index.py`
+into `data/splits/phoenix14t/{train,dev,test}.json` — **7,096/519/642
+records, an exact match** to Section 2.1's stated splits. Loading it through
+the real word-level tokenizer gives a German vocab of **2,891 words**,
+matching the paper's Table 6 figure of ~2.9k almost exactly — strong
+independent confirmation that the tokenizer correction (item 5 above) is
+right. Only `translation` (spoken text) was used, never `orth` (gloss),
+respecting the gloss-free constraint. Actual video frames still need the
+official RWTH release or an equivalent mirror.
+
+**CSL-Daily is deliberately deferred** (decision made 2026-08-26): its
+access agreement requires a full-time-staff signature the user doesn't have
+readily available as a student. Per the handoff's own dataset-priority
+ordering (Section 9: "least central to the multilingual story"), work
+proceeds on SP-10 + PHOENIX14T first; CSL-Daily's agreement can be pursued
+in parallel without blocking anything.
 
 ## Explicitly still open (Section 14's own bar: documented, not silently guessed past)
 
