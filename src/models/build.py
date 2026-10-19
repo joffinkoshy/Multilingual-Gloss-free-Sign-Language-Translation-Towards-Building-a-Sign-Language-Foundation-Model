@@ -5,6 +5,7 @@ from typing import Optional
 
 from src.models.baseline_transformer import BaselineTransformer
 from src.models.family_router import FamilyRouter
+from src.models.lid_self_conditioning import LIDSelfConditioner
 from src.models.sign2_lid_text import Sign2LIDText
 
 
@@ -24,6 +25,18 @@ def build_model(
             d_model=m["d_model"],
             language_to_family=fr_cfg["language_to_family"],
             bottleneck_dim=fr_cfg.get("bottleneck_dim", 64),
+        )
+
+    lid_conditioner = None
+    sc_cfg = config.get("lid_self_conditioning", {})
+    if sc_cfg.get("enabled", False):
+        if m["variant"] != "sign2_lid_text" or not m["use_lid_branch"]:
+            raise ValueError("lid_self_conditioning requires variant=sign2_lid_text with use_lid_branch=true")
+        lid_conditioner = LIDSelfConditioner(
+            lid_vocab_size=lid_vocab_size,
+            d_model=m["d_model"],
+            gate_init=sc_cfg.get("gate_init", -2.0),
+            learn_gate=sc_cfg.get("learn_gate", True),
         )
 
     if m["variant"] == "baseline":
@@ -53,6 +66,7 @@ def build_model(
             txt_pad_index=txt_pad_index,
             lid_vocab_size=lid_vocab_size,
             family_router=family_router,
+            lid_conditioner=lid_conditioner,
         )
     else:
         raise ValueError(f"Unknown model.variant '{m['variant']}'")

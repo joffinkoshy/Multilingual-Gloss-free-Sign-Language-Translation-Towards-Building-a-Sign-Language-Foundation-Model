@@ -1,0 +1,5 @@
+# PROPOSED (run E2): identical to the baseline config plus LID self-conditioning.
+extends: sp10_m2o_dinov2.yaml
+
+lid_self_conditioning:
+  enabled: true

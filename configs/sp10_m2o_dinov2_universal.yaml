@@ -1,0 +1,8 @@
+# Optional run E0: vanilla Transformer, universal many-to-one (Table 8's
+# "Universal (1)"), to show the language conflict with our features.
+extends: sp10_m2o_dinov2.yaml
+model:
+  variant: baseline
+  use_lid_branch: false
+loss:
+  lambda_lid: 0.0

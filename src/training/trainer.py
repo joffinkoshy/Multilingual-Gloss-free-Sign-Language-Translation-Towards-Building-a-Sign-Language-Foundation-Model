@@ -86,6 +86,8 @@ class Trainer:
         self.optimizer = build_optimizer(config, self.model.parameters())
         self.scheduler, self.scheduler_step_at = build_scheduler(config, self.optimizer)
         self.clip_grad = build_gradient_clipper(config)
+        self.grad_accum_steps = int(config["training"].get("grad_accum_steps", 1))
+        self._micro_step = 0
 
         self.epoch = 0
         self.step = 0
@@ -111,7 +113,8 @@ class Trainer:
         if self.family_router is not None:
             self.family_router.set_batch_languages(prepared["src_langs"])
 
-        self.optimizer.zero_grad()
+        if self._micro_step % self.grad_accum_steps == 0:
+            self.optimizer.zero_grad()
 
         if self.is_baseline:
             attn_log_probs = self.model(
@@ -143,12 +146,23 @@ class Trainer:
             )
             loss = losses["total"]
 
-        loss.backward()
+        (loss / self.grad_accum_steps).backward()
+        self._micro_step += 1
+        if self._micro_step % self.grad_accum_steps == 0:
+            self._optimizer_step()
+        return {k: float(v.detach()) for k, v in losses.items()}
+
+    def _optimizer_step(self) -> None:
         if self.clip_grad is not None:
             self.clip_grad(self.model.parameters())
         self.optimizer.step()
         self.step += 1
-        return {k: float(v.detach()) for k, v in losses.items()}
+
+    def _flush_accumulated_grads(self) -> None:
+        # apply a partial accumulation window left over at epoch end
+        if self._micro_step % self.grad_accum_steps != 0:
+            self._optimizer_step()
+            self._micro_step = 0
 
     def save(self, tag: str) -> str:
         path = os.path.join(self.model_dir, f"{tag}.ckpt")
@@ -179,7 +193,11 @@ class Trainer:
                 losses = self.training_step(batch)
                 epoch_loss += losses["total"]
                 n_batches += 1
+            self._flush_accumulated_grads()
             self.logger.info("epoch %d: mean total loss %.4f", self.epoch, epoch_loss / max(n_batches, 1))
+            conditioner = getattr(self.model, "lid_conditioner", None)
+            if conditioner is not None:
+                self.logger.info("epoch %d: lid self-conditioning gate g=%.4f", self.epoch, float(conditioner.gate))
 
             if self.epoch % self.config["training"]["checkpoint_every_epochs"] == 0:
                 self.save("latest")
@@ -189,6 +207,7 @@ class Trainer:
 
             if dev_eval_fn is not None:
                 dev_bleu = dev_eval_fn(self.model)
+                self.logger.info("epoch %d: dev BLEU %.2f (best so far %.2f)", self.epoch, dev_bleu, max(dev_bleu, self.best_score))
                 if self.scheduler_step_at == "validation":
                     self.scheduler.step(dev_bleu)
                 if dev_bleu > self.best_score:

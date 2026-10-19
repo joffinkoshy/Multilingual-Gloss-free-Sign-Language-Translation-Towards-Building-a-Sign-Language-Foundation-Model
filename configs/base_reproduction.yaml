@@ -111,3 +111,8 @@ data:
 
 family_routing:
   enabled: false          # Improvement 1 — off in the baseline reproduction
+
+lid_self_conditioning:
+  enabled: false          # proposed novelty — off in the baseline reproduction
+  gate_init: -2.0          # sigmoid(-2) = 0.12: start close to the paper's model
+  learn_gate: true

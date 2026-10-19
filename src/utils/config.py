@@ -40,6 +40,7 @@ ASSUMPTION_FIELDS = {
     "data.tokenizer.type": "paper implied SentencePiece; reference repo (signjoey/vocabulary.py) actually uses word-level Counter-based vocab. Word-level is now the default — see Section 12 item 5 correction in reference_inspection_notes.md",
     "decode.ctc_weight": "paper unspecified; ESPnet-style default 0.3 (Section 12 item 7)",
     "decode.beam_size": "paper unspecified; default 5 (Section 12 item 7)",
+    "lid_self_conditioning.gate_init": "proposed novelty; sigmoid(-2.0)=0.12 initial gate chosen so training starts close to the paper's model (PLAN_LID_SELF_CONDITIONING.md)",
     "model.d_feat": "paper unspecified exact value; must be set to the real SlowFastSign checkpoint's output dim before real training (Section 12 item 1)",
 }
 
@@ -113,6 +114,13 @@ def validate_config(cfg: dict) -> None:
         if cfg["task"] != "one_to_one" and not cfg["model"]["use_lid_branch"]:
             raise ConfigError(
                 f"task '{cfg['task']}' requires model.use_lid_branch=true (lambda1=1)."
+            )
+
+    if cfg.get("lid_self_conditioning", {}).get("enabled", False):
+        if cfg["model"]["variant"] != "sign2_lid_text" or not cfg["model"]["use_lid_branch"]:
+            raise ConfigError(
+                "lid_self_conditioning conditions on the LID-CTC posterior — it "
+                "requires model.variant=sign2_lid_text and model.use_lid_branch=true."
             )
 
     if not cfg["model"]["use_lid_branch"] and cfg["loss"]["lambda_lid"] != 0:

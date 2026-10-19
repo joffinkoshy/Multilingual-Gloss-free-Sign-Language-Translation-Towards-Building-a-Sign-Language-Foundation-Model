@@ -7,52 +7,28 @@ Usage:
 
 Real-data prerequisite (see experiments/results/reference_inspection_notes.md):
 this needs (a) populated data/splits/<dataset>/{train,dev,test}.json index
-files and (b) either real cached SlowFastSign features under
-data/features/, or config.data.feature_cache_dir pointed at them. Neither
-exists in this repo yet — see Section 12 item 10's findings. Without them,
-this script falls back to StubFeatureGenerator, which is only useful for
-pipeline smoke-testing (matches what tests/test_overfit_tiny.py already
-verifies), not real numbers.
+files and (b) cached features under config.data.feature_cache_dir (see
+scripts/extract_features_dinov2.py). A missing cache is a hard error; pass
+--allow-stub-features to smoke-test the pipeline on random features.
 """
 import argparse
+import json
 import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+import yaml
 from torch.utils.data import DataLoader
 
-from src.datasets import csl_daily, phoenix14t, sp10
-from src.datasets.common import collate_slt_batch, load_index
-from src.datasets.tokenizer import LIDTokenizer, WordTokenizer
-from src.evaluation.decode import beam_search_decode
-from src.evaluation.metrics import compute_bleu, decode_ids_to_text
+from src.datasets.common import collate_slt_batch
+from src.evaluation.decode import decode_loader
+from src.evaluation.metrics import compute_bleu
 from src.models.build import build_model
+from src.training.setup import TXT_VOCAB_FILE, build_feature_fn, build_split, build_tokenizers, language_filter
 from src.training.trainer import Trainer
 from src.utils.config import load_config
 from src.utils.seed import set_seed
-
-DATASET_MODULES = {"sp10": sp10, "phoenix14t": phoenix14t, "csl_daily": csl_daily}
-ALL_SP10_LANGUAGES = ["csl", "ukl", "rsl", "icl", "gsg", "ise", "bqn", "swl", "lls", "bfi"]
-
-
-def build_tokenizers(config: dict, splits_dir: str, language_pair=None):
-    dataset = config["data"]["dataset"]
-    train_index_path = os.path.join(splits_dir, dataset, "train.json")
-    examples = load_index(train_index_path)
-    if language_pair is not None:
-        examples = [e for e in examples if (e.src_lang, e.tgt_lang) == language_pair]
-        if not examples:
-            raise ValueError(f"No training examples found for language pair {language_pair} in {train_index_path}")
-    tok_cfg = config["data"]["tokenizer"]
-    tokenizer = WordTokenizer(min_freq=tok_cfg["min_freq"], max_size=tok_cfg["max_size"])
-    tokenizer.build([e.text for e in examples])
-
-    lid_tokenizer = None
-    if config["model"]["use_lid_branch"]:
-        languages = config["data"].get("source_languages", ALL_SP10_LANGUAGES)
-        lid_tokenizer = LIDTokenizer(languages)
-    return tokenizer, lid_tokenizer
 
 
 def main():
@@ -62,6 +38,10 @@ def main():
     parser.add_argument("--model-dir", required=True)
     parser.add_argument("--device", default="cpu")
     parser.add_argument("--resume", default=None)
+    parser.add_argument("--seed", type=int, default=None, help="overrides config.training.seed")
+    parser.add_argument("--max-epochs", type=int, default=None, help="overrides config.training.max_epochs")
+    parser.add_argument("--allow-stub-features", action="store_true",
+                        help="use random stub features (pipeline smoke test only)")
     parser.add_argument(
         "--language-pair", default=None, metavar="SRC:TGT",
         help="restrict a one_to_one run to a single (src_lang, tgt_lang) pair, "
@@ -72,6 +52,10 @@ def main():
     args = parser.parse_args()
 
     config = load_config(args.config)
+    if args.seed is not None:
+        config["training"]["seed"] = args.seed
+    if args.max_epochs is not None:
+        config["training"]["max_epochs"] = args.max_epochs
     splits_dir = args.splits_dir or config["data"]["splits_dir"]
     set_seed(config["training"]["seed"])
 
@@ -82,42 +66,38 @@ def main():
             "its index file holds all 10 pairs together, see scripts/run_one_to_one.sh."
         )
 
-    tokenizer, lid_tokenizer = build_tokenizers(config, splits_dir, language_pair)
-    dataset_module = DATASET_MODULES[config["data"]["dataset"]]
-    ds_kwargs = {"language_filter": [language_pair]} if language_pair else {}
+    pairs = language_filter(config, language_pair)
+    tokenizer, lid_tokenizer = build_tokenizers(config, splits_dir, pairs)
+    feature_fn = build_feature_fn(config, allow_stub=args.allow_stub_features)
+    train_ds = build_split(config, "train", splits_dir, tokenizer, pairs, feature_fn)
+    dev_ds = build_split(config, "dev", splits_dir, tokenizer, pairs, feature_fn)
 
-    train_ds = dataset_module.build("train", splits_dir, tokenizer, d_feat=config["model"]["d_feat"], **ds_kwargs)
-    dev_ds = dataset_module.build("dev", splits_dir, tokenizer, d_feat=config["model"]["d_feat"], **ds_kwargs)
+    os.makedirs(args.model_dir, exist_ok=True)
+    tokenizer.to_file(os.path.join(args.model_dir, TXT_VOCAB_FILE))
+    run_info = {"config": args.config, "language_pairs": pairs, "language_pair": language_pair,
+                "n_train": len(train_ds), "n_dev": len(dev_ds), "txt_vocab_size": len(tokenizer),
+                "stub_features": args.allow_stub_features}
+    with open(os.path.join(args.model_dir, "config.resolved.yaml"), "w", encoding="utf-8") as f:
+        yaml.safe_dump({**config, "run_info": run_info}, f, sort_keys=False, allow_unicode=True)
 
-    train_loader = DataLoader(
-        train_ds, batch_size=config["training"]["batch_size"], shuffle=True,
-        collate_fn=lambda b: collate_slt_batch(b, pad_id=tokenizer.pad_id),
-    )
+    collate = lambda b: collate_slt_batch(b, pad_id=tokenizer.pad_id)  # noqa: E731
+    train_loader = DataLoader(train_ds, batch_size=config["training"]["batch_size"], shuffle=True, collate_fn=collate)
     dev_loader = DataLoader(
         dev_ds, batch_size=config["training"].get("eval_batch_size", config["training"]["batch_size"]),
-        shuffle=False, collate_fn=lambda b: collate_slt_batch(b, pad_id=tokenizer.pad_id),
+        shuffle=False, collate_fn=collate,
     )
 
     lid_vocab_size = len(lid_tokenizer) if lid_tokenizer else None
     model, family_router = build_model(config, len(tokenizer), tokenizer.pad_id, lid_vocab_size)
+    n_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
 
     trainer = Trainer(config, model, tokenizer, lid_tokenizer, family_router, args.model_dir, args.device)
+    trainer.logger.info("run info: %s", json.dumps({**run_info, "trainable_params": n_params}, ensure_ascii=False))
     if args.resume:
         trainer.resume(args.resume)
 
     def dev_eval_fn(model) -> float:
-        hyps, refs = [], []
-        for batch in dev_loader:
-            if family_router is not None:
-                family_router.set_batch_languages(batch["src_langs"])
-            hyp_ids = beam_search_decode(
-                model, batch["features"].to(args.device), batch["feature_lengths"].to(args.device),
-                bos_id=tokenizer.bos_id, eos_id=tokenizer.eos_id,
-                max_len=batch["text_ids"].shape[1] + 10,
-                beam_size=config["decode"]["beam_size"], ctc_weight=config["decode"]["ctc_weight"],
-            )
-            hyps.extend(decode_ids_to_text(hyp_ids, tokenizer))
-            refs.extend(batch["texts"])
+        hyps, refs, _, _ = decode_loader(model, dev_loader, tokenizer, config, args.device, family_router)
         return compute_bleu(hyps, refs)
 
     trainer.fit(train_loader, dev_eval_fn=dev_eval_fn)

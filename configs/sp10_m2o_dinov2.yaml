@@ -1,0 +1,17 @@
+# BASELINE for the course project (PLAN_LID_SELF_CONDITIONING.md, run E1):
+# the paper's Sign2(LID+Text), SP-10 many-to-one (10 SLs -> English, Table 4),
+# lambda=(1,5,3), on frozen DINOv2 ViT-S/14 frame features instead of the
+# unavailable spoken-text-supervised SlowFastSign features.
+extends: sp10_many_to_one.yaml
+
+model:
+  d_feat: 384             # DINOv2 ViT-S/14 CLS embedding size (scripts/extract_features_dinov2.py)
+
+training:
+  batch_size: 16          # 4 GB RTX 3050; paper used 64 on an A100
+  grad_accum_steps: 2     # effective batch 32
+  max_epochs: 100          # hard cap; early stopping on dev BLEU normally fires first
+
+data:
+  feature_cache_dir: data/features/sp10_dinov2
+  require_real_features: true

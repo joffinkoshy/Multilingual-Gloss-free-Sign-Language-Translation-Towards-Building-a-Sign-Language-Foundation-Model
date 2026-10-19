@@ -119,3 +119,24 @@ def beam_search_decode(
 
         results.append(best_seq[1:].tolist())
     return results
+
+
+@torch.no_grad()
+def decode_loader(model, loader, tokenizer, config: dict, device: str, family_router=None):
+    """Joint CTC/attention beam search over a whole DataLoader. Returns
+    (hypotheses, references, src_langs, video_ids) as parallel lists."""
+    hyps, refs, src_langs, video_ids = [], [], [], []
+    for batch in loader:
+        if family_router is not None:
+            family_router.set_batch_languages(batch["src_langs"])
+        hyp_ids = beam_search_decode(
+            model, batch["features"].to(device), batch["feature_lengths"].to(device),
+            bos_id=tokenizer.bos_id, eos_id=tokenizer.eos_id,
+            max_len=batch["text_ids"].shape[1] + 10,
+            beam_size=config["decode"]["beam_size"], ctc_weight=config["decode"]["ctc_weight"],
+        )
+        hyps.extend(tokenizer.decode(ids) for ids in hyp_ids)
+        refs.extend(batch["texts"])
+        src_langs.extend(batch["src_langs"])
+        video_ids.extend(batch["video_ids"])
+    return hyps, refs, src_langs, video_ids

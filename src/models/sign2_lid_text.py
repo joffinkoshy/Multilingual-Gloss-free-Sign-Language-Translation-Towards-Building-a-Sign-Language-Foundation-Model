@@ -15,6 +15,11 @@ family_router (Improvement 1, optional): applied to h_fin as
 h' = h + A_family(h) + A_language(h) before the Txt-CTC head / decoder,
 composed via config flag per Section 7's separation rule — this file never
 special-cases routing logic itself, it only calls the passed-in module.
+
+lid_conditioner (proposed novelty, optional): applied to h_int after the
+LID-CTC head as h_int' = h_int + g * W_c softmax(LID logits) before
+EncoderLayers_2..N (src/models/lid_self_conditioning.py). Same composition
+rule as family_router; requires use_lid_branch=True.
 """
 from typing import Optional
 
@@ -41,12 +46,15 @@ class Sign2LIDText(nn.Module):
         txt_pad_index: int,
         lid_vocab_size: Optional[int] = None,
         family_router: Optional[nn.Module] = None,
+        lid_conditioner: Optional[nn.Module] = None,
     ):
         super().__init__()
         self.use_lid_branch = use_lid_branch
         self.lid_split_layer = lid_split_layer
         self.txt_pad_index = txt_pad_index
         self.family_router = family_router
+        if lid_conditioner is not None and not use_lid_branch:
+            raise ValueError("lid_conditioner requires use_lid_branch=True (it conditions on the LID-CTC posterior)")
 
         self.input_proj = InputProjection(d_feat, d_model, dropout)
 
@@ -79,6 +87,9 @@ class Sign2LIDText(nn.Module):
         self.output_proj = nn.Linear(d_model, txt_vocab_size)
 
         xavier_init(self)
+        # Assigned after xavier_init so the conditioner keeps its own init
+        # (the gate logit is a 0-dim parameter xavier_init skips anyway).
+        self.lid_conditioner = lid_conditioner
 
     def encode(self, features: torch.Tensor, src_key_padding_mask: torch.Tensor):
         x = self.input_proj(features)
@@ -89,6 +100,8 @@ class Sign2LIDText(nn.Module):
         lid_log_probs = None
         if self.use_lid_branch:
             lid_log_probs = self.lid_head(h_int)
+            if self.lid_conditioner is not None:
+                x = self.lid_conditioner(h_int, lid_log_probs)
             for layer in self.enc_layers_2:
                 x = layer(x, src_key_padding_mask=src_key_padding_mask)
         h_fin = x
