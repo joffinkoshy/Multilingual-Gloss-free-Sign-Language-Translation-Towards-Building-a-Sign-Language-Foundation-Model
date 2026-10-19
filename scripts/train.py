@@ -99,7 +99,8 @@ def main():
         trainer.resume(args.resume)
 
     def dev_eval_fn(model) -> float:
-        hyps, refs, _, _ = decode_loader(model, dev_loader, tokenizer, config, args.device, family_router)
+        hyps, refs, _, _ = decode_loader(model, dev_loader, tokenizer, config, args.device, family_router,
+                                         strategy=config["decode"].get("dev_strategy", "beam"))
         return compute_bleu(hyps, refs)
 
     trainer.fit(train_loader, dev_eval_fn=dev_eval_fn)

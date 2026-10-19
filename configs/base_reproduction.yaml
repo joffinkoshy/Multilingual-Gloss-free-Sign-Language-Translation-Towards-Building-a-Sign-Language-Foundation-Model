@@ -85,6 +85,11 @@ decode:
   beam_size: 5           # ASSUMPTION (Section 12 #7): not specified by the paper.
   ctc_weight: 0.3          # ASSUMPTION (Section 12 #7): decode-time CTC weight, separate
                             # from training-time lambda2; ESPnet-style default.
+  dev_strategy: greedy     # per-epoch dev check (checkpoint selection, LR plateau, early
+                            # stopping) only. Matches the reference repo's default
+                            # (signjoey/training.py eval_translation_beam_size=1) and is
+                            # ~9x faster on an M1; final scores still come from
+                            # scripts/evaluate.py with beam search + CTC rescoring.
 
 data:
   dataset: sp10          # sp10 | phoenix14t | csl_daily
