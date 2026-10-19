@@ -19,6 +19,8 @@ import sys
 from collections import Counter, defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# nn.CTCLoss has no MPS kernel; let it run on CPU when --device mps (must be set before importing torch)
+os.environ.setdefault("PYTORCH_ENABLE_MPS_FALLBACK", "1")
 
 import sacrebleu
 import torch
@@ -122,7 +124,7 @@ def main():
         metrics.update(lid_accuracy(model, loader, lid_tokenizer, args.device))
     conditioner = getattr(model, "lid_conditioner", None)
     if conditioner is not None:
-        metrics["selfcond_gate"] = float(conditioner.gate)
+        metrics["selfcond_gate"] = conditioner.gate.item()
         metrics["selfcond_params"] = sum(p.numel() for p in conditioner.parameters())
 
     with open(os.path.join(output_dir, "metrics.json"), "w", encoding="utf-8") as f:

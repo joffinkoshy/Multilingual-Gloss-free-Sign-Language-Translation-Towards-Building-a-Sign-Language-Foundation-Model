@@ -17,6 +17,8 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# nn.CTCLoss has no MPS kernel; let it run on CPU when --device mps (must be set before importing torch)
+os.environ.setdefault("PYTORCH_ENABLE_MPS_FALLBACK", "1")
 
 import yaml
 from torch.utils.data import DataLoader

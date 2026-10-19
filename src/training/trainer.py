@@ -197,7 +197,7 @@ class Trainer:
             self.logger.info("epoch %d: mean total loss %.4f", self.epoch, epoch_loss / max(n_batches, 1))
             conditioner = getattr(self.model, "lid_conditioner", None)
             if conditioner is not None:
-                self.logger.info("epoch %d: lid self-conditioning gate g=%.4f", self.epoch, float(conditioner.gate))
+                self.logger.info("epoch %d: lid self-conditioning gate g=%.4f", self.epoch, conditioner.gate.item())
 
             if self.epoch % self.config["training"]["checkpoint_every_epochs"] == 0:
                 self.save("latest")
