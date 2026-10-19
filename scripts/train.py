@@ -98,9 +98,17 @@ def main():
     if args.resume:
         trainer.resume(args.resume)
 
+    dev_device = config["decode"].get("dev_device") or args.device
+
     def dev_eval_fn(model) -> float:
-        hyps, refs, _, _ = decode_loader(model, dev_loader, tokenizer, config, args.device, family_router,
-                                         strategy=config["decode"].get("dev_strategy", "beam"))
+        # Greedy decoding is many tiny sequential steps: faster on CPU than MPS
+        # on an M1. Params are moved in place, so optimizer state stays valid.
+        model.to(dev_device)
+        try:
+            hyps, refs, _, _ = decode_loader(model, dev_loader, tokenizer, config, dev_device, family_router,
+                                             strategy=config["decode"].get("dev_strategy", "beam"))
+        finally:
+            model.to(args.device)
         return compute_bleu(hyps, refs)
 
     trainer.fit(train_loader, dev_eval_fn=dev_eval_fn)

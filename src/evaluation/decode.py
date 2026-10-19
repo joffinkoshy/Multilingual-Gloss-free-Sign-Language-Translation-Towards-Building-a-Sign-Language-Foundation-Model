@@ -50,7 +50,7 @@ def greedy_decode(model, features, feature_lengths, bos_id: int, eos_id: int, ma
 
 
 @torch.no_grad()
-def beam_search_decode(
+def beam_search_decode_reference(
     model,
     features: torch.Tensor,
     feature_lengths: torch.Tensor,
@@ -122,6 +122,99 @@ def beam_search_decode(
 
 
 @torch.no_grad()
+def _encode(model, features, feature_lengths):
+    src_mask = key_padding_mask_from_lengths(feature_lengths, features.size(1))
+    if isinstance(model, BaselineTransformer):
+        return model.encode(features, src_mask), src_mask
+    memory, _ = model.encode(features, src_mask)
+    return memory, src_mask
+
+
+@torch.no_grad()
+def beam_search_decode(
+    model,
+    features: torch.Tensor,
+    feature_lengths: torch.Tensor,
+    bos_id: int,
+    eos_id: int,
+    max_len: int,
+    beam_size: int = 5,
+    ctc_weight: float = 0.0,
+) -> List[List[int]]:
+    """Batched joint CTC/attention beam search: same algorithm as
+    beam_search_decode_reference (attention beam search, then rescoring of the
+    final beams with the exact TxtCTC sequence log-prob), vectorised over
+    batch x beams instead of looping per example and per beam.
+
+    Two deliberate corrections vs. the reference: CTC rescoring uses each
+    example's true frame count (the reference used the padded length), and
+    infeasible CTC alignments score -inf (the reference's zero_infinity made
+    them score 0, i.e. the best possible). Both only matter for padded
+    batches / candidates longer than the input.
+    """
+    model.eval()
+    device = features.device
+    bsz = features.size(0)
+    K = beam_size
+    memory, src_mask = _encode(model, features, feature_lengths)
+    mem = memory.repeat_interleave(K, dim=0)
+    mem_mask = src_mask.repeat_interleave(K, dim=0)
+
+    neg_inf = float("-inf")
+    seqs = torch.full((bsz, K, 1), bos_id, dtype=torch.long, device=device)
+    scores = torch.full((bsz, K), neg_inf, device=device)
+    scores[:, 0] = 0.0  # a single live beam at the start, like the reference
+    finished = torch.zeros(bsz, K, dtype=torch.bool, device=device)
+
+    for _ in range(max_len):
+        if bool(finished[scores > neg_inf].all()):
+            break
+        flat = seqs.view(bsz * K, -1)
+        tgt_mask = generate_causal_mask(flat.size(1), device=device)
+        step_lp = model.decode(flat, mem, tgt_mask, None, mem_mask)[:, -1, :].view(bsz, K, -1)
+        k = min(K, step_lp.size(-1))
+        top_v, top_i = torch.topk(step_lp, k=k, dim=-1)               # [B, K, k]
+        cand_scores = scores.unsqueeze(-1) + top_v                      # [B, K, k]
+        cand_ids = top_i
+        # finished beams carry over unchanged as a single candidate
+        cand_scores = torch.where(finished.unsqueeze(-1), torch.full_like(cand_scores, neg_inf), cand_scores)
+        cand_scores[:, :, 0] = torch.where(finished, scores, cand_scores[:, :, 0])
+        cand_ids = cand_ids.clone()
+        cand_ids[:, :, 0] = torch.where(finished, torch.full_like(cand_ids[:, :, 0], eos_id), cand_ids[:, :, 0])
+
+        best_scores, best_flat = torch.topk(cand_scores.view(bsz, K * k), k=K, dim=-1)
+        beam_idx = torch.div(best_flat, k, rounding_mode="floor")        # parent beam
+        new_ids = cand_ids.view(bsz, K * k).gather(1, best_flat)
+        seqs = torch.cat([seqs.gather(1, beam_idx.unsqueeze(-1).expand(-1, -1, seqs.size(-1))), new_ids.unsqueeze(-1)], dim=-1)
+        finished = finished.gather(1, beam_idx) | (new_ids == eos_id)
+        scores = best_scores
+
+    best = scores.argmax(dim=-1)  # attention-only choice (beams are sorted, so index 0)
+    if ctc_weight > 0 and not isinstance(model, BaselineTransformer):
+        ctc_lp = model.txt_ctc_head(memory)                                # [B, T, V]
+        body = seqs[:, :, 1:]                                              # drop <bos>
+        keep = body != eos_id
+        tgt_len = keep.sum(-1)                                             # [B, K]
+        order = torch.argsort((~keep).int(), dim=-1, stable=True)          # non-eos tokens first, order kept
+        targets = body.gather(-1, order).view(bsz * K, -1)
+        ctc = torch.nn.CTCLoss(blank=0, zero_infinity=False, reduction="none")
+        loss = ctc(
+            ctc_lp.repeat_interleave(K, dim=0).transpose(0, 1), targets,
+            feature_lengths.repeat_interleave(K), tgt_len.view(-1),
+        ).view(bsz, K)
+        ctc_score = -loss                                                  # -inf when infeasible
+        combined = (1 - ctc_weight) * scores + ctc_weight * ctc_score
+        combined = torch.where(tgt_len == 0, scores, combined)             # reference skips empty targets
+        combined = torch.where(scores > neg_inf, combined, torch.full_like(combined, neg_inf))
+        best = combined.argmax(dim=-1)
+
+    out = seqs[torch.arange(bsz, device=device), best][:, 1:]
+    results = []
+    for row in out.tolist():  # finished beams were padded with <eos>: trim after the first one
+        results.append(row[: row.index(eos_id) + 1] if eos_id in row else row)
+    return results
+
+
 def decode_loader(model, loader, tokenizer, config: dict, device: str, family_router=None, strategy: str = "beam"):
     """Decode a whole DataLoader. strategy="beam": joint CTC/attention beam
     search (final dev/test evaluation); "greedy": batched attention-only
