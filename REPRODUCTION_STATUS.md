@@ -48,7 +48,7 @@ SP-10 turned out to require **no access request at all** —
 `media.spreadthesign.com`, plus `dataset/{train,dev,test}.json` annotations.
 Those annotation files were fetched and converted
 (`scripts/convert_sp10_index.py`) into real `data/splits/sp10/{train,dev,test}.json`:
-830/142/214 groups x up to 10 languages = **8,300/1,420/2,024 records**,
+830/142/214 groups x up to 10 languages = **8,300/1,420/2,021 records** (earlier 2,024 included 3 csl test groups with no video; skipped now),
 matching Section 2.1's stated 8,300/1,420 almost exactly (test is 2,024 vs.
 the paper's 2,021 — a handful of groups are missing one language's video).
 Loading this through the real tokenizer gives an English target vocab of
