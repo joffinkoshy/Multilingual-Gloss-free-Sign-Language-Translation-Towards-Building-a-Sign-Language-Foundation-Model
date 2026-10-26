@@ -50,6 +50,8 @@ def convert(raw_path: str) -> list:
             sign_lang = SPOKEN_TO_SIGN_LANG.get(spoken_lang)
             if sign_lang is None:
                 continue
+            if not entry.get("video_url"):
+                continue  # no video upstream (3 csl test groups): nothing to translate from
             # (1) same-language pair: this SL's own video -> this SL's own text
             records.append({
                 "video_id": f"{gid}_{spoken_lang}",
