@@ -74,9 +74,15 @@ def main():
     parser.add_argument("--device", default="cpu")
     parser.add_argument("--batch-size", type=int, default=32)
     parser.add_argument("--allow-stub-features", action="store_true")
+    parser.add_argument("--strategy", choices=["greedy", "beam"], default=None,
+                        help="decoding; default: config decode.final_strategy (else beam)")
+    parser.add_argument("--ctc-weight", type=float, default=None, help="override config decode.ctc_weight (beam only)")
     args = parser.parse_args()
 
     config = load_config(args.config)
+    if args.ctc_weight is not None:
+        config["decode"]["ctc_weight"] = args.ctc_weight
+    strategy = args.strategy or config["decode"].get("final_strategy", "beam")
     splits_dir = args.splits_dir or config["data"]["splits_dir"]
     checkpoint = args.checkpoint or os.path.join(args.model_dir, "best.ckpt")
     output_dir = args.output_dir or os.path.join(args.model_dir, f"eval_{args.split}")
@@ -96,7 +102,7 @@ def main():
     state = load_checkpoint(checkpoint, model)
     model.to(args.device).eval()
 
-    hyps, refs, src_langs, video_ids = decode_loader(model, loader, tokenizer, config, args.device, family_router)
+    hyps, refs, src_langs, video_ids = decode_loader(model, loader, tokenizer, config, args.device, family_router, strategy=strategy)
 
     by_lang = defaultdict(lambda: ([], []))
     for h, r, lang in zip(hyps, refs, src_langs):
@@ -107,6 +113,7 @@ def main():
     bleu = bleu_metric.corpus_score(hyps, [refs])
     metrics = {
         "split": args.split,
+        "decoding": strategy if strategy == "greedy" else f"beam{config['decode']['beam_size']}+ctc{config['decode']['ctc_weight']}",
         "checkpoint": checkpoint,
         "best_epoch": state.get("epoch"),
         "best_dev_bleu_during_training": state.get("best_score"),

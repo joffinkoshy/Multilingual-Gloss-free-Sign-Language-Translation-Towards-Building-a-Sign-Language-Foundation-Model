@@ -14,6 +14,13 @@ optimizer:
                            # stop at epoch 13). On 160 real clips, 60 epochs: lr 1e-3 never
                            # leaves loss 50.6 / BLEU 0; lr 1e-4 reaches loss 11 / BLEU 99.7.
 
+decode:
+  final_strategy: greedy   # final dev/test decoding. DEV-SET choice, same for baseline and proposed:
+                            # on dev, greedy 4.99 / beam5 4.73 / beam5+CTC0.3 4.06 (baseline seed 1) and
+                            # greedy 4.79 / beam5 4.63 / beam5+CTC0.3 3.86 (proposed seed 1) —
+                            # our CTC rescoring lowers BLEU for both. beam is still available:
+                            # scripts/evaluate.py --strategy beam [--ctc-weight W]
+
 training:
   batch_size: 16          # 4 GB RTX 3050; paper used 64 on an A100
   grad_accum_steps: 2     # effective batch 32
