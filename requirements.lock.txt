@@ -1,0 +1,9 @@
+# Exact versions used for all reported runs (macOS arm64, Python 3.12.13).
+# Install with:  pip install -r requirements.lock.txt
+torch==2.13.0
+numpy==2.5.2
+PyYAML==6.0.3
+sacrebleu==2.6.0
+rouge_score==0.1.2
+opencv-python-headless==5.0.0.93
+pytest==9.1.1

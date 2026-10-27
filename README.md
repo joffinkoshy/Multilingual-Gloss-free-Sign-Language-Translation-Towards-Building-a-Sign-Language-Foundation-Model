@@ -92,8 +92,13 @@ is **not** expected to match the paper.
 | PyTorch | standard macOS wheel (`pip install torch`), MPS is built in |
 | Other | `ffmpeg` (needed by SP-10's `video_converter.py`), from Homebrew |
 
-Python packages ([requirements.txt](requirements.txt)): `torch>=2.1`,
-`pyyaml`, `sacrebleu`, `rouge-score`, `numpy`, `pytest`, `opencv-python`.
+Python packages ([requirements.txt](requirements.txt), minimum versions):
+`torch>=2.1`, `pyyaml`, `sacrebleu`, `rouge-score`, `numpy`, `pytest`,
+`opencv-python`. The exact versions used for every reported run are pinned in
+[requirements.lock.txt](requirements.lock.txt) (torch 2.13.0, numpy 2.5.2,
+sacrebleu 2.6.0, Python 3.12). To match them exactly, use
+`pip install -r requirements.lock.txt` instead of `requirements.txt`. There is
+no CUDA requirement: all reported runs used the Apple MPS backend.
 
 ```bash
 git clone https://github.com/joffinkoshy/Multilingual-Gloss-free-Sign-Language-Translation-Towards-Building-a-Sign-Language-Foundation-Model.git mlslt-repro
@@ -101,8 +106,7 @@ cd mlslt-repro
 brew install ffmpeg
 python3.12 -m venv .venv
 source .venv/bin/activate
-pip install torch
-pip install -r requirements.txt
+pip install -r requirements.lock.txt      # exact versions of the reported runs (or: pip install torch && pip install -r requirements.txt)
 python -c "import torch; print(torch.__version__, torch.backends.mps.is_available())"   # should print True
 python -m pytest tests -q
 ```
