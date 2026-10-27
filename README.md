@@ -334,15 +334,15 @@ All numbers below were produced by the commands in §4–§5 on an Apple M1 (8 G
 and are copied from `experiments/results/comparison_{dev,test}.md`. Decoding is
 greedy (see §5 for why). Per-run `train.log`, `metrics.json`, `hypotheses.tsv`
 and `config.resolved.yaml` are committed under `experiments/`. The checkpoints
-are 233 MB each, so they are hosted outside git.
+are hosted outside git. We upload slim copies (model weights only, 85 MB each, 519 MB zipped as `mlslt_checkpoints.zip`; the full training files with optimizer state are 233 MB each).
 
 ### Checkpoints
 
 | Run | Seeds | Checkpoints (`best.ckpt` + `txt_vocab.txt`) |
 |---|---|---|
-| E1 baseline | 1, 2, 3 | **TODO: add public link (Google Drive / HF Hub)** |
-| E2 proposed | 1, 2, 3 | **TODO: add public link (Google Drive / HF Hub)** |
-| E0 vanilla Transformer | 1 | **TODO: add public link (Google Drive / HF Hub)** |
+| E1 baseline | 1, 2, 3 | [Google Drive folder](https://drive.google.com/drive/folders/1y_Jx64GrD9BbjK2w7Uplpc_t7g8_l9p3?usp=drive_link) (`baseline/seed*/`) |
+| E2 proposed | 1, 2, 3 | [Google Drive folder](https://drive.google.com/drive/folders/1y_Jx64GrD9BbjK2w7Uplpc_t7g8_l9p3?usp=drive_link) (`proposed/seed*/`) |
+| E0 vanilla Transformer | 1 | [Google Drive folder](https://drive.google.com/drive/folders/1y_Jx64GrD9BbjK2w7Uplpc_t7g8_l9p3?usp=drive_link) (`universal/seed*/`) |
 | DINOv2 features (`data/features/sp10_dinov2`, 506 MB) | n/a | optional: rebuild with §3c |
 
 To evaluate a downloaded checkpoint, put `best.ckpt` and `txt_vocab.txt` in
