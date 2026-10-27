@@ -375,6 +375,9 @@ are hosted outside git. We upload slim copies (model weights only, 85 MB each, 5
 | E0 vanilla Transformer | 1 | [Google Drive folder](https://drive.google.com/drive/folders/1y_Jx64GrD9BbjK2w7Uplpc_t7g8_l9p3?usp=drive_link) (`universal/seed*/`) |
 | DINOv2 features (`data/features/sp10_dinov2`, 11,741 files, 441 MB zipped as `sp10_dinov2_features.zip`) | n/a | same Drive folder; or rebuild with §3c |
 
+The same checkpoints are also attached to the GitHub release
+[v1.0](https://github.com/joffinkoshy/Multilingual-Gloss-free-Sign-Language-Translation-Towards-Building-a-Sign-Language-Foundation-Model/releases/tag/v1.0) (`mlslt_checkpoints.zip`).
+
 To evaluate a downloaded checkpoint, put `best.ckpt` and `txt_vocab.txt` in
 `experiments/<run>/seed<k>/` and run the §5 commands.
 
