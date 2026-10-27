@@ -6,7 +6,7 @@
 #   data/features/sp10_dinov2/*.pt                                           (Google Drive: sp10_dinov2_features.zip,
 #                                                                             or rebuild with scripts/extract_features_dinov2.py)
 #
-#   DEVICE=cpu bash scripts/reproduce_reported_metrics.sh      # ~5 min on CPU (greedy decoding)
+#   DEVICE=cpu bash scripts/reproduce_reported_metrics.sh      # ~8 min on an M1 CPU (greedy decoding)
 #   DEVICE=mps ...                                             # Apple GPU
 #
 # Writes <run>/eval_test/ (metrics.json, hypotheses.tsv) and

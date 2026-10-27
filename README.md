@@ -332,7 +332,7 @@ fresh clone (after §2):
    videos with §3 (about 3.5 hours on an M1).
 3. Run the evaluation of all six checkpoints and the comparison:
    ```bash
-   DEVICE=cpu bash scripts/reproduce_reported_metrics.sh      # about 5 minutes; DEVICE=mps also works
+   DEVICE=cpu bash scripts/reproduce_reported_metrics.sh      # about 8 minutes on an M1 CPU; DEVICE=mps also works
    ```
    This writes `experiments/results/reproduced_test.md`, which should match
    [experiments/results/comparison_test.md](experiments/results/comparison_test.md)
