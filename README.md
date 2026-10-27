@@ -324,11 +324,11 @@ fresh clone (after §2):
    each with `seed*/best.ckpt`, `txt_vocab.txt`, `config.resolved.yaml`,
    `train.log`):
    ```bash
-   unzip mlslt_checkpoints.zip -d experiments/
+   unzip -o mlslt_checkpoints.zip -d experiments/
    ```
 2. Get the DINOv2 features. Either download `sp10_dinov2_features.zip` from the
    same folder and unzip it into `data/features/`
-   (`unzip sp10_dinov2_features.zip -d data/features/`), or rebuild them from the
+   (`unzip -o sp10_dinov2_features.zip -d data/features/`), or rebuild them from the
    videos with §3 (about 3.5 hours on an M1).
 3. Run the evaluation of all six checkpoints and the comparison:
    ```bash
