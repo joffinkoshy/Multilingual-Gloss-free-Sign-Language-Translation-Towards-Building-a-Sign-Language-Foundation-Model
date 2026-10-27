@@ -314,6 +314,32 @@ Use the same `--config` the model was trained with. The `metrics.json` records
 the decoding used. The beam + CTC results for seed 1 are kept in
 `experiments/*/seed1/eval_*_beam5ctc0.3/`.
 
+### Reproduce the reported numbers from the released checkpoints
+
+The quickest way to check the results table in §6, without retraining. From a
+fresh clone (after §2):
+
+1. Download `mlslt_checkpoints.zip` from the Google Drive folder in §6 and unzip
+   it into `experiments/` (it contains `baseline/`, `proposed/`, `universal/`,
+   each with `seed*/best.ckpt`, `txt_vocab.txt`, `config.resolved.yaml`,
+   `train.log`):
+   ```bash
+   unzip mlslt_checkpoints.zip -d experiments/
+   ```
+2. Get the DINOv2 features. Either download `sp10_dinov2_features.zip` from the
+   same folder and unzip it into `data/features/`
+   (`unzip sp10_dinov2_features.zip -d data/features/`), or rebuild them from the
+   videos with §3 (about 3.5 hours on an M1).
+3. Run the evaluation of all six checkpoints and the comparison:
+   ```bash
+   DEVICE=cpu bash scripts/reproduce_reported_metrics.sh      # about 5 minutes; DEVICE=mps also works
+   ```
+   This writes `experiments/results/reproduced_test.md`, which should match
+   [experiments/results/comparison_test.md](experiments/results/comparison_test.md)
+   (BLEU 3.04 ± 0.77 for E1 and 3.62 ± 0.28 for E2), because the checkpoints and
+   the greedy decoder are the same. Small differences in the last digit can come
+   from the bootstrap seed or the device.
+
 ### Compare baseline and proposed
 
 ```bash
@@ -347,7 +373,7 @@ are hosted outside git. We upload slim copies (model weights only, 85 MB each, 5
 | E1 baseline | 1, 2, 3 | [Google Drive folder](https://drive.google.com/drive/folders/1y_Jx64GrD9BbjK2w7Uplpc_t7g8_l9p3?usp=drive_link) (`baseline/seed*/`) |
 | E2 proposed | 1, 2, 3 | [Google Drive folder](https://drive.google.com/drive/folders/1y_Jx64GrD9BbjK2w7Uplpc_t7g8_l9p3?usp=drive_link) (`proposed/seed*/`) |
 | E0 vanilla Transformer | 1 | [Google Drive folder](https://drive.google.com/drive/folders/1y_Jx64GrD9BbjK2w7Uplpc_t7g8_l9p3?usp=drive_link) (`universal/seed*/`) |
-| DINOv2 features (`data/features/sp10_dinov2`, 506 MB) | n/a | optional: rebuild with §3c |
+| DINOv2 features (`data/features/sp10_dinov2`, 11,741 files, 441 MB zipped as `sp10_dinov2_features.zip`) | n/a | same Drive folder; or rebuild with §3c |
 
 To evaluate a downloaded checkpoint, put `best.ckpt` and `txt_vocab.txt` in
 `experiments/<run>/seed<k>/` and run the §5 commands.
