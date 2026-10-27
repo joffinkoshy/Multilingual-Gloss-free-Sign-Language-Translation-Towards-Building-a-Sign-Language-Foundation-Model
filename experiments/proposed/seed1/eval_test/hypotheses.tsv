@@ -1,0 +1,2022 @@
+video_id	src_lang	reference	hypothesis
+1296_zh_to_en	csl	You are welcome.	Please help me.
+1296_uk_to_en	ukl	You are welcome.	Good afternoon!
+1296_ru_to_en	rsl	You are welcome.	I understand.
+1296_bg_to_en	bqn	You are welcome.	The sun is hot.
+1296_is_to_en	icl	You are welcome.	Are you thirsty?
+1296_de_to_en	gsg	You are welcome.	Yes
+1296_it_to_en	ise	You are welcome.	This is very important.
+1296_sv_to_en	swl	You are welcome.	Stop writing.
+1296_lt_to_en	lls	You are welcome.	Goodbye!
+1296_en	bfi	You are welcome.	How did you become deaf?
+1587_zh_to_en	csl	Nice to meet you.	My friends are partying.
+1587_uk_to_en	ukl	Nice to meet you.	Have a seat, please.
+1587_ru_to_en	rsl	Nice to meet you.	I am sorry.
+1587_bg_to_en	bqn	Nice to meet you.	Good morning!
+1587_is_to_en	icl	Nice to meet you.	How are you?
+1587_de_to_en	gsg	Nice to meet you.	At eight o'clock.
+1587_it_to_en	ise	Nice to meet you.	Ask me!
+1587_sv_to_en	swl	Nice to meet you.	Is it far from here?
+1587_lt_to_en	lls	Nice to meet you.	This is not important.
+1587_en	bfi	Nice to meet you.	At eight o'clock.
+2784_zh_to_en	csl	Happy New Year!	Give me a hug.
+2784_uk_to_en	ukl	Happy New Year!	Good night!
+2784_ru_to_en	rsl	Happy New Year!	Please tell me.
+2784_bg_to_en	bqn	Happy New Year!	How much?
+2784_is_to_en	icl	Happy New Year!	At eight o'clock.
+2784_de_to_en	gsg	Happy New Year!	Good morning!
+2784_it_to_en	ise	Happy New Year!	Are you deaf?
+2784_sv_to_en	swl	Happy New Year!	My sign language has already improved.
+2784_lt_to_en	lls	Happy New Year!	Please help me.
+2784_en	bfi	Happy New Year!	What's the time?
+2817_zh_to_en	csl	I'd like you to meet my friend.	He is 87 years old.
+2817_uk_to_en	ukl	I'd like you to meet my friend.	This is not important.
+2817_ru_to_en	rsl	I'd like you to meet my friend.	I haven’t seen you for ages!
+2817_bg_to_en	bqn	I'd like you to meet my friend.	You have to have a shot.
+2817_is_to_en	icl	I'd like you to meet my friend.	When does school start?
+2817_de_to_en	gsg	I'd like you to meet my friend.	Joan doesn't understand French sign language.
+2817_it_to_en	ise	I'd like you to meet my friend.	Joan doesn't understand French sign language.
+2817_sv_to_en	swl	I'd like you to meet my friend.	I think there is a mistake in the bill.
+2817_lt_to_en	lls	I'd like you to meet my friend.	I want a large Pepsi.
+2817_en	bfi	I'd like you to meet my friend.	I haven’t seen you for ages!
+3105_zh_to_en	csl	This guy is full of energy!	He is an idiot.
+3105_uk_to_en	ukl	This guy is full of energy!	This is not important.
+3105_ru_to_en	rsl	This guy is full of energy!	I haven’t seen you for ages!
+3105_bg_to_en	bqn	This guy is full of energy!	You have tonsillitis.
+3105_is_to_en	icl	This guy is full of energy!	The flight has been delayed an hour.
+3105_de_to_en	gsg	This guy is full of energy!	When does school start?
+3105_it_to_en	ise	This guy is full of energy!	You look like your mother.
+3105_sv_to_en	swl	This guy is full of energy!	You are long-sighted.
+3105_lt_to_en	lls	This guy is full of energy!	How old are you?
+3105_en	bfi	This guy is full of energy!	How did you become deaf?
+3107_zh_to_en	csl	I love travelling around.	I am a virgin.
+3107_uk_to_en	ukl	I love travelling around.	I do not like you.
+3107_ru_to_en	rsl	I love travelling around.	I haven’t seen you for ages!
+3107_bg_to_en	bqn	I love travelling around.	You have tonsillitis.
+3107_is_to_en	icl	I love travelling around.	You look like your mother.
+3107_de_to_en	gsg	I love travelling around.	I do not like you.
+3107_it_to_en	ise	I love travelling around.	I really miss you.
+3107_sv_to_en	swl	I love travelling around.	I am a virgin.
+3107_lt_to_en	lls	I love travelling around.	Would you like a glass of wine?
+3107_en	bfi	I love travelling around.	I want this.
+3108_zh_to_en	csl	I haven’t seen him for ages.	He is 87 years old.
+3108_uk_to_en	ukl	I haven’t seen him for ages.	I pick up my son from the kindergarten.
+3108_ru_to_en	rsl	I haven’t seen him for ages.	You are too young.
+3108_is_to_en	icl	I haven’t seen him for ages.	You have to have a shot.
+3108_de_to_en	gsg	I haven’t seen him for ages.	I want this.
+3108_it_to_en	ise	I haven’t seen him for ages.	I am taking ASL classes.
+3108_sv_to_en	swl	I haven’t seen him for ages.	I want a large Pepsi.
+3108_lt_to_en	lls	I haven’t seen him for ages.	I'd like to dye my hair.
+3108_en	bfi	I haven’t seen him for ages.	I haven’t seen you for ages!
+3659_zh_to_en	csl	I like him.	I am too old.
+3659_uk_to_en	ukl	I like him.	I do not like you.
+3659_ru_to_en	rsl	I like him.	I do not believe you.
+3659_is_to_en	icl	I like him.	I am too old.
+3659_de_to_en	gsg	I like him.	How did you become deaf?
+3659_it_to_en	ise	I like him.	I really miss you.
+3659_sv_to_en	swl	I like him.	I need to go to the bank.
+3659_lt_to_en	lls	I like him.	I haven’t seen you for ages!
+3659_en	bfi	I like him.	I am too old.
+3660_zh_to_en	csl	I have pain in my stomach.	I need a cold drink.
+3660_uk_to_en	ukl	I have pain in my stomach.	I have a cough.
+3660_ru_to_en	rsl	I have pain in my stomach.	I am a virgin.
+3660_is_to_en	icl	I have pain in my stomach.	I do not like you.
+3660_de_to_en	gsg	I have pain in my stomach.	I am a virgin.
+3660_it_to_en	ise	I have pain in my stomach.	I do not feel well.
+3660_sv_to_en	swl	I have pain in my stomach.	I have finished a university.
+3660_lt_to_en	lls	I have pain in my stomach.	How old are you?
+3660_en	bfi	I have pain in my stomach.	I am a virgin.
+3661_zh_to_en	csl	I have a fever.	I have been waiting for 20 minutes.
+3661_uk_to_en	ukl	I have a fever.	When does it close?
+3661_ru_to_en	rsl	I have a fever.	I do not like you.
+3661_is_to_en	icl	I have a fever.	I'd like a haircut.
+3661_de_to_en	gsg	I have a fever.	I do not like you.
+3661_it_to_en	ise	I have a fever.	I do not like you.
+3661_sv_to_en	swl	I have a fever.	I have already been there.
+3661_lt_to_en	lls	I have a fever.	I am sorry.
+3661_en	bfi	I have a fever.	I want this.
+3666_zh_to_en	csl	I do not understand.	Give me a kiss.
+3666_uk_to_en	ukl	I do not understand.	I don't care.
+3666_ru_to_en	rsl	I do not understand.	I do not like you.
+3666_is_to_en	icl	I do not understand.	I'd like some highlights put in.
+3666_de_to_en	gsg	I do not understand.	I haven’t seen you for ages!
+3666_it_to_en	ise	I do not understand.	Not too bad.
+3666_sv_to_en	swl	I do not understand.	I am a bit hoarse.
+3666_lt_to_en	lls	I do not understand.	I want this.
+3666_en	bfi	I do not understand.	I am too old.
+3669_zh_to_en	csl	When do you open?	He is 87 years old.
+3669_uk_to_en	ukl	When do you open?	What is your name?
+3669_ru_to_en	rsl	When do you open?	How old are you?
+3669_bg_to_en	bqn	When do you open?	What do you like?
+3669_is_to_en	icl	When do you open?	Who do you want to talk to?
+3669_de_to_en	gsg	When do you open?	Who are you?
+3669_it_to_en	ise	When do you open?	Who are you?
+3669_sv_to_en	swl	When do you open?	What is this prescription for?
+3669_lt_to_en	lls	When do you open?	This is not important.
+3669_en	bfi	When do you open?	When does school start?
+3673_zh_to_en	csl	I am not deaf.	I do not like you.
+3673_uk_to_en	ukl	I am not deaf.	I am too old.
+3673_ru_to_en	rsl	I am not deaf.	Please help me.
+3673_is_to_en	icl	I am not deaf.	I want this.
+3673_de_to_en	gsg	I am not deaf.	I am too old.
+3673_it_to_en	ise	I am not deaf.	I do not like you.
+3673_sv_to_en	swl	I am not deaf.	I am a bit hoarse.
+3673_lt_to_en	lls	I am not deaf.	I want this.
+3673_en	bfi	I am not deaf.	I want this.
+3674_zh_to_en	csl	I am not hearing.	I do not like you.
+3674_uk_to_en	ukl	I am not hearing.	I am too old.
+3674_ru_to_en	rsl	I am not hearing.	How did you become deaf?
+3674_bg_to_en	bqn	I am not hearing.	I have to go shopping.
+3674_is_to_en	icl	I am not hearing.	I am too old.
+3674_de_to_en	gsg	I am not hearing.	I am a virgin.
+3674_it_to_en	ise	I am not hearing.	I want this.
+3674_sv_to_en	swl	I am not hearing.	I am a bit hoarse.
+3674_lt_to_en	lls	I am not hearing.	At eight o'clock.
+3674_en	bfi	I am not hearing.	I want this.
+3675_zh_to_en	csl	I am afraid.	I do not like you.
+3675_uk_to_en	ukl	I am afraid.	I am too old.
+3675_ru_to_en	rsl	I am afraid.	I do not believe you.
+3675_bg_to_en	bqn	I am afraid.	Are you sure you wouldn't like to come in?
+3675_is_to_en	icl	I am afraid.	I do not believe you.
+3675_de_to_en	gsg	I am afraid.	I am a virgin.
+3675_it_to_en	ise	I am afraid.	I do not like you.
+3675_sv_to_en	swl	I am afraid.	I am hard of hearing.
+3675_lt_to_en	lls	I am afraid.	I do not believe you.
+3675_en	bfi	I am afraid.	I am a virgin.
+3684_zh_to_en	csl	Who are you pregnant with?	How did you become deaf?
+3684_uk_to_en	ukl	Who are you pregnant with?	What's your name?
+3684_ru_to_en	rsl	Who are you pregnant with?	How would you like it?
+3684_bg_to_en	bqn	Who are you pregnant with?	I have been waiting for 20 minutes.
+3684_is_to_en	icl	Who are you pregnant with?	Do you want a soft drink?
+3684_de_to_en	gsg	Who are you pregnant with?	You have a big alcohol problem.
+3684_it_to_en	ise	Who are you pregnant with?	Do you speak Spanish?
+3684_sv_to_en	swl	Who are you pregnant with?	What is your pet's name?
+3684_lt_to_en	lls	Who are you pregnant with?	Please tell me.
+3684_en	bfi	Who are you pregnant with?	This is very important.
+3691_zh_to_en	csl	I'm hard of hearing; could you speak up a bit?	I think there is a mistake in the bill.
+3691_uk_to_en	ukl	I'm hard of hearing; could you speak up a bit?	Why did you do this?
+3691_ru_to_en	rsl	I'm hard of hearing; could you speak up a bit?	I haven’t Outlook for email.
+3691_bg_to_en	bqn	I'm hard of hearing; could you speak up a bit?	I am learning sign language.
+3691_is_to_en	icl	I'm hard of hearing; could you speak up a bit?	I want to buy a sweater.
+3691_it_to_en	ise	I'm hard of hearing; could you speak up a bit?	I want a large Pepsi.
+3691_sv_to_en	swl	I'm hard of hearing; could you speak up a bit?	I think there is a mistake in the bill.
+3691_lt_to_en	lls	I'm hard of hearing; could you speak up a bit?	Give me a hug.
+3691_en	bfi	I'm hard of hearing; could you speak up a bit?	How old were you when you became deaf?
+3697_zh_to_en	csl	Let's go to the beach.	I am afraid of tornadoes.
+3697_uk_to_en	ukl	Let's go to the beach.	When does school start?
+3697_ru_to_en	rsl	Let's go to the beach.	Please help me.
+3697_bg_to_en	bqn	Let's go to the beach.	What is the date today?
+3697_is_to_en	icl	Let's go to the beach.	Your writing is terrible.
+3697_de_to_en	gsg	Let's go to the beach.	Joan doesn't understand French sign language.
+3697_it_to_en	ise	Let's go to the beach.	You are too young.
+3697_sv_to_en	swl	Let's go to the beach.	You look like your mother.
+3697_lt_to_en	lls	Let's go to the beach.	Why did you do this?
+3697_en	bfi	Let's go to the beach.	My friends are partying.
+6765_zh_to_en	csl	hit the books	Is somebody meeting you?
+6765_uk_to_en	ukl	hit the books	Are you deaf?
+6765_ru_to_en	rsl	hit the books	Could you give me an advice?
+6765_bg_to_en	bqn	hit the books	Do you have a nickel?
+6765_is_to_en	icl	hit the books	School is out.
+6765_de_to_en	gsg	hit the books	Could you give me an advice?
+6765_it_to_en	ise	hit the books	What would you recommend?
+6765_sv_to_en	swl	hit the books	Is that enough for you?
+6765_en	bfi	hit the books	Is there a children's menu?
+8804_zh_to_en	csl	Did you ask him?	Are you deaf?
+8804_uk_to_en	ukl	Did you ask him?	Can you wait there?
+8804_ru_to_en	rsl	Did you ask him?	Do you speak Spanish?
+8804_bg_to_en	bqn	Did you ask him?	What are you going to order?
+8804_is_to_en	icl	Did you ask him?	Please wait.
+8804_de_to_en	gsg	Did you ask him?	Do you have a dime?
+8804_it_to_en	ise	Did you ask him?	Please wait.
+8804_sv_to_en	swl	Did you ask him?	Are you a Christian?
+8804_lt_to_en	lls	Did you ask him?	Have you ever been to Japan?
+8804_en	bfi	Did you ask him?	Do you allow animals?
+8809_zh_to_en	csl	Do you want milk and sugar?	Do you know a good beauty shop?
+8809_uk_to_en	ukl	Do you want milk and sugar?	Are you a member of the church?
+8809_ru_to_en	rsl	Do you want milk and sugar?	Do you have any brochures?
+8809_bg_to_en	bqn	Do you want milk and sugar?	How long do you want to stay here?
+8809_de_to_en	gsg	Do you want milk and sugar?	Can you get this stain out?
+8809_it_to_en	ise	Do you want milk and sugar?	Do you want me to interpret the sermon?
+8809_sv_to_en	swl	Do you want milk and sugar?	Do you want a return tickets?
+8809_lt_to_en	lls	Do you want milk and sugar?	Do you want a soft drink?
+8809_en	bfi	Do you want milk and sugar?	Do you want me to interpret the sermon?
+8828_zh_to_en	csl	I'm fine.	I am a virgin.
+8828_uk_to_en	ukl	I'm fine.	I'm married.
+8828_ru_to_en	rsl	I'm fine.	I have to take pills.
+8828_bg_to_en	bqn	I'm fine.	Come on!
+8828_de_to_en	gsg	I'm fine.	I don't care.
+8828_it_to_en	ise	I'm fine.	Is that enough for you?
+8828_sv_to_en	swl	I'm fine.	I do not believe you.
+8828_lt_to_en	lls	I'm fine.	I would like a haircut.
+8828_en	bfi	I'm fine.	I'm married.
+8831_zh_to_en	csl	I'm tired.	I am a virgin.
+8831_uk_to_en	ukl	I'm tired.	Let's take a break.
+8831_ru_to_en	rsl	I'm tired.	I feel sick.
+8831_bg_to_en	bqn	I'm tired.	He goes to the movies every Tuseday.
+8831_is_to_en	icl	I'm tired.	I like my work.
+8831_de_to_en	gsg	I'm tired.	I'm sad.
+8831_it_to_en	ise	I'm tired.	I feel weak.
+8831_sv_to_en	swl	I'm tired.	I feel lousy.
+8831_lt_to_en	lls	I'm tired.	I feel lousy.
+8831_en	bfi	I'm tired.	I'm sad.
+8832_zh_to_en	csl	I have a question.	I would like a haircut.
+8832_uk_to_en	ukl	I have a question.	I have to buy some medicine.
+8832_ru_to_en	rsl	I have a question.	I like my work.
+8832_is_to_en	icl	I have a question.	Have a seat, please.
+8832_de_to_en	gsg	I have a question.	I have a sore throat.
+8832_it_to_en	ise	I have a question.	I am a doctor.
+8832_sv_to_en	swl	I have a question.	I have caught a cold.
+8832_lt_to_en	lls	I have a question.	He looks mean.
+8832_en	bfi	I have a question.	How much?
+8840_zh_to_en	csl	I will be back.	I am too old.
+8840_uk_to_en	ukl	I will be back.	I would like a receipt.
+8840_ru_to_en	rsl	I will be back.	I have to take pills.
+8840_bg_to_en	bqn	I will be back.	I like chocolate.
+8840_is_to_en	icl	I will be back.	I am a doctor.
+8840_it_to_en	ise	I will be back.	I am a doctor.
+8840_sv_to_en	swl	I will be back.	I am hard of hearing.
+8840_lt_to_en	lls	I will be back.	I understand.
+8840_en	bfi	I will be back.	I don't care.
+8851_zh_to_en	csl	My name is...	I'd like to dye my hair.
+8851_uk_to_en	ukl	My name is...	My wife is dead.
+8851_ru_to_en	rsl	My name is...	My wife is dead.
+8851_bg_to_en	bqn	My name is...	Where were you born?
+8851_is_to_en	icl	My name is...	I am hard of hearing.
+8851_de_to_en	gsg	My name is...	My nose is runny.
+8851_it_to_en	ise	My name is...	My wife is dead.
+8851_sv_to_en	swl	My name is...	I am out of gas.
+8851_lt_to_en	lls	My name is...	My eyes are itching.
+8851_en	bfi	My name is...	My phone number is…
+8853_zh_to_en	csl	What's your address?	You can see many stars from here.
+8853_uk_to_en	ukl	What's your address?	What is this prescription for?
+8853_ru_to_en	rsl	What's your address?	What is your pet's name?
+8853_bg_to_en	bqn	What's your address?	What is your pet's name?
+8853_de_to_en	gsg	What's your address?	What is your name?
+8853_it_to_en	ise	What's your address?	What is the weather like?
+8853_sv_to_en	swl	What's your address?	What is the date today?
+8853_lt_to_en	lls	What's your address?	What is your pet's name?
+8853_en	bfi	What's your address?	How much?
+8863_zh_to_en	csl	Where do you live?	You look good!
+8863_uk_to_en	ukl	Where do you live?	Where are you going?
+8863_ru_to_en	rsl	Where do you live?	Where is the post office?
+8863_bg_to_en	bqn	Where do you live?	Where is the restroom?
+8863_is_to_en	icl	Where do you live?	What is your phone number?
+8863_de_to_en	gsg	Where do you live?	What is your name?
+8863_it_to_en	ise	Where do you live?	Where are you going?
+8863_sv_to_en	swl	Where do you live?	Where are you from?
+8863_lt_to_en	lls	Where do you live?	Where is the museum?
+8863_en	bfi	Where do you live?	Who?
+8864_zh_to_en	csl	Where do you come from?	Who is that man?
+8864_uk_to_en	ukl	Where do you come from?	Where are you going?
+8864_ru_to_en	rsl	Where do you come from?	What are you going to order?
+8864_bg_to_en	bqn	Where do you come from?	This woman is unconscious.
+8864_de_to_en	gsg	Where do you come from?	How many children do you have?
+8864_it_to_en	ise	Where do you come from?	What is happening?
+8864_sv_to_en	swl	Where do you come from?	Where is the cash register?
+8864_lt_to_en	lls	Where do you come from?	Stop writing.
+8864_en	bfi	Where do you come from?	Please repeat.
+8867_zh_to_en	csl	Why do you say that?	You have a big alcohol problem.
+8867_uk_to_en	ukl	Why do you say that?	Who were you born?
+8867_ru_to_en	rsl	Why do you say that?	What is your name?
+8867_bg_to_en	bqn	Why do you say that?	What do you like?
+8867_is_to_en	icl	Why do you say that?	What is your pet's name?
+8867_de_to_en	gsg	Why do you say that?	When does it close?
+8867_sv_to_en	swl	Why do you say that?	What is this prescription for?
+8867_lt_to_en	lls	Why do you say that?	What is this prescription for?
+8867_en	bfi	Why do you say that?	Who is that man?
+8870_zh_to_en	csl	You look nice.	You have to have a shot.
+8870_uk_to_en	ukl	You look nice.	You have the flu.
+8870_ru_to_en	rsl	You look nice.	The food is delicious.
+8870_bg_to_en	bqn	You look nice.	I can't see.
+8870_de_to_en	gsg	You look nice.	You look like your mother.
+8870_it_to_en	ise	You look nice.	The food is delicious.
+8870_sv_to_en	swl	You look nice.	You have to have a shot.
+8870_lt_to_en	lls	You look nice.	The food is delicious.
+8870_en	bfi	You look nice.	Thank God!
+9595_zh_to_en	csl	I graduate in two years.	I would like to order steak.
+9595_uk_to_en	ukl	I graduate in two years.	I will stay for three nights.
+9595_ru_to_en	rsl	I graduate in two years.	I would like a room for one night.
+9595_is_to_en	icl	I graduate in two years.	I need to iron this shirt.
+9595_de_to_en	gsg	I graduate in two years.	I am afraid of tornadoes.
+9595_it_to_en	ise	I graduate in two years.	I need to iron this shirt.
+9595_sv_to_en	swl	I graduate in two years.	I am afraid of tornadoes.
+9595_lt_to_en	lls	I graduate in two years.	Do you want a return tickets?
+9595_en	bfi	I graduate in two years.	I have been waiting for 20 minutes.
+9604_zh_to_en	csl	It is 6:15.	I lost my umbrella.
+9604_uk_to_en	ukl	It is 6:15.	Is the tip included?
+9604_ru_to_en	rsl	It is 6:15.	It is 4:45.
+9604_bg_to_en	bqn	It is 6:15.	I have already been there.
+9604_is_to_en	icl	It is 6:15.	What are you wearing tonight?
+9604_de_to_en	gsg	It is 6:15.	I got a 'C' on my paper.
+9604_it_to_en	ise	It is 6:15.	It is fine like that.
+9604_sv_to_en	swl	It is 6:15.	My phone number is…
+9604_lt_to_en	lls	It is 6:15.	Please wait.
+9604_en	bfi	It is 6:15.	It is 4:45.
+9621_zh_to_en	csl	I am in Graduate School now.	I am majoring in Math.
+9621_uk_to_en	ukl	I am in Graduate School now.	How old were you when you became deaf?
+9621_ru_to_en	rsl	I am in Graduate School now.	I would like a single room.
+9621_bg_to_en	bqn	I am in Graduate School now.	I have to go shopping.
+9621_is_to_en	icl	I am in Graduate School now.	I got a 'C' on my paper.
+9621_de_to_en	gsg	I am in Graduate School now.	I got a 'C' on my paper.
+9621_it_to_en	ise	I am in Graduate School now.	Can you change a five?
+9621_sv_to_en	swl	I am in Graduate School now.	I love all the colours of the rainbow.
+9621_lt_to_en	lls	I am in Graduate School now.	I got a 'D' on my paper.
+9621_en	bfi	I am in Graduate School now.	I am applying for a credit card.
+9628_zh_to_en	csl	I am majoring in English.	I am majoring in Theater.
+9628_uk_to_en	ukl	I am majoring in English.	I am majoring in Counseling.
+9628_ru_to_en	rsl	I am majoring in English.	I am majoring in Education.
+9628_bg_to_en	bqn	I am majoring in English.	I am an independent.
+9628_is_to_en	icl	I am majoring in English.	I am majoring in Computers.
+9628_de_to_en	gsg	I am majoring in English.	I am majoring in Education.
+9628_it_to_en	ise	I am majoring in English.	I was in bed for two weeks.
+9628_sv_to_en	swl	I am majoring in English.	I am majoring in Psychology.
+9628_lt_to_en	lls	I am majoring in English.	I am afraid of tornadoes.
+9628_en	bfi	I am majoring in English.	I am majoring in Education.
+9638_zh_to_en	csl	I am majoring in Special Education.	I am majoring in Counseling.
+9638_uk_to_en	ukl	I am majoring in Special Education.	I got a 'D' on my paper.
+9638_ru_to_en	rsl	I am majoring in Special Education.	I am majoring in Physical Therapy.
+9638_bg_to_en	bqn	I am majoring in Special Education.	I am learning sign language.
+9638_is_to_en	icl	I am majoring in Special Education.	I am majoring in Education.
+9638_de_to_en	gsg	I am majoring in Special Education.	I am majoring in Home Economics.
+9638_it_to_en	ise	I am majoring in Special Education.	His fur is so soft.
+9638_sv_to_en	swl	I am majoring in Special Education.	I am majoring in Counseling.
+9638_lt_to_en	lls	I am majoring in Special Education.	I am majoring in Physical Therapy.
+9638_en	bfi	I am majoring in Special Education.	I am flying to New York tonight.
+9660_zh_to_en	csl	Susan is not respectful to the teacher.	I had a physical last week.
+9660_uk_to_en	ukl	Susan is not respectful to the teacher.	The flight has been cancelled.
+9660_ru_to_en	rsl	Susan is not respectful to the teacher.	Bob works well in groups.
+9660_bg_to_en	bqn	Susan is not respectful to the teacher.	My favourite hobby is playing soccer.
+9660_is_to_en	icl	Susan is not respectful to the teacher.	Gallaudet University was the first university for deaf people.
+9660_de_to_en	gsg	Susan is not respectful to the teacher.	The garbage truck comes once a week.
+9660_it_to_en	ise	Susan is not respectful to the teacher.	Joan doesn't understand French sign language.
+9660_sv_to_en	swl	Susan is not respectful to the teacher.	Many deaf students enter hearing colleges.
+9660_lt_to_en	lls	Susan is not respectful to the teacher.	Gallaudet University was the first university for deaf people.
+9660_en	bfi	Susan is not respectful to the teacher.	There were 150 people at the wedding.
+9667_zh_to_en	csl	You have to go the library to do some research.	He goes to the movies every Tuseday.
+9667_uk_to_en	ukl	You have to go the library to do some research.	You can see many stars from here.
+9667_ru_to_en	rsl	You have to go the library to do some research.	I am flying to New York tonight.
+9667_bg_to_en	bqn	You have to go the library to do some research.	You have to have a shot.
+9667_is_to_en	icl	You have to go the library to do some research.	The match was cancelled because of rain.
+9667_de_to_en	gsg	You have to go the library to do some research.	He goes to the movies every Tuseday.
+9667_it_to_en	ise	You have to go the library to do some research.	Can you change a five?
+9667_sv_to_en	swl	You have to go the library to do some research.	He works hard at his job.
+9667_lt_to_en	lls	You have to go the library to do some research.	The garbage truck comes once a week.
+9667_en	bfi	You have to go the library to do some research.	You have tonsillitis.
+9679_zh_to_en	csl	Do you speak English?	Do you know a good beauty shop?
+9679_uk_to_en	ukl	Do you speak English?	Do you speak Spanish?
+9679_ru_to_en	rsl	Do you speak English?	Do you speak Spanish?
+9679_bg_to_en	bqn	Do you speak English?	Do you speak French?
+9679_is_to_en	icl	Do you speak English?	Do you speak Spanish?
+9679_de_to_en	gsg	Do you speak English?	Thank your grandparents.
+9679_it_to_en	ise	Do you speak English?	Do you speak Spanish?
+9679_sv_to_en	swl	Do you speak English?	Do you speak Spanish?
+9679_lt_to_en	lls	Do you speak English?	Do you speak Spanish?
+9679_en	bfi	Do you speak English?	Do you speak Spanish?
+9687_zh_to_en	csl	How far is it?	Can you drive?
+9687_uk_to_en	ukl	How far is it?	How many children do you have?
+9687_ru_to_en	rsl	How far is it?	Does it bite?
+9687_bg_to_en	bqn	How far is it?	What is the weather like?
+9687_is_to_en	icl	How far is it?	How much does the position pay?
+9687_de_to_en	gsg	How far is it?	No, thank you.
+9687_it_to_en	ise	How far is it?	How much is it per night?
+9687_sv_to_en	swl	How far is it?	How much?
+9687_lt_to_en	lls	How far is it?	What's your name?
+9687_en	bfi	How far is it?	How much is it per night?
+9694_zh_to_en	csl	I enjoy travelling by train.	I need to wash my shirt.
+9694_uk_to_en	ukl	I enjoy travelling by train.	I feel dizzy
+9694_ru_to_en	rsl	I enjoy travelling by train.	I would like to order steak.
+9694_bg_to_en	bqn	I enjoy travelling by train.	I'm sad.
+9694_is_to_en	icl	I enjoy travelling by train.	I like sandwiches and hamburgers.
+9694_de_to_en	gsg	I enjoy travelling by train.	I would like to order steak.
+9694_it_to_en	ise	I enjoy travelling by train.	I like chocolate.
+9694_sv_to_en	swl	I enjoy travelling by train.	I need to go to the bank.
+9694_lt_to_en	lls	I enjoy travelling by train.	I have been waiting for 20 minutes.
+9694_en	bfi	I enjoy travelling by train.	I have been waiting for 20 minutes.
+9708_zh_to_en	csl	Make a left turn and stop.	You must not interrupt.
+9708_uk_to_en	ukl	Make a left turn and stop.	My husband is dead.
+9708_ru_to_en	rsl	Make a left turn and stop.	Would you call me at 6:00 a.m.?
+9708_bg_to_en	bqn	Make a left turn and stop.	How much?
+9708_is_to_en	icl	Make a left turn and stop.	The bacon is overdone.
+9708_de_to_en	gsg	Make a left turn and stop.	He works hard at his job.
+9708_it_to_en	ise	Make a left turn and stop.	It is fine like that.
+9708_sv_to_en	swl	Make a left turn and stop.	He looks mean.
+9708_lt_to_en	lls	Make a left turn and stop.	Would you write it please?
+9708_en	bfi	Make a left turn and stop.	Let's go to the zoo.
+9733_zh_to_en	csl	Will you check the oil?	Do you want me to interpret the sermon?
+9733_ru_to_en	rsl	Will you check the oil?	The garbage truck comes once a week.
+9733_bg_to_en	bqn	Will you check the oil?	I feel lousy.
+9733_is_to_en	icl	Will you check the oil?	Can I use the toilet?
+9733_de_to_en	gsg	Will you check the oil?	Are you going to the town council meeting?
+9733_it_to_en	ise	Will you check the oil?	Would you like to dance?
+9733_sv_to_en	swl	Will you check the oil?	Do you have a nickel?
+9733_lt_to_en	lls	Will you check the oil?	Close your book.
+9733_en	bfi	Will you check the oil?	Would you like a magazine or a newspaper?
+9734_zh_to_en	csl	Would you call me a cab, please?	The plane is ready for boarding now.
+9734_uk_to_en	ukl	Would you call me a cab, please?	Who is that man?
+9734_ru_to_en	rsl	Would you call me a cab, please?	What kind of service do you have?
+9734_bg_to_en	bqn	Would you call me a cab, please?	I would like a receipt.
+9734_is_to_en	icl	Would you call me a cab, please?	A table for two, please.
+9734_de_to_en	gsg	Would you call me a cab, please?	Do you want a soft drink?
+9734_it_to_en	ise	Would you call me a cab, please?	Can you get this stain out?
+9734_sv_to_en	swl	Would you call me a cab, please?	You are long-sighted.
+9734_lt_to_en	lls	Would you call me a cab, please?	I had to pay a parking fine.
+9734_en	bfi	Would you call me a cab, please?	Who is that man?
+9745_zh_to_en	csl	I got an email from my mother today.	I had a physical last week.
+9745_uk_to_en	ukl	I got an email from my mother today.	I go to church every Sunday.
+9745_ru_to_en	rsl	I got an email from my mother today.	Are you going to the town council meeting?
+9745_bg_to_en	bqn	I got an email from my mother today.	I have a cough.
+9745_is_to_en	icl	I got an email from my mother today.	I visited my aunt two months ago.
+9745_de_to_en	gsg	I got an email from my mother today.	He works hard at his job.
+9745_it_to_en	ise	I got an email from my mother today.	You have to have a shot.
+9745_sv_to_en	swl	I got an email from my mother today.	I go training every evening.
+9745_lt_to_en	lls	I got an email from my mother today.	I had a physical last week.
+9745_en	bfi	I got an email from my mother today.	I have been waiting for 20 minutes.
+9752_zh_to_en	csl	I need a better firewall.	I had a physical last week.
+9752_uk_to_en	ukl	I need a better firewall.	I had a physical last week.
+9752_ru_to_en	rsl	I need a better firewall.	I am flying to New York tonight.
+9752_bg_to_en	bqn	I need a better firewall.	I need a dentist.
+9752_is_to_en	icl	I need a better firewall.	I got a 'D' on my paper.
+9752_de_to_en	gsg	I need a better firewall.	I like sandwiches and hamburgers.
+9752_it_to_en	ise	I need a better firewall.	I got a 'D' on my paper.
+9752_sv_to_en	swl	I need a better firewall.	I need a specimen of your urine.
+9752_lt_to_en	lls	I need a better firewall.	I love all the colours of the rainbow.
+9752_en	bfi	I need a better firewall.	The garbage truck comes once a week.
+9754_zh_to_en	csl	I started a computer class today.	I am majoring in Computers.
+9754_uk_to_en	ukl	I started a computer class today.	I use Outlook for email.
+9754_ru_to_en	rsl	I started a computer class today.	He goes to the movies every Tuseday.
+9754_bg_to_en	bqn	I started a computer class today.	Is there a guarantee on this?
+9754_is_to_en	icl	I started a computer class today.	We have a test tomorrow.
+9754_it_to_en	ise	I started a computer class today.	You have tonsillitis.
+9754_sv_to_en	swl	I started a computer class today.	I think there is a mistake in the bill.
+9754_lt_to_en	lls	I started a computer class today.	The garbage truck comes once a week.
+9754_en	bfi	I started a computer class today.	I had a physical last week.
+9755_zh_to_en	csl	I use an optical mouse.	The service is lousy.
+9755_uk_to_en	ukl	I use an optical mouse.	I got a 'D' on my paper.
+9755_ru_to_en	rsl	I use an optical mouse.	I have been waiting for 20 minutes.
+9755_is_to_en	icl	I use an optical mouse.	The driver drove away.
+9755_de_to_en	gsg	I use an optical mouse.	The flight has been cancelled.
+9755_it_to_en	ise	I use an optical mouse.	Would you write it please?
+9755_sv_to_en	swl	I use an optical mouse.	I had a physical last week.
+9755_lt_to_en	lls	I use an optical mouse.	I have to go shopping.
+9755_en	bfi	I use an optical mouse.	I was in bed for two weeks.
+9769_zh_to_en	csl	Do you have interpreting services?	Are you a member of the church?
+9769_uk_to_en	ukl	Do you have interpreting services?	Do you have a map of the city?
+9769_ru_to_en	rsl	Do you have interpreting services?	Do you have a nickel?
+9769_bg_to_en	bqn	Do you have interpreting services?	He has an internal injury.
+9769_is_to_en	icl	Do you have interpreting services?	Is there a youth group?
+9769_de_to_en	gsg	Do you have interpreting services?	Do you have a savings plan?
+9769_it_to_en	ise	Do you have interpreting services?	Do you have any dirty clothes?
+9769_sv_to_en	swl	Do you have interpreting services?	I had to pay a parking fine.
+9769_lt_to_en	lls	Do you have interpreting services?	Is that enough for you?
+9769_en	bfi	Do you have interpreting services?	Do you have a nickel?
+9772_zh_to_en	csl	He is an atheist.	The flight has been cancelled.
+9772_uk_to_en	ukl	He is an atheist.	Have you eaten?
+9772_ru_to_en	rsl	He is an atheist.	He eats too much.
+9772_bg_to_en	bqn	He is an atheist.	He is bleeding.
+9772_is_to_en	icl	He is an atheist.	The flight has been cancelled.
+9772_it_to_en	ise	He is an atheist.	The service is lousy.
+9772_sv_to_en	swl	He is an atheist.	I got a flat tire yesterday.
+9772_lt_to_en	lls	He is an atheist.	He is bleeding.
+9772_en	bfi	He is an atheist.	I use Outlook for email.
+9781_zh_to_en	csl	Our music is modern.	I had a physical last week.
+9781_uk_to_en	ukl	Our music is modern.	Our family is small.
+9781_ru_to_en	rsl	Our music is modern.	I got a 'D' on my paper.
+9781_bg_to_en	bqn	Our music is modern.	How old were you when you became deaf?
+9781_is_to_en	icl	Our music is modern.	The bacon is overdone.
+9781_de_to_en	gsg	Our music is modern.	The Coke is in the refrigerator.
+9781_it_to_en	ise	Our music is modern.	My sign language has already improved.
+9781_sv_to_en	swl	Our music is modern.	What is your phone number?
+9781_lt_to_en	lls	Our music is modern.	My internet connection is slow.
+9781_en	bfi	Our music is modern.	My sign language has already improved.
+9795_zh_to_en	csl	I have two weekends off every month.	I had a physical last week.
+9795_uk_to_en	ukl	I have two weekends off every month.	I had a hard drive failure.
+9795_ru_to_en	rsl	I have two weekends off every month.	Are you going to the town council meeting?
+9795_is_to_en	icl	I have two weekends off every month.	I bought a new house two years ago.
+9795_de_to_en	gsg	I have two weekends off every month.	I got a 'B' on my paper.
+9795_it_to_en	ise	I have two weekends off every month.	I use Outlook for email.
+9795_sv_to_en	swl	I have two weekends off every month.	I got a 'B' on my paper.
+9795_lt_to_en	lls	I have two weekends off every month.	I want a large Pepsi.
+9795_en	bfi	I have two weekends off every month.	I use Outlook for email.
+9807_zh_to_en	csl	They have eleven children.	He works hard at his job.
+9807_uk_to_en	ukl	They have eleven children.	Would you like to dance?
+9807_ru_to_en	rsl	They have eleven children.	What are you wearing tonight?
+9807_bg_to_en	bqn	They have eleven children.	I love all the colours of the rainbow.
+9807_is_to_en	icl	They have eleven children.	You have to have a shot.
+9807_de_to_en	gsg	They have eleven children.	The seats are not reserved.
+9807_it_to_en	ise	They have eleven children.	How much is a ticket to _____?
+9807_sv_to_en	swl	They have eleven children.	He works hard at his job.
+9807_lt_to_en	lls	They have eleven children.	I have been waiting for 20 minutes.
+9807_en	bfi	They have eleven children.	The food is delicious.
+9811_zh_to_en	csl	His son wants to be an astronaut.	He goes to the movies every Tuseday.
+9811_uk_to_en	ukl	His son wants to be an astronaut.	He goes to the movies every Tuseday.
+9811_ru_to_en	rsl	His son wants to be an astronaut.	Do you know a good beauty shop?
+9811_bg_to_en	bqn	His son wants to be an astronaut.	What sports do you like?
+9811_is_to_en	icl	His son wants to be an astronaut.	He goes to the movies every Tuseday.
+9811_de_to_en	gsg	His son wants to be an astronaut.	I was on the picket line all morning.
+9811_it_to_en	ise	His son wants to be an astronaut.	The garbage truck comes once a week.
+9811_sv_to_en	swl	His son wants to be an astronaut.	The garbage truck comes once a week.
+9811_lt_to_en	lls	His son wants to be an astronaut.	I am afraid of tornadoes.
+9811_en	bfi	His son wants to be an astronaut.	I am flying to New York tonight.
+9822_zh_to_en	csl	I don't earn enough money.	I am a firefighter.
+9822_uk_to_en	ukl	I don't earn enough money.	I am majoring in Science.
+9822_ru_to_en	rsl	I don't earn enough money.	I am afraid of tornadoes.
+9822_is_to_en	icl	I don't earn enough money.	I am not so good in your sign language.
+9822_de_to_en	gsg	I don't earn enough money.	You have to have a shot.
+9822_it_to_en	ise	I don't earn enough money.	I have to go shopping.
+9822_sv_to_en	swl	I don't earn enough money.	I'd like to go for a hike in the mountains.
+9822_lt_to_en	lls	I don't earn enough money.	I have a sore throat.
+9822_en	bfi	I don't earn enough money.	I have been waiting for 20 minutes.
+9828_zh_to_en	csl	She has an easy job.	I got a 'C' on my paper.
+9828_uk_to_en	ukl	She has an easy job.	The food is delicious.
+9828_ru_to_en	rsl	She has an easy job.	He goes to the movies every Tuseday.
+9828_bg_to_en	bqn	She has an easy job.	He goes to the movies every Tuseday.
+9828_is_to_en	icl	She has an easy job.	At what time does the plane takeoff?
+9828_de_to_en	gsg	She has an easy job.	The seats are not reserved.
+9828_it_to_en	ise	She has an easy job.	You look like your mother.
+9828_sv_to_en	swl	She has an easy job.	The bacon is overdone.
+9828_lt_to_en	lls	She has an easy job.	The food is delicious.
+9828_en	bfi	She has an easy job.	The flight has been cancelled.
+9830_zh_to_en	csl	What kind of work do you do?	What kind of service do you have?
+9830_uk_to_en	ukl	What kind of work do you do?	What are you wearing tonight?
+9830_bg_to_en	bqn	What kind of work do you do?	I have nothing to do.
+9830_is_to_en	icl	What kind of work do you do?	How do I get there?
+9830_de_to_en	gsg	What kind of work do you do?	When does it close?
+9830_sv_to_en	swl	What kind of work do you do?	What is the date today?
+9830_lt_to_en	lls	What kind of work do you do?	What do you like?
+9830_en	bfi	What kind of work do you do?	What are you going to order?
+9831_zh_to_en	csl	Where do you work?	The cake is in the oven.
+9831_uk_to_en	ukl	Where do you work?	Where is the post office?
+9831_ru_to_en	rsl	Where do you work?	Where is the post office?
+9831_bg_to_en	bqn	Where do you work?	Where is the station?
+9831_is_to_en	icl	Where do you work?	Where is the museum?
+9831_de_to_en	gsg	Where do you work?	Where is the museum?
+9831_it_to_en	ise	Where do you work?	Who does your taxes?
+9831_sv_to_en	swl	Where do you work?	Where are you going?
+9831_lt_to_en	lls	Where do you work?	Where is the cash register?
+9831_en	bfi	Where do you work?	Where is the museum?
+9839_zh_to_en	csl	I like autumn best.	I am a firefighter.
+9839_uk_to_en	ukl	I like autumn best.	I have to buy some medicine.
+9839_ru_to_en	rsl	I like autumn best.	I would like to order steak.
+9839_is_to_en	icl	I like autumn best.	I like chocolate.
+9839_de_to_en	gsg	I like autumn best.	I would like to order steak.
+9839_it_to_en	ise	I like autumn best.	I love to pray in sign.
+9839_sv_to_en	swl	I like autumn best.	I need a shave.
+9839_lt_to_en	lls	I like autumn best.	I need to go to the bank.
+9839_en	bfi	I like autumn best.	I like sandwiches and hamburgers.
+9840_zh_to_en	csl	I like spring best.	I like sandwiches and hamburgers.
+9840_uk_to_en	ukl	I like spring best.	I like my work.
+9840_ru_to_en	rsl	I like spring best.	I have to go shopping.
+9840_is_to_en	icl	I like spring best.	I would like a single room.
+9840_de_to_en	gsg	I like spring best.	I would like to order steak.
+9840_it_to_en	ise	I like spring best.	I like sandwiches and hamburgers.
+9840_sv_to_en	swl	I like spring best.	I have something in my eye.
+9840_lt_to_en	lls	I like spring best.	The shirt fits well.
+9840_en	bfi	I like spring best.	I need to go to the bank.
+9841_zh_to_en	csl	I like summer best.	I had a physical last week.
+9841_uk_to_en	ukl	I like summer best.	I like my work.
+9841_ru_to_en	rsl	I like summer best.	I would like a double room.
+9841_is_to_en	icl	I like summer best.	I like chocolate.
+9841_de_to_en	gsg	I like summer best.	I am afraid of tornadoes.
+9841_it_to_en	ise	I like summer best.	I voted; did you?
+9841_sv_to_en	swl	I like summer best.	I have something in my eye.
+9841_lt_to_en	lls	I like summer best.	Mother's Day
+9841_en	bfi	I like summer best.	I need to iron this shirt.
+9843_zh_to_en	csl	I like winter the most.	I got a 'C' on my paper.
+9843_uk_to_en	ukl	I like winter the most.	I have to take pills.
+9843_ru_to_en	rsl	I like winter the most.	I would like to order steak.
+9843_is_to_en	icl	I like winter the most.	My nose is runny.
+9843_de_to_en	gsg	I like winter the most.	I would like to order steak.
+9843_it_to_en	ise	I like winter the most.	I will see you next Monday.
+9843_sv_to_en	swl	I like winter the most.	I have finished a university.
+9843_lt_to_en	lls	I like winter the most.	The service is lousy.
+9843_en	bfi	I like winter the most.	I need to wash my shirt.
+9844_zh_to_en	csl	I planted the seeds last fall.	Do you know a good beauty shop?
+9844_uk_to_en	ukl	I planted the seeds last fall.	I lost my bag.
+9844_ru_to_en	rsl	I planted the seeds last fall.	I would like to order steak.
+9844_is_to_en	icl	I planted the seeds last fall.	I had a physical last week.
+9844_de_to_en	gsg	I planted the seeds last fall.	I got a 'D' on my paper.
+9844_it_to_en	ise	I planted the seeds last fall.	I was in bed for two weeks.
+9844_sv_to_en	swl	I planted the seeds last fall.	I will have half a cup of coffee.
+9844_lt_to_en	lls	I planted the seeds last fall.	I would like to try it on.
+9844_en	bfi	I planted the seeds last fall.	I use Outlook for email.
+9846_zh_to_en	csl	It is raining.	It was cold this morning.
+9846_uk_to_en	ukl	It is raining.	It is snowing.
+9846_ru_to_en	rsl	It is raining.	It was cold this morning.
+9846_bg_to_en	bqn	It is raining.	I have to go shopping.
+9846_is_to_en	icl	It is raining.	It was cold this morning.
+9846_de_to_en	gsg	It is raining.	It is snowing.
+9846_it_to_en	ise	It is raining.	It won't.
+9846_sv_to_en	swl	It is raining.	It's raining cats and dogs.
+9846_lt_to_en	lls	It is raining.	It is windy today.
+9846_en	bfi	It is raining.	It rained yesterday.
+9854_zh_to_en	csl	Splashing in a puddle.	There was thunder and lightning last night.
+9854_uk_to_en	ukl	Splashing in a puddle.	The plane is ready for boarding now.
+9854_ru_to_en	rsl	Splashing in a puddle.	The flight has been cancelled.
+9854_bg_to_en	bqn	Splashing in a puddle.	I go training every evening.
+9854_is_to_en	icl	Splashing in a puddle.	How much does the position pay?
+9854_it_to_en	ise	Splashing in a puddle.	The plane is ready for boarding now.
+9854_sv_to_en	swl	Splashing in a puddle.	I am afraid of tornadoes.
+9854_lt_to_en	lls	Splashing in a puddle.	With or without onions?
+9854_en	bfi	Splashing in a puddle.	The baby is cute.
+9857_zh_to_en	csl	The humidity is high today.	The plane is ready for boarding now.
+9857_uk_to_en	ukl	The humidity is high today.	I was in bed for two weeks.
+9857_ru_to_en	rsl	The humidity is high today.	What is this prescription for?
+9857_bg_to_en	bqn	The humidity is high today.	What is the weather like?
+9857_is_to_en	icl	The humidity is high today.	My sign language has already improved.
+9857_de_to_en	gsg	The humidity is high today.	I was in bed for two weeks.
+9857_it_to_en	ise	The humidity is high today.	The bacon is overdone.
+9857_sv_to_en	swl	The humidity is high today.	When the weather is bad, I read books or watch TV.
+9857_lt_to_en	lls	The humidity is high today.	The sun is hot.
+9857_en	bfi	The humidity is high today.	The forecast is for sunny skies.
+9874_zh_to_en	csl	Do you have a quarter?	Do you want sweetened or unsweetened tea?
+9874_uk_to_en	ukl	Do you have a quarter?	Do you speak Spanish?
+9874_ru_to_en	rsl	Do you have a quarter?	Do you have a nickel?
+9874_bg_to_en	bqn	Do you have a quarter?	Do you want me to interpret the sermon?
+9874_is_to_en	icl	Do you have a quarter?	Do you speak French?
+9874_de_to_en	gsg	Do you have a quarter?	Do you have a dime?
+9874_it_to_en	ise	Do you have a quarter?	Do you want a soft drink?
+9874_sv_to_en	swl	Do you have a quarter?	Do you want a return tickets?
+9874_lt_to_en	lls	Do you have a quarter?	Do you have a nickel?
+9874_en	bfi	Do you have a quarter?	Do you want a return tickets?
+9882_zh_to_en	csl	I need to balance my checkbook.	I am afraid of tornadoes.
+9882_uk_to_en	ukl	I need to balance my checkbook.	I had a hard drive failure.
+9882_ru_to_en	rsl	I need to balance my checkbook.	I am majoring in Physical Therapy.
+9882_bg_to_en	bqn	I need to balance my checkbook.	I have cramps.
+9882_is_to_en	icl	I need to balance my checkbook.	There was thunder and lightning last night.
+9882_de_to_en	gsg	I need to balance my checkbook.	I like online shopping.
+9882_it_to_en	ise	I need to balance my checkbook.	I have been waiting for 20 minutes.
+9882_lt_to_en	lls	I need to balance my checkbook.	With or without onions?
+9882_en	bfi	I need to balance my checkbook.	I want a medium milk.
+9884_zh_to_en	csl	I paid less than you.	I have to go shopping.
+9884_uk_to_en	ukl	I paid less than you.	I would like to order steak.
+9884_ru_to_en	rsl	I paid less than you.	There was thunder and lightning last night.
+9884_bg_to_en	bqn	I paid less than you.	It's itching.
+9884_is_to_en	icl	I paid less than you.	Do you want a return tickets?
+9884_de_to_en	gsg	I paid less than you.	I have to buy some medicine.
+9884_it_to_en	ise	I paid less than you.	I would like to try it on.
+9884_sv_to_en	swl	I paid less than you.	I had to pay a parking fine.
+9884_lt_to_en	lls	I paid less than you.	I would like to order steak.
+9884_en	bfi	I paid less than you.	I need to brush my teeth.
+9897_zh_to_en	csl	Happy Thanksgiving!	Happy Mothers Day!
+9897_uk_to_en	ukl	Happy Thanksgiving!	Happy Mothers Day!
+9897_ru_to_en	rsl	Happy Thanksgiving!	A table for two, please.
+9897_bg_to_en	bqn	Happy Thanksgiving!	I have something in my eye.
+9897_de_to_en	gsg	Happy Thanksgiving!	I have to go to the doctor.
+9897_it_to_en	ise	Happy Thanksgiving!	The sun is hot.
+9897_sv_to_en	swl	Happy Thanksgiving!	I need a specimen of your blood.
+9897_lt_to_en	lls	Happy Thanksgiving!	The sun is hot.
+9897_en	bfi	Happy Thanksgiving!	Happy Mothers Day!
+9901_zh_to_en	csl	Home for the holidays.	The food is delicious.
+9901_uk_to_en	ukl	Home for the holidays.	How much does the position pay?
+9901_ru_to_en	rsl	Home for the holidays.	Can you get this stain out?
+9901_bg_to_en	bqn	Home for the holidays.	I enjoy watching TV with captions.
+9901_is_to_en	icl	Home for the holidays.	He goes to the movies every Tuseday.
+9901_de_to_en	gsg	Home for the holidays.	It won't.
+9901_it_to_en	ise	Home for the holidays.	I lost my book.
+9901_sv_to_en	swl	Home for the holidays.	What is your pet's name?
+9901_lt_to_en	lls	Home for the holidays.	I had to pay a parking fine.
+9901_en	bfi	Home for the holidays.	I am afraid of tornadoes.
+9902_zh_to_en	csl	Joy to the world!	Let's take a break.
+9902_uk_to_en	ukl	Joy to the world!	Close the window.
+9902_ru_to_en	rsl	Joy to the world!	Please wait.
+9902_bg_to_en	bqn	Joy to the world!	Your writing is terrible.
+9902_is_to_en	icl	Joy to the world!	Happy Mothers Day!
+9902_it_to_en	ise	Joy to the world!	I have a toothache.
+9902_sv_to_en	swl	Joy to the world!	My internet connection is slow.
+9902_lt_to_en	lls	Joy to the world!	It is 10 to 9:00.
+9902_en	bfi	Joy to the world!	You have tonsillitis.
+9904_zh_to_en	csl	Let freedom ring.	The waterfall is beautiful.
+9904_uk_to_en	ukl	Let freedom ring.	I love all the colours of the rainbow.
+9904_ru_to_en	rsl	Let freedom ring.	It's an emergency.
+9904_bg_to_en	bqn	Let freedom ring.	Not too bad.
+9904_is_to_en	icl	Let freedom ring.	It is fine like that.
+9904_it_to_en	ise	Let freedom ring.	You have lost a lot of weight.
+9904_lt_to_en	lls	Let freedom ring.	School is out.
+9904_en	bfi	Let freedom ring.	The driver drove away.
+9905_zh_to_en	csl	Mail early.	I feel lousy.
+9905_uk_to_en	ukl	Mail early.	My bird is ill.
+9905_ru_to_en	rsl	Mail early.	The bacon is overdone.
+9905_bg_to_en	bqn	Mail early.	The sun is hot.
+9905_is_to_en	icl	Mail early.	I need to go to the bank.
+9905_it_to_en	ise	Mail early.	Is there a children's menu?
+9905_sv_to_en	swl	Mail early.	Please give it to me.
+9905_lt_to_en	lls	Mail early.	The food is delicious.
+9905_en	bfi	Mail early.	May I go with you?
+9912_zh_to_en	csl	Trick or treat?	You have to have a shot.
+9912_uk_to_en	ukl	Trick or treat?	At what time does the train leave?
+9912_ru_to_en	rsl	Trick or treat?	Please wait.
+9912_bg_to_en	bqn	Trick or treat?	You must follow a diet.
+9912_is_to_en	icl	Trick or treat?	The cake is in the oven.
+9912_it_to_en	ise	Trick or treat?	You have the flu.
+9912_sv_to_en	swl	Trick or treat?	Are you a Christian?
+9912_lt_to_en	lls	Trick or treat?	What do you like?
+9912_en	bfi	Trick or treat?	You have the flu.
+9921_zh_to_en	csl	I feel better now.	I have a cough.
+9921_uk_to_en	ukl	I feel better now.	I got a 'C' on my paper.
+9921_ru_to_en	rsl	I feel better now.	I have to go to the doctor.
+9921_bg_to_en	bqn	I feel better now.	I feel all right.
+9921_is_to_en	icl	I feel better now.	I like my work.
+9921_de_to_en	gsg	I feel better now.	My bird is ill.
+9921_it_to_en	ise	I feel better now.	I don't like it at all.
+9921_sv_to_en	swl	I feel better now.	I have caught a cold.
+9921_lt_to_en	lls	I feel better now.	I have lost my passport.
+9921_en	bfi	I feel better now.	I feel all right.
+9946_zh_to_en	csl	My head aches.	I have caught a cold.
+9946_uk_to_en	ukl	My head aches.	Smoking is not allowed.
+9946_ru_to_en	rsl	My head aches.	My phone number is…
+9946_bg_to_en	bqn	My head aches.	How long are you staying?
+9946_is_to_en	icl	My head aches.	Brush your hair.
+9946_de_to_en	gsg	My head aches.	I would like a haircut.
+9946_it_to_en	ise	My head aches.	My phone number is…
+9946_sv_to_en	swl	My head aches.	I'd like to dye my hair.
+9946_lt_to_en	lls	My head aches.	The food is delicious.
+9946_en	bfi	My head aches.	My phone number is…
+9969_zh_to_en	csl	Do you want cream and sugar?	Do you want me to interpret the sermon?
+9969_uk_to_en	ukl	Do you want cream and sugar?	Do you want a soft drink?
+9969_ru_to_en	rsl	Do you want cream and sugar?	Do you have a dime?
+9969_bg_to_en	bqn	Do you want cream and sugar?	Do you have a nickel?
+9969_is_to_en	icl	Do you want cream and sugar?	Can you get this stain out?
+9969_it_to_en	ise	Do you want cream and sugar?	Do you want a soft drink?
+9969_sv_to_en	swl	Do you want cream and sugar?	Do you want a diet or a regular drink?
+9969_lt_to_en	lls	Do you want cream and sugar?	What is the weather like?
+9969_en	bfi	Do you want cream and sugar?	Do you speak Spanish?
+9972_zh_to_en	csl	Has anyone seen my pager?	Can I park here?
+9972_uk_to_en	ukl	Has anyone seen my pager?	How much is it per night?
+9972_ru_to_en	rsl	Has anyone seen my pager?	How much does the position pay?
+9972_bg_to_en	bqn	Has anyone seen my pager?	He goes to the movies every Tuseday.
+9972_is_to_en	icl	Has anyone seen my pager?	Can you drive?
+9972_it_to_en	ise	Has anyone seen my pager?	Do you want me to interpret the sermon?
+9972_sv_to_en	swl	Has anyone seen my pager?	I had a physical last week.
+9972_lt_to_en	lls	Has anyone seen my pager?	Would you call me at 6:00 a.m.?
+9972_en	bfi	Has anyone seen my pager?	Do you want sweetened or unsweetened tea?
+9976_zh_to_en	csl	Her daughter works here.	He goes to the movies every Tuseday.
+9976_uk_to_en	ukl	Her daughter works here.	Do you allow animals?
+9976_ru_to_en	rsl	Her daughter works here.	Do you speak Spanish?
+9976_bg_to_en	bqn	Her daughter works here.	What kind of car have you got?
+9976_is_to_en	icl	Her daughter works here.	The bacon is overdone.
+9976_de_to_en	gsg	Her daughter works here.	I pay every three months.
+9976_it_to_en	ise	Her daughter works here.	I lost my umbrella.
+9976_sv_to_en	swl	Her daughter works here.	The station is within walking distance.
+9976_lt_to_en	lls	Her daughter works here.	He always dresses nicely.
+9976_en	bfi	Her daughter works here.	He looks mean.
+9980_zh_to_en	csl	How many children are coming?	The bacon is overdone.
+9980_uk_to_en	ukl	How many children are coming?	How much does the position pay?
+9980_ru_to_en	rsl	How many children are coming?	How many children do you have?
+9980_bg_to_en	bqn	How many children are coming?	What is the weather like?
+9980_is_to_en	icl	How many children are coming?	What is the church's address?
+9980_de_to_en	gsg	How many children are coming?	How much does the position pay?
+9980_it_to_en	ise	How many children are coming?	How much does the position pay?
+9980_sv_to_en	swl	How many children are coming?	How much is a ticket to _____?
+9980_lt_to_en	lls	How many children are coming?	How many children do you have?
+9980_en	bfi	How many children are coming?	How much does the position pay?
+9981_zh_to_en	csl	I've already taken a bath.	My wife is dead.
+9981_uk_to_en	ukl	I've already taken a bath.	I am afraid of tornadoes.
+9981_ru_to_en	rsl	I've already taken a bath.	I am a bit hoarse.
+9981_bg_to_en	bqn	I've already taken a bath.	I would like a receipt.
+9981_is_to_en	icl	I've already taken a bath.	I'm sad.
+9981_it_to_en	ise	I've already taken a bath.	I am an independent.
+9981_sv_to_en	swl	I've already taken a bath.	I feel sick.
+9981_lt_to_en	lls	I've already taken a bath.	I am a doctor.
+9981_en	bfi	I've already taken a bath.	I am an independent.
+9982_zh_to_en	csl	I've already taken a shower.	I will stay for three nights.
+9982_uk_to_en	ukl	I've already taken a shower.	I am an actor.
+9982_ru_to_en	rsl	I've already taken a shower.	I am afraid of tornadoes.
+9982_bg_to_en	bqn	I've already taken a shower.	Is the tip included?
+9982_is_to_en	icl	I've already taken a shower.	I am afraid of tornadoes.
+9982_de_to_en	gsg	I've already taken a shower.	I want to brush my teeth.
+9982_it_to_en	ise	I've already taken a shower.	I am an independent.
+9982_sv_to_en	swl	I've already taken a shower.	I feel dizzy
+9982_en	bfi	I've already taken a shower.	I am majoring in Education.
+9994_zh_to_en	csl	I have not shaved yet.	I need a cold drink.
+9994_uk_to_en	ukl	I have not shaved yet.	I am a doctor.
+9994_ru_to_en	rsl	I have not shaved yet.	I have caught a cold.
+9994_bg_to_en	bqn	I have not shaved yet.	You are long-sighted.
+9994_is_to_en	icl	I have not shaved yet.	I want this.
+9994_de_to_en	gsg	I have not shaved yet.	I want a large milk.
+9994_it_to_en	ise	I have not shaved yet.	I am afraid of tornadoes.
+9994_sv_to_en	swl	I have not shaved yet.	I am a bit hoarse.
+9994_lt_to_en	lls	I have not shaved yet.	I have a toothache.
+9994_en	bfi	I have not shaved yet.	I have no money.
+9995_zh_to_en	csl	I have to go home.	I am out of gas.
+9995_uk_to_en	ukl	I have to go home.	I need to iron this shirt.
+9995_ru_to_en	rsl	I have to go home.	I would like a receipt.
+9995_bg_to_en	bqn	I have to go home.	I am afraid of tornadoes.
+9995_is_to_en	icl	I have to go home.	I have already been there.
+9995_de_to_en	gsg	I have to go home.	I am ill.
+9995_it_to_en	ise	I have to go home.	I have finished a university.
+9995_sv_to_en	swl	I have to go home.	I have already been there.
+9995_lt_to_en	lls	I have to go home.	What a nonsense!
+9995_en	bfi	I have to go home.	I have to go shopping.
+9998_zh_to_en	csl	I lost my pencil.	I lost my umbrella.
+9998_uk_to_en	ukl	I lost my pencil.	I lost my umbrella.
+9998_ru_to_en	rsl	I lost my pencil.	I lost my umbrella.
+9998_bg_to_en	bqn	I lost my pencil.	Is it broken?
+9998_is_to_en	icl	I lost my pencil.	I need a cold drink.
+9998_de_to_en	gsg	I lost my pencil.	I have to go shopping.
+9998_it_to_en	ise	I lost my pencil.	Do you speak Spanish?
+9998_sv_to_en	swl	I lost my pencil.	I have caught a cold.
+9998_lt_to_en	lls	I lost my pencil.	I lost my book.
+9998_en	bfi	I lost my pencil.	I need to iron this shirt.
+10006_zh_to_en	csl	I wrote her a letter last week.	The seats are not reserved.
+10006_uk_to_en	ukl	I wrote her a letter last week.	My sign language has already improved.
+10006_ru_to_en	rsl	I wrote her a letter last week.	I love my new sidekick.
+10006_is_to_en	icl	I wrote her a letter last week.	I got a 'D' on my paper.
+10006_de_to_en	gsg	I wrote her a letter last week.	I voted; did you?
+10006_it_to_en	ise	I wrote her a letter last week.	I would like to order steak.
+10006_sv_to_en	swl	I wrote her a letter last week.	I got a 'D' on my paper.
+10006_lt_to_en	lls	I wrote her a letter last week.	I am afraid of tornadoes.
+10006_en	bfi	I wrote her a letter last week.	I was in bed for two weeks.
+10009_zh_to_en	csl	It's a girl!	He eats too much.
+10009_uk_to_en	ukl	It's a girl!	May I go with you?
+10009_ru_to_en	rsl	It's a girl!	I have nothing to do.
+10009_bg_to_en	bqn	It's a girl!	I appreciate your help.
+10009_is_to_en	icl	It's a girl!	You have the flu.
+10009_de_to_en	gsg	It's a girl!	I'm married.
+10009_it_to_en	ise	It's a girl!	It won't.
+10009_sv_to_en	swl	It's a girl!	It was my pleasure.
+10009_lt_to_en	lls	It's a girl!	Please wait.
+10009_en	bfi	It's a girl!	What does that mean?
+10023_zh_to_en	csl	May I introduce my wife?	May I introduce my daughter?
+10023_uk_to_en	ukl	May I introduce my wife?	Can I park here?
+10023_ru_to_en	rsl	May I introduce my wife?	May I introduce my husband?
+10023_bg_to_en	bqn	May I introduce my wife?	Where is the toilet?
+10023_is_to_en	icl	May I introduce my wife?	May I introduce my daughter?
+10023_de_to_en	gsg	May I introduce my wife?	May I introduce my husband?
+10023_it_to_en	ise	May I introduce my wife?	Can you sew a button for me?
+10023_sv_to_en	swl	May I introduce my wife?	May I introduce my friend?
+10023_lt_to_en	lls	May I introduce my wife?	May I introduce my friend?
+10023_en	bfi	May I introduce my wife?	May I introduce my friend?
+10035_zh_to_en	csl	Pardon me.	Where are you going?
+10035_uk_to_en	ukl	Pardon me.	My wife is dead.
+10035_ru_to_en	rsl	Pardon me.	The baby is cute.
+10035_bg_to_en	bqn	Pardon me.	Do you know a good beauty shop?
+10035_is_to_en	icl	Pardon me.	Close your book.
+10035_de_to_en	gsg	Pardon me.	All gone.
+10035_it_to_en	ise	Pardon me.	Are you alright?
+10035_sv_to_en	swl	Pardon me.	Turn left.
+10035_en	bfi	Pardon me.	Perhaps.
+10077_zh_to_en	csl	I want a large Coke.	I want a large Pepsi.
+10077_uk_to_en	ukl	I want a large Coke.	I want a large Pepsi.
+10077_ru_to_en	rsl	I want a large Coke.	I want a large Pepsi.
+10077_bg_to_en	bqn	I want a large Coke.	Do you have a safe?
+10077_is_to_en	icl	I want a large Coke.	I want a large Pepsi.
+10077_de_to_en	gsg	I want a large Coke.	I want a large Pepsi.
+10077_it_to_en	ise	I want a large Coke.	I have been waiting for 20 minutes.
+10077_sv_to_en	swl	I want a large Coke.	I would like a haircut.
+10077_lt_to_en	lls	I want a large Coke.	I want a large Pepsi.
+10077_en	bfi	I want a large Coke.	I want a large Pepsi.
+10083_zh_to_en	csl	I will have hot tea.	I like sandwiches and hamburgers.
+10083_uk_to_en	ukl	I will have hot tea.	I would like a haircut.
+10083_ru_to_en	rsl	I will have hot tea.	I need a cold drink.
+10083_bg_to_en	bqn	I will have hot tea.	I have already been there.
+10083_is_to_en	icl	I will have hot tea.	I see her every Saturday.
+10083_de_to_en	gsg	I will have hot tea.	I want to brush my teeth.
+10083_it_to_en	ise	I will have hot tea.	You have not turned in your paper to me yet.
+10083_sv_to_en	swl	I will have hot tea.	I want a large Pepsi.
+10083_lt_to_en	lls	I will have hot tea.	I would like to order steak.
+10083_en	bfi	I will have hot tea.	I would like a haircut.
+10093_zh_to_en	csl	Thank you for dining with us.	The garbage truck comes once a week.
+10093_uk_to_en	ukl	Thank you for dining with us.	The food is delicious.
+10093_ru_to_en	rsl	Thank you for dining with us.	You look like your mother.
+10093_bg_to_en	bqn	Thank you for dining with us.	I would like to order steak.
+10093_is_to_en	icl	Thank you for dining with us.	Happy Mothers Day!
+10093_de_to_en	gsg	Thank you for dining with us.	The waterfall is beautiful.
+10093_it_to_en	ise	Thank you for dining with us.	Many deaf students enter hearing colleges.
+10093_sv_to_en	swl	Thank you for dining with us.	We have a test tomorrow.
+10093_lt_to_en	lls	Thank you for dining with us.	Is there a youth group?
+10093_en	bfi	Thank you for dining with us.	I'd like to dye my hair.
+10104_zh_to_en	csl	What salad dressing would you like?	What is the church's phone number?
+10104_uk_to_en	ukl	What salad dressing would you like?	What are today's specials?
+10104_ru_to_en	rsl	What salad dressing would you like?	What are today's specials?
+10104_bg_to_en	bqn	What salad dressing would you like?	What is the weather like?
+10104_is_to_en	icl	What salad dressing would you like?	What is the church's address?
+10104_de_to_en	gsg	What salad dressing would you like?	Do you want mustard, mayo, or both?
+10104_it_to_en	ise	What salad dressing would you like?	I need a cold drink.
+10104_sv_to_en	swl	What salad dressing would you like?	What are you wearing tonight?
+10104_lt_to_en	lls	What salad dressing would you like?	How much is a ticket to _____?
+10104_en	bfi	What salad dressing would you like?	What are you wearing tonight?
+10114_zh_to_en	csl	Would you like fries with that order?	Can you change a five?
+10114_uk_to_en	ukl	Would you like fries with that order?	Would you like ketchup?
+10114_ru_to_en	rsl	Would you like fries with that order?	Can you change a five?
+10114_bg_to_en	bqn	Would you like fries with that order?	Do you have a nickel?
+10114_is_to_en	icl	Would you like fries with that order?	Do you want a soft drink?
+10114_de_to_en	gsg	Would you like fries with that order?	When you have been absent you must bring an excuse.
+10114_it_to_en	ise	Would you like fries with that order?	Would you like to dance?
+10114_sv_to_en	swl	Would you like fries with that order?	Do you want a return tickets?
+10114_lt_to_en	lls	Would you like fries with that order?	I had a physical last week.
+10114_en	bfi	Would you like fries with that order?	Who do you want to talk to?
+10125_zh_to_en	csl	How did you get interested in signing?	With or without onions?
+10125_uk_to_en	ukl	How did you get interested in signing?	Do you have a savings plan?
+10125_ru_to_en	rsl	How did you get interested in signing?	How many children do you have?
+10125_bg_to_en	bqn	How did you get interested in signing?	What do you like?
+10125_is_to_en	icl	How did you get interested in signing?	What is the church's phone number?
+10125_de_to_en	gsg	How did you get interested in signing?	Are you a member of the church?
+10125_it_to_en	ise	How did you get interested in signing?	What are you wearing tonight?
+10125_sv_to_en	swl	How did you get interested in signing?	How much is a ticket to _____?
+10125_lt_to_en	lls	How did you get interested in signing?	How many children do you have?
+10125_en	bfi	How did you get interested in signing?	How much does the position pay?
+10126_zh_to_en	csl	How did you lose your hearing?	Do you want sweetened or unsweetened tea?
+10126_uk_to_en	ukl	How did you lose your hearing?	Does it bite?
+10126_ru_to_en	rsl	How did you lose your hearing?	Where are you from?
+10126_bg_to_en	bqn	How did you lose your hearing?	How much is a ticket to _____?
+10126_is_to_en	icl	How did you lose your hearing?	What is your pet's name?
+10126_it_to_en	ise	How did you lose your hearing?	Do you want sweetened or unsweetened tea?
+10126_sv_to_en	swl	How did you lose your hearing?	I have something in my eye.
+10126_lt_to_en	lls	How did you lose your hearing?	How many children do you have?
+10126_en	bfi	How did you lose your hearing?	How much does the position pay?
+10131_zh_to_en	csl	I am studying to be an interpreter.	I love my new sidekick.
+10131_uk_to_en	ukl	I am studying to be an interpreter.	I have been waiting for 20 minutes.
+10131_ru_to_en	rsl	I am studying to be an interpreter.	I am a firefighter.
+10131_bg_to_en	bqn	I am studying to be an interpreter.	I am afraid of tornadoes.
+10131_is_to_en	icl	I am studying to be an interpreter.	I got a 'D' on my paper.
+10131_de_to_en	gsg	I am studying to be an interpreter.	I am taking ASL classes.
+10131_it_to_en	ise	I am studying to be an interpreter.	I am majoring in Counseling.
+10131_sv_to_en	swl	I am studying to be an interpreter.	I would like a haircut.
+10131_lt_to_en	lls	I am studying to be an interpreter.	I am afraid of tornadoes.
+10131_en	bfi	I am studying to be an interpreter.	I am afraid of tornadoes.
+10140_zh_to_en	csl	I speak a little bit.	I need to go to the bank.
+10140_uk_to_en	ukl	I speak a little bit.	I have to take pills.
+10140_ru_to_en	rsl	I speak a little bit.	I have caught a cold.
+10140_is_to_en	icl	I speak a little bit.	I want a medium milk.
+10140_de_to_en	gsg	I speak a little bit.	I want to brush my teeth.
+10140_it_to_en	ise	I speak a little bit.	I have nothing to do.
+10140_sv_to_en	swl	I speak a little bit.	The food is delicious.
+10140_lt_to_en	lls	I speak a little bit.	I would like dessert.
+10140_en	bfi	I speak a little bit.	I want to buy a sweater.
+10141_zh_to_en	csl	I want to visit the deaf club.	I like sandwiches and hamburgers.
+10141_uk_to_en	ukl	I want to visit the deaf club.	I would like a double room.
+10141_ru_to_en	rsl	I want to visit the deaf club.	I would like to order steak.
+10141_bg_to_en	bqn	I want to visit the deaf club.	Do you have a nickel?
+10141_is_to_en	icl	I want to visit the deaf club.	When you have been absent you must bring an excuse.
+10141_de_to_en	gsg	I want to visit the deaf club.	I am taking ASL classes.
+10141_it_to_en	ise	I want to visit the deaf club.	I love to pray in sign.
+10141_sv_to_en	swl	I want to visit the deaf club.	I want a large milk.
+10141_lt_to_en	lls	I want to visit the deaf club.	I want a large milk.
+10141_en	bfi	I want to visit the deaf club.	I want a large Pepsi.
+10147_zh_to_en	csl	Sign slowly, please.	The flight has been cancelled.
+10147_uk_to_en	ukl	Sign slowly, please.	The plane is ready for boarding now.
+10147_ru_to_en	rsl	Sign slowly, please.	Where can I find a hospital?
+10147_bg_to_en	bqn	Sign slowly, please.	I have 3 weeks for vacation.
+10147_is_to_en	icl	Sign slowly, please.	Can you drive?
+10147_de_to_en	gsg	Sign slowly, please.	I love to pray in sign.
+10147_it_to_en	ise	Sign slowly, please.	The food is delicious.
+10147_sv_to_en	swl	Sign slowly, please.	What is the weather like?
+10147_lt_to_en	lls	Sign slowly, please.	When does it close?
+10147_en	bfi	Sign slowly, please.	The flight has been cancelled.
+10148_zh_to_en	csl	Signed music is so beautiful.	The Coke is in the refrigerator.
+10148_uk_to_en	ukl	Signed music is so beautiful.	The garbage truck comes once a week.
+10148_ru_to_en	rsl	Signed music is so beautiful.	The garbage truck comes once a week.
+10148_bg_to_en	bqn	Signed music is so beautiful.	I can't see.
+10148_is_to_en	icl	Signed music is so beautiful.	The bacon is overdone.
+10148_de_to_en	gsg	Signed music is so beautiful.	I got a 'D' on my paper.
+10148_it_to_en	ise	Signed music is so beautiful.	The waterfall is beautiful.
+10148_sv_to_en	swl	Signed music is so beautiful.	The police station is two blocks away.
+10148_lt_to_en	lls	Signed music is so beautiful.	The waterfall is beautiful.
+10148_en	bfi	Signed music is so beautiful.	The sun is hot.
+10161_zh_to_en	csl	My car is bright red.	The garbage truck comes once a week.
+10161_uk_to_en	ukl	My car is bright red.	I would like to try it on.
+10161_ru_to_en	rsl	My car is bright red.	My nose is runny.
+10161_bg_to_en	bqn	My car is bright red.	What is the church's address?
+10161_is_to_en	icl	My car is bright red.	Can you change a five?
+10161_de_to_en	gsg	My car is bright red.	My internet connection is slow.
+10161_it_to_en	ise	My car is bright red.	My wife is in the hospital.
+10161_sv_to_en	swl	My car is bright red.	Your girlfriend looks nice.
+10161_lt_to_en	lls	My car is bright red.	The Coke is in the refrigerator.
+10161_en	bfi	My car is bright red.	Mike is a hard-working student.
+10185_zh_to_en	csl	I would like to see some rings.	I would like to order steak.
+10185_uk_to_en	ukl	I would like to see some rings.	Is breakfast included?
+10185_ru_to_en	rsl	I would like to see some rings.	I have been waiting for 20 minutes.
+10185_bg_to_en	bqn	I would like to see some rings.	You are too young.
+10185_is_to_en	icl	I would like to see some rings.	I haven’t seen you for ages!
+10185_de_to_en	gsg	I would like to see some rings.	I was in bed for two weeks.
+10185_it_to_en	ise	I would like to see some rings.	I would like to order steak.
+10185_sv_to_en	swl	I would like to see some rings.	I think there is a mistake in the bill.
+10185_lt_to_en	lls	I would like to see some rings.	I want a medium milk.
+10185_en	bfi	I would like to see some rings.	I want a large milk.
+10189_zh_to_en	csl	My change is incorrect.	I am hard of hearing.
+10189_ru_to_en	rsl	My change is incorrect.	May I see the room first?
+10189_bg_to_en	bqn	My change is incorrect.	Where is the toilet?
+10189_is_to_en	icl	My change is incorrect.	I need to go to the bank.
+10189_de_to_en	gsg	My change is incorrect.	I had to pay a parking fine.
+10189_it_to_en	ise	My change is incorrect.	I would like a haircut.
+10189_sv_to_en	swl	My change is incorrect.	My internet connection is slow.
+10189_lt_to_en	lls	My change is incorrect.	We got lost in the desert.
+10189_en	bfi	My change is incorrect.	My computer crashed.
+10200_zh_to_en	csl	Who took my...?	The flight has been cancelled.
+10200_uk_to_en	ukl	Who took my...?	Would you like to dance?
+10200_ru_to_en	rsl	Who took my...?	What kind of service do you have?
+10200_bg_to_en	bqn	Who took my...?	What do you like?
+10200_is_to_en	icl	Who took my...?	What is your name?
+10200_de_to_en	gsg	Who took my...?	What is the church's address?
+10200_it_to_en	ise	Who took my...?	What is your phone number?
+10200_sv_to_en	swl	Who took my...?	What is your cellphone number?
+10200_lt_to_en	lls	Who took my...?	My favourite colour is...
+10200_en	bfi	Who took my...?	Who is that man?
+10203_zh_to_en	csl	Boy Scouts is a good organization.	The Coke is in the refrigerator.
+10203_uk_to_en	ukl	Boy Scouts is a good organization.	Can you sew a button for me?
+10203_ru_to_en	rsl	Boy Scouts is a good organization.	I am taking ASL classes.
+10203_bg_to_en	bqn	Boy Scouts is a good organization.	He is an idiot.
+10203_is_to_en	icl	Boy Scouts is a good organization.	He used to be a preacher.
+10203_de_to_en	gsg	Boy Scouts is a good organization.	I am going to the hotel to take a bath.
+10203_it_to_en	ise	Boy Scouts is a good organization.	The plane is ready for boarding now.
+10203_sv_to_en	swl	Boy Scouts is a good organization.	He works hard at his job.
+10203_lt_to_en	lls	Boy Scouts is a good organization.	He goes to the movies every Tuseday.
+10203_en	bfi	Boy Scouts is a good organization.	Are you going to the town council meeting?
+10204_zh_to_en	csl	The Congress is responsible for passing laws.	The plane is ready for boarding now.
+10204_uk_to_en	ukl	The Congress is responsible for passing laws.	He goes to the movies every Tuseday.
+10204_ru_to_en	rsl	The Congress is responsible for passing laws.	A table for two, please.
+10204_bg_to_en	bqn	The Congress is responsible for passing laws.	Is there any discount for students?
+10204_is_to_en	icl	The Congress is responsible for passing laws.	The bacon is overdone.
+10204_de_to_en	gsg	The Congress is responsible for passing laws.	There was thunder and lightning last night.
+10204_it_to_en	ise	The Congress is responsible for passing laws.	I love to pray in sign.
+10204_sv_to_en	swl	The Congress is responsible for passing laws.	How much does the position pay?
+10204_lt_to_en	lls	The Congress is responsible for passing laws.	I had a physical last week.
+10204_en	bfi	The Congress is responsible for passing laws.	Do you know a good beauty shop?
+10219_zh_to_en	csl	If you go to court you must have a good lawyer.	Gallaudet University was the first university for deaf people.
+10219_uk_to_en	ukl	If you go to court you must have a good lawyer.	Do you want sweetened or unsweetened tea?
+10219_ru_to_en	rsl	If you go to court you must have a good lawyer.	Do you want a diet or a regular drink?
+10219_bg_to_en	bqn	If you go to court you must have a good lawyer.	I am majoring in Science.
+10219_is_to_en	icl	If you go to court you must have a good lawyer.	The Coke is in the refrigerator.
+10219_de_to_en	gsg	If you go to court you must have a good lawyer.	If you break the law you might go to jail.
+10219_it_to_en	ise	If you go to court you must have a good lawyer.	If you break the law you might go to jail.
+10219_sv_to_en	swl	If you go to court you must have a good lawyer.	Can you wake me at 7 AM?
+10219_lt_to_en	lls	If you go to court you must have a good lawyer.	The garbage truck comes once a week.
+10219_en	bfi	If you go to court you must have a good lawyer.	Do you know a good beauty shop?
+10222_zh_to_en	csl	The city council will vote this week.	The garbage truck comes once a week.
+10222_uk_to_en	ukl	The city council will vote this week.	The garbage truck comes once a week.
+10222_ru_to_en	rsl	The city council will vote this week.	At what time does the train leave?
+10222_bg_to_en	bqn	The city council will vote this week.	I want this.
+10222_is_to_en	icl	The city council will vote this week.	What is the church's phone number?
+10222_de_to_en	gsg	The city council will vote this week.	The garbage truck comes once a week.
+10222_it_to_en	ise	The city council will vote this week.	I had a physical last week.
+10222_sv_to_en	swl	The city council will vote this week.	Would you like a magazine or a newspaper?
+10222_lt_to_en	lls	The city council will vote this week.	The garbage truck comes once a week.
+10222_en	bfi	The city council will vote this week.	The police station is two blocks away.
+10225_zh_to_en	csl	The YMCA is just around the corner.	The garbage truck comes once a week.
+10225_uk_to_en	ukl	The YMCA is just around the corner.	The flight has been delayed an hour.
+10225_ru_to_en	rsl	The YMCA is just around the corner.	The garbage truck comes once a week.
+10225_bg_to_en	bqn	The YMCA is just around the corner.	I feel weak.
+10225_is_to_en	icl	The YMCA is just around the corner.	He goes to the movies every Tuseday.
+10225_de_to_en	gsg	The YMCA is just around the corner.	What colour do you plan to paint the walls?
+10225_it_to_en	ise	The YMCA is just around the corner.	Are you going to the town council meeting?
+10225_sv_to_en	swl	The YMCA is just around the corner.	Can you recommend a reasonably priced hotel?
+10225_en	bfi	The YMCA is just around the corner.	The Coke is in the refrigerator.
+10239_zh_to_en	csl	Has he been neutered?	The flight has been cancelled.
+10239_uk_to_en	ukl	Has he been neutered?	Can I offer you anything to drink?
+10239_ru_to_en	rsl	Has he been neutered?	I have to take pills.
+10239_bg_to_en	bqn	Has he been neutered?	What happened?
+10239_is_to_en	icl	Has he been neutered?	Are you deaf?
+10239_de_to_en	gsg	Has he been neutered?	Can you drive?
+10239_it_to_en	ise	Has he been neutered?	How much is it per night?
+10239_sv_to_en	swl	Has he been neutered?	Did you eat?
+10239_lt_to_en	lls	Has he been neutered?	Can you drive?
+10239_en	bfi	Has he been neutered?	He looks mean.
+10240_zh_to_en	csl	Has he had his shots?	Do you have a nickel?
+10240_uk_to_en	ukl	Has he had his shots?	Do you have a safe?
+10240_ru_to_en	rsl	Has he had his shots?	I need to iron this shirt.
+10240_bg_to_en	bqn	Has he had his shots?	He was injured in a car accident.
+10240_is_to_en	icl	Has he had his shots?	Do you have a nickel?
+10240_de_to_en	gsg	Has he had his shots?	May I offer you a drink?
+10240_sv_to_en	swl	Has he had his shots?	How many children do you have?
+10240_lt_to_en	lls	Has he had his shots?	Can you change a five?
+10240_en	bfi	Has he had his shots?	He looks mean.
+10245_zh_to_en	csl	I have a dog.	I need a shave.
+10245_uk_to_en	ukl	I have a dog.	I have no money.
+10245_ru_to_en	rsl	I have a dog.	I have to buy some medicine.
+10245_is_to_en	icl	I have a dog.	I have not eaten yet.
+10245_de_to_en	gsg	I have a dog.	I have no money.
+10245_it_to_en	ise	I have a dog.	I have not eaten yet.
+10245_sv_to_en	swl	I have a dog.	I am a bit hoarse.
+10245_lt_to_en	lls	I have a dog.	I have no money.
+10245_en	bfi	I have a dog.	I have no money.
+11691_zh_to_en	csl	Stop here on red	The sun is hot.
+11691_uk_to_en	ukl	Stop here on red	The police station is two blocks away.
+11691_ru_to_en	rsl	Stop here on red	He is bleeding.
+11691_is_to_en	icl	Stop here on red	You have pneumonia.
+11691_de_to_en	gsg	Stop here on red	I was stung by a bee.
+11691_it_to_en	ise	Stop here on red	The service is within walking distance.
+11691_sv_to_en	swl	Stop here on red	Thank God!
+11691_lt_to_en	lls	Stop here on red	The Coke is in the refrigerator.
+11691_en	bfi	Stop here on red	You have pneumonia.
+13264_zh_to_en	csl	change of use	The baby is cute.
+13264_uk_to_en	ukl	change of use	I was in bed for two weeks.
+13264_ru_to_en	rsl	change of use	He was injured in a car accident.
+13264_bg_to_en	bqn	change of use	You have to have a shot.
+13264_de_to_en	gsg	change of use	I need to go to the bank.
+13264_it_to_en	ise	change of use	You have tonsillitis.
+13264_sv_to_en	swl	change of use	I have nothing to do.
+13264_lt_to_en	lls	change of use	The driver drove away.
+13264_en	bfi	change of use	Thank your grandparents.
+13310_zh_to_en	csl	Cut!	Thank you.
+13310_uk_to_en	ukl	Cut!	It is good for us.
+13310_ru_to_en	rsl	Cut!	The driver drove away.
+13310_bg_to_en	bqn	Cut!	What's the time?
+13310_is_to_en	icl	Cut!	Keep quiet.
+13310_de_to_en	gsg	Cut!	Don't touch.
+13310_it_to_en	ise	Cut!	What was I saying?
+13310_sv_to_en	swl	Cut!	Roll up your sleeve.
+13310_en	bfi	Cut!	Congratulations!
+14269_zh_to_en	csl	not subject to return	Please wait.
+14269_ru_to_en	rsl	not subject to return	Good night!
+14269_bg_to_en	bqn	not subject to return	Would you like to dance?
+14269_it_to_en	ise	not subject to return	My sign language has already improved.
+14269_sv_to_en	swl	not subject to return	This is very important.
+14269_lt_to_en	lls	not subject to return	You have tonsillitis.
+14269_en	bfi	not subject to return	Tigers are dangerous animals.
+14488_zh_to_en	csl	Temporarily unavailable.	What is the temperature?
+14488_uk_to_en	ukl	Temporarily unavailable.	You have the flu.
+14488_ru_to_en	rsl	Temporarily unavailable.	You have to have a shot.
+14488_is_to_en	icl	Temporarily unavailable.	What sports do you like?
+14488_de_to_en	gsg	Temporarily unavailable.	What is the date today?
+14488_it_to_en	ise	Temporarily unavailable.	The booking tickets office is closed.
+14488_sv_to_en	swl	Temporarily unavailable.	What is the weather like?
+14488_lt_to_en	lls	Temporarily unavailable.	What a nonsense!
+14488_en	bfi	Temporarily unavailable.	The garbage truck comes once a week.
+14557_zh_to_en	csl	Bad!	Ask me!
+14557_uk_to_en	ukl	Bad!	I don't care.
+14557_ru_to_en	rsl	Bad!	When?
+14557_bg_to_en	bqn	Bad!	Yes
+14557_is_to_en	icl	Bad!	Answer me!
+14557_de_to_en	gsg	Bad!	Write!
+14557_it_to_en	ise	Bad!	When?
+14557_sv_to_en	swl	Bad!	It's cheap.
+14557_lt_to_en	lls	Bad!	I see.
+14557_en	bfi	Bad!	Don't touch.
+14562_zh_to_en	csl	Clean the board!	What is the date today?
+14562_uk_to_en	ukl	Clean the board!	Cough, please.
+14562_ru_to_en	rsl	Clean the board!	When?
+14562_bg_to_en	bqn	Clean the board!	I can't move my hand.
+14562_is_to_en	icl	Clean the board!	Here you are.
+14562_de_to_en	gsg	Clean the board!	Where is the station?
+14562_it_to_en	ise	Clean the board!	Close the door.
+14562_sv_to_en	swl	Clean the board!	Is a car renting company around here?
+14562_lt_to_en	lls	Clean the board!	Ask other students!
+14562_en	bfi	Clean the board!	Could you give me an advice?
+14575_zh_to_en	csl	Good!	The baby is cute.
+14575_uk_to_en	ukl	Good!	I see.
+14575_ru_to_en	rsl	Good!	When?
+14575_bg_to_en	bqn	Good!	Farewell!
+14575_is_to_en	icl	Good!	What do you think?
+14575_it_to_en	ise	Good!	Thank you.
+14575_sv_to_en	swl	Good!	Thank you.
+14575_lt_to_en	lls	Good!	When?
+14575_en	bfi	Good!	Look out!
+14598_zh_to_en	csl	Remind yourself!	Take it!
+14598_uk_to_en	ukl	Remind yourself!	You are long-sighted.
+14598_ru_to_en	rsl	Remind yourself!	I'll call the ambulance.
+14598_bg_to_en	bqn	Remind yourself!	Guess!
+14598_is_to_en	icl	Remind yourself!	Guess!
+14598_it_to_en	ise	Remind yourself!	Think!
+14598_sv_to_en	swl	Remind yourself!	This woman is unconscious.
+14598_lt_to_en	lls	Remind yourself!	Think!
+14598_en	bfi	Remind yourself!	What do you think?
+14604_zh_to_en	csl	Take it away!	Take it!
+14604_uk_to_en	ukl	Take it away!	When?
+14604_ru_to_en	rsl	Take it away!	Guess!
+14604_bg_to_en	bqn	Take it away!	I understand.
+14604_is_to_en	icl	Take it away!	Stand up!
+14604_de_to_en	gsg	Take it away!	Thank you.
+14604_it_to_en	ise	Take it away!	Don't touch.
+14604_sv_to_en	swl	Take it away!	Ask me!
+14604_lt_to_en	lls	Take it away!	Can I offer you anything to drink?
+14604_en	bfi	Take it away!	Talk!
+14621_zh_to_en	csl	Where?	When?
+14621_uk_to_en	ukl	Where?	Why?
+14621_ru_to_en	rsl	Where?	Take it!
+14621_bg_to_en	bqn	Where?	When?
+14621_is_to_en	icl	Where?	All gone.
+14621_de_to_en	gsg	Where?	What do you think?
+14621_it_to_en	ise	Where?	Not worth it.
+14621_sv_to_en	swl	Where?	Who?
+14621_lt_to_en	lls	Where?	Put it away!
+14621_en	bfi	Where?	When?
+20110_zh_to_en	csl	My God!	What a nonsense!
+20110_uk_to_en	ukl	My God!	Thank your grandparents.
+20110_ru_to_en	rsl	My God!	Is there a guarantee on this?
+20110_bg_to_en	bqn	My God!	He is seriously injured.
+20110_is_to_en	icl	My God!	It was my pleasure.
+20110_de_to_en	gsg	My God!	It was my pleasure.
+20110_it_to_en	ise	My God!	I see.
+20110_sv_to_en	swl	My God!	Where is the restroom?
+20110_lt_to_en	lls	My God!	It is beautiful today.
+20110_en	bfi	My God!	Not too bad.
+20252_zh_to_en	csl	turn pale	You are long-sighted.
+20252_ru_to_en	rsl	turn pale	Not too bad.
+20252_bg_to_en	bqn	turn pale	He used to be a preacher.
+20252_is_to_en	icl	turn pale	You are long-sighted.
+20252_de_to_en	gsg	turn pale	What a relief!
+20252_it_to_en	ise	turn pale	I don't care.
+20252_sv_to_en	swl	turn pale	This is not important.
+20252_lt_to_en	lls	turn pale	I see.
+20252_en	bfi	turn pale	Thank God!
+20407_zh_to_en	csl	We see what you are up to.	Is there a guarantee on this?
+20407_ru_to_en	rsl	We see what you are up to.	Could you recommend me a good general pracitioner?
+20407_bg_to_en	bqn	We see what you are up to.	I can't see.
+20407_is_to_en	icl	We see what you are up to.	You have pneumonia.
+20407_de_to_en	gsg	We see what you are up to.	What kind of car have you got?
+20407_it_to_en	ise	We see what you are up to.	I voted; did you?
+20407_sv_to_en	swl	We see what you are up to.	Do you want a soft drink?
+20407_lt_to_en	lls	We see what you are up to.	What do you want?
+20407_en	bfi	We see what you are up to.	What do you like?
+20422_zh_to_en	csl	You are crossing the line!	Is it important?
+20422_uk_to_en	ukl	You are crossing the line!	Could you give me an advice?
+20422_ru_to_en	rsl	You are crossing the line!	Help me clean the wound.
+20422_bg_to_en	bqn	You are crossing the line!	The food is delicious.
+20422_is_to_en	icl	You are crossing the line!	When do you serve breakfast?
+20422_de_to_en	gsg	You are crossing the line!	What do you want?
+20422_it_to_en	ise	You are crossing the line!	Close the window.
+20422_sv_to_en	swl	You are crossing the line!	Where were you born?
+20422_en	bfi	You are crossing the line!	Is a car renting company around here?
+21722_zh_to_en	csl	Do you mind the smoke?	I can't see.
+21722_uk_to_en	ukl	Do you mind the smoke?	Are you alright?
+21722_ru_to_en	rsl	Do you mind the smoke?	Why are you driving so fast?
+21722_bg_to_en	bqn	Do you mind the smoke?	I came into collison with a car which was going in the opposite direction.
+21722_de_to_en	gsg	Do you mind the smoke?	I'd like to go for a hike in the mountains.
+21722_it_to_en	ise	Do you mind the smoke?	I don't feel like eating.
+21722_sv_to_en	swl	Do you mind the smoke?	Are you a member of the church?
+21722_lt_to_en	lls	Do you mind the smoke?	Can I offer you anything to drink?
+21722_en	bfi	Do you mind the smoke?	He is bleeding.
+21734_zh_to_en	csl	Have you got any change?	Are you feeling better?
+21734_uk_to_en	ukl	Have you got any change?	Do you have a safe?
+21734_ru_to_en	rsl	Have you got any change?	Are you feeling better?
+21734_bg_to_en	bqn	Have you got any change?	Do you have a safe?
+21734_is_to_en	icl	Have you got any change?	What's the name of this street?
+21734_de_to_en	gsg	Have you got any change?	Could you give me an advice?
+21734_it_to_en	ise	Have you got any change?	I have something in my eye.
+21734_sv_to_en	swl	Have you got any change?	Have you got anything cheaper?
+21734_en	bfi	Have you got any change?	Could you give me an advice?
+21742_uk_to_en	ukl	I hope you will like it in our house.	I am colour-blind.
+21742_ru_to_en	rsl	I hope you will like it in our house.	I am colour-blind.
+21742_bg_to_en	bqn	I hope you will like it in our house.	It's a boy!
+21742_is_to_en	icl	I hope you will like it in our house.	I can't see well at a distance.
+21742_de_to_en	gsg	I hope you will like it in our house.	I voted; did you?
+21742_it_to_en	ise	I hope you will like it in our house.	Could you give me an advice?
+21742_sv_to_en	swl	I hope you will like it in our house.	I got a 'C' on my paper.
+21742_lt_to_en	lls	I hope you will like it in our house.	The train leaves in ten minutes.
+21742_en	bfi	I hope you will like it in our house.	I can't see well at a distance.
+21755_zh_to_en	csl	It's delicious.	It is not my fault.
+21755_uk_to_en	ukl	It's delicious.	Thank God!
+21755_ru_to_en	rsl	It's delicious.	I can't see.
+21755_bg_to_en	bqn	It's delicious.	You have to have a shot.
+21755_is_to_en	icl	It's delicious.	You are long-sighted.
+21755_de_to_en	gsg	It's delicious.	I don't care.
+21755_it_to_en	ise	It's delicious.	Thank God!
+21755_sv_to_en	swl	It's delicious.	Who are you?
+21755_lt_to_en	lls	It's delicious.	It was my pleasure.
+21755_en	bfi	It's delicious.	Don't worry.
+21758_zh_to_en	csl	I'll see you home.	I have finished a university.
+21758_uk_to_en	ukl	I'll see you home.	I can't feel his pulse.
+21758_ru_to_en	rsl	I'll see you home.	When do you serve breakfast?
+21758_bg_to_en	bqn	I'll see you home.	I appreciate your help.
+21758_is_to_en	icl	I'll see you home.	I don't care.
+21758_de_to_en	gsg	I'll see you home.	I am majoring in Counseling.
+21758_it_to_en	ise	I'll see you home.	It is a sharp pain.
+21758_sv_to_en	swl	I'll see you home.	I need a shave.
+21758_lt_to_en	lls	I'll see you home.	The driver drove away.
+21758_en	bfi	I'll see you home.	I'll call the police.
+21759_zh_to_en	csl	I'll take it.	It was my pleasure.
+21759_uk_to_en	ukl	I'll take it.	You have to have a shot.
+21759_ru_to_en	rsl	I'll take it.	I don't mind.
+21759_bg_to_en	bqn	I'll take it.	I have something in my eye.
+21759_is_to_en	icl	I'll take it.	I don't care.
+21759_de_to_en	gsg	I'll take it.	Is there a guarantee on this?
+21759_it_to_en	ise	I'll take it.	It was my pleasure.
+21759_sv_to_en	swl	I'll take it.	I don't care.
+21759_lt_to_en	lls	I'll take it.	It's itching.
+21759_en	bfi	I'll take it.	I don't care.
+21793_zh_to_en	csl	The goods are out of stock.	What a shame!
+21793_uk_to_en	ukl	The goods are out of stock.	The driver drove away.
+21793_ru_to_en	rsl	The goods are out of stock.	You must follow a diet.
+21793_bg_to_en	bqn	The goods are out of stock.	My favourite colour is...
+21793_de_to_en	gsg	The goods are out of stock.	Can you sew a button for me?
+21793_it_to_en	ise	The goods are out of stock.	The driver drove away.
+21793_sv_to_en	swl	The goods are out of stock.	The cake is in the oven.
+21793_lt_to_en	lls	The goods are out of stock.	The booking tickets office is closed.
+21793_en	bfi	The goods are out of stock.	When it's not so hot, I go rollerskating.
+21794_zh_to_en	csl	There is a fixed price for these goods.	He is bleeding.
+21794_uk_to_en	ukl	There is a fixed price for these goods.	The booking tickets office is closed.
+21794_ru_to_en	rsl	There is a fixed price for these goods.	When the weather is bad, I read books or watch TV.
+21794_bg_to_en	bqn	There is a fixed price for these goods.	He is 87 years old.
+21794_de_to_en	gsg	There is a fixed price for these goods.	The seats are not reserved.
+21794_it_to_en	ise	There is a fixed price for these goods.	It is a constant pain.
+21794_sv_to_en	swl	There is a fixed price for these goods.	You have to have a shot.
+21794_lt_to_en	lls	There is a fixed price for these goods.	The booking tickets office is closed.
+21794_en	bfi	There is a fixed price for these goods.	The station is within walking distance.
+21805_zh_to_en	csl	What shall l do?	I don't care.
+21805_uk_to_en	ukl	What shall l do?	What do you like?
+21805_bg_to_en	bqn	What shall l do?	What is the weather like?
+21805_de_to_en	gsg	What shall l do?	What is this prescription for?
+21805_it_to_en	ise	What shall l do?	It is a dull pain.
+21805_sv_to_en	swl	What shall l do?	I don't mind.
+21805_lt_to_en	lls	What shall l do?	I need your help.
+21805_en	bfi	What shall l do?	What sports do you like?
+21806_zh_to_en	csl	At what time do the shops close?	They played so well.
+21806_uk_to_en	ukl	At what time do the shops close?	Where is the station?
+21806_ru_to_en	rsl	At what time do the shops close?	The station is within walking distance.
+21806_bg_to_en	bqn	At what time do the shops close?	What is the weather like?
+21806_is_to_en	icl	At what time do the shops close?	Where is the station?
+21806_de_to_en	gsg	At what time do the shops close?	What sports do you like?
+21806_it_to_en	ise	At what time do the shops close?	Where can I go fishing?
+21806_sv_to_en	swl	At what time do the shops close?	I had a physical last week.
+21806_lt_to_en	lls	At what time do the shops close?	Where is the station?
+21806_en	bfi	At what time do the shops close?	What's the name of this street?
+21807_zh_to_en	csl	What would you like?	What was I saying?
+21807_uk_to_en	ukl	What would you like?	What do you like?
+21807_ru_to_en	rsl	What would you like?	What do you want?
+21807_bg_to_en	bqn	What would you like?	What is the weather like?
+21807_de_to_en	gsg	What would you like?	I see.
+21807_it_to_en	ise	What would you like?	What do you want?
+21807_sv_to_en	swl	What would you like?	What do you want?
+21807_lt_to_en	lls	What would you like?	What is the weather like?
+21807_en	bfi	What would you like?	What do you like?
+21836_zh_to_en	csl	Can you change the tyre for me?	Could you send here a car mechanic?
+21836_uk_to_en	ukl	Can you change the tyre for me?	I was in bed for two weeks.
+21836_ru_to_en	rsl	Can you change the tyre for me?	May I turn the light on?
+21836_bg_to_en	bqn	Can you change the tyre for me?	Please give it to me.
+21836_is_to_en	icl	Can you change the tyre for me?	Can I offer you anything to drink?
+21836_de_to_en	gsg	Can you change the tyre for me?	Could you give me an advice?
+21836_it_to_en	ise	Can you change the tyre for me?	Is there a guarantee on this?
+21836_sv_to_en	swl	Can you change the tyre for me?	Is there any discount for students?
+21836_lt_to_en	lls	Can you change the tyre for me?	Could you give me an advice?
+21836_en	bfi	Can you change the tyre for me?	Do you wear any other glasses?
+21839_zh_to_en	csl	Can you weigh this parcel, please?	Could you give me an advice?
+21839_uk_to_en	ukl	Can you weigh this parcel, please?	Could you give me an advice?
+21839_ru_to_en	rsl	Can you weigh this parcel, please?	Do you know basic first aid?
+21839_bg_to_en	bqn	Can you weigh this parcel, please?	We have a test tomorrow.
+21839_is_to_en	icl	Can you weigh this parcel, please?	Is there any discount for students?
+21839_de_to_en	gsg	Can you weigh this parcel, please?	What's the best way to the station?
+21839_it_to_en	ise	Can you weigh this parcel, please?	Could you give me an advice?
+21839_sv_to_en	swl	Can you weigh this parcel, please?	Can you change a five?
+21839_lt_to_en	lls	Can you weigh this parcel, please?	Can you show me the route on the map?
+21839_en	bfi	Can you weigh this parcel, please?	Can you show me the route on the map?
+21854_zh_to_en	csl	Dim the headlights.	What's the charge per hour?
+21854_uk_to_en	ukl	Dim the headlights.	Could you give me an advice?
+21854_ru_to_en	rsl	Dim the headlights.	What is the weather like?
+21854_bg_to_en	bqn	Dim the headlights.	You have tonsillitis.
+21854_is_to_en	icl	Dim the headlights.	Where is the nearest bus stop?
+21854_it_to_en	ise	Dim the headlights.	I'd like to send money.
+21854_sv_to_en	swl	Dim the headlights.	What is the date today?
+21854_lt_to_en	lls	Dim the headlights.	Get well soon!
+21854_en	bfi	Dim the headlights.	The driver drove away.
+21874_zh_to_en	csl	Here is your mail.	Is there any discount for students?
+21874_uk_to_en	ukl	Here is your mail.	Good evening.
+21874_ru_to_en	rsl	Here is your mail.	How long do you want to stay here?
+21874_bg_to_en	bqn	Here is your mail.	The food is delicious.
+21874_is_to_en	icl	Here is your mail.	Are you feeling better?
+21874_de_to_en	gsg	Here is your mail.	Are you feeling better?
+21874_it_to_en	ise	Here is your mail.	Is there a guarantee on this?
+21874_sv_to_en	swl	Here is your mail.	Can you read lips?
+21874_en	bfi	Here is your mail.	Have you got a single room for tonight?
+21876_zh_to_en	csl	How long will it take?	What's the name of this street?
+21876_uk_to_en	ukl	How long will it take?	What's your personal number?
+21876_ru_to_en	rsl	How long will it take?	How long do you want to stay here?
+21876_bg_to_en	bqn	How long will it take?	Where is the nearest bus stop?
+21876_is_to_en	icl	How long will it take?	It is good for us.
+21876_de_to_en	gsg	How long will it take?	What's the matter?
+21876_it_to_en	ise	How long will it take?	What is the weather like?
+21876_sv_to_en	swl	How long will it take?	How long are you going to stay here?
+21876_en	bfi	How long will it take?	How long are you going to stay here?
+21881_zh_to_en	csl	I would like to send this letter by registered mail.	My mother works as a clerk in an office.
+21881_uk_to_en	ukl	I would like to send this letter by registered mail.	I came into collison with a car which was going in the opposite direction.
+21881_ru_to_en	rsl	I would like to send this letter by registered mail.	I pick up my son from the kindergarten.
+21881_bg_to_en	bqn	I would like to send this letter by registered mail.	I would like a haircut.
+21881_de_to_en	gsg	I would like to send this letter by registered mail.	I got a 'C' on my paper.
+21881_it_to_en	ise	I would like to send this letter by registered mail.	I think there is a mistake in the bill.
+21881_sv_to_en	swl	I would like to send this letter by registered mail.	I want a large Pepsi.
+21881_lt_to_en	lls	I would like to send this letter by registered mail.	I've got a stabbing pain in my hip.
+21881_en	bfi	I would like to send this letter by registered mail.	He is bleeding.
+21891_zh_to_en	csl	Keep straight.	I don't care.
+21891_uk_to_en	ukl	Keep straight.	It was my pleasure.
+21891_ru_to_en	rsl	Keep straight.	Turn left.
+21891_bg_to_en	bqn	Keep straight.	I am hard of hearing.
+21891_de_to_en	gsg	Keep straight.	I gave notice.
+21891_it_to_en	ise	Keep straight.	I need your help.
+21891_sv_to_en	swl	Keep straight.	What's the matter?
+21891_lt_to_en	lls	Keep straight.	Could you give me an advice?
+21891_en	bfi	Keep straight.	Don't worry.
+21988_zh_to_en	csl	Could you help us push the car to the shoulder of the road?	Could you give me a plastic bag, please?
+21988_uk_to_en	ukl	Could you help us push the car to the shoulder of the road?	Can you show me on the map?
+21988_ru_to_en	rsl	Could you help us push the car to the shoulder of the road?	Could you give me a plastic bag, please?
+21988_bg_to_en	bqn	Could you help us push the car to the shoulder of the road?	I would like to order steak.
+21988_is_to_en	icl	Could you help us push the car to the shoulder of the road?	Where is a locker?
+21988_de_to_en	gsg	Could you help us push the car to the shoulder of the road?	I have been waiting for 20 minutes.
+21988_it_to_en	ise	Could you help us push the car to the shoulder of the road?	Could you send here a car mechanic?
+21988_sv_to_en	swl	Could you help us push the car to the shoulder of the road?	Can you show me the route on the map?
+21988_lt_to_en	lls	Could you help us push the car to the shoulder of the road?	Could you give me a plastic bag, please?
+21988_en	bfi	Could you help us push the car to the shoulder of the road?	Do you know basic first aid?
+21991_zh_to_en	csl	Could you recommend me a good gynaecologist?	Could you recommend me a good general pracitioner?
+21991_uk_to_en	ukl	Could you recommend me a good gynaecologist?	Could you give me a plastic bag, please?
+21991_ru_to_en	rsl	Could you recommend me a good gynaecologist?	Excuse me, could you tell me the way to the station, please?
+21991_bg_to_en	bqn	Could you recommend me a good gynaecologist?	I am sorry to bother you.
+21991_is_to_en	icl	Could you recommend me a good gynaecologist?	Excuse me, could you tell me the way to the station, please?
+21991_de_to_en	gsg	Could you recommend me a good gynaecologist?	Excuse me, could you tell me the way to the station, please?
+21991_it_to_en	ise	Could you recommend me a good gynaecologist?	Could you give me a plastic bag, please?
+21991_sv_to_en	swl	Could you recommend me a good gynaecologist?	Excuse me, could you tell me the way to the station, please?
+21991_lt_to_en	lls	Could you recommend me a good gynaecologist?	Could you give me an advice?
+21991_en	bfi	Could you recommend me a good gynaecologist?	Do you know basic first aid?
+22005_zh_to_en	csl	I am interested in working for your company.	I have finished a university.
+22005_uk_to_en	ukl	I am interested in working for your company.	He was injured in a car accident.
+22005_ru_to_en	rsl	I am interested in working for your company.	I'd like to go for a hike in the mountains.
+22005_bg_to_en	bqn	I am interested in working for your company.	I have caught a cold.
+22005_is_to_en	icl	I am interested in working for your company.	I came into collison with a car which was going in the opposite direction.
+22005_de_to_en	gsg	I am interested in working for your company.	I came into collison with a car which was going in the opposite direction.
+22005_it_to_en	ise	I am interested in working for your company.	I tried to stop smoking several times.
+22005_sv_to_en	swl	I am interested in working for your company.	I have been waiting for 20 minutes.
+22005_lt_to_en	lls	I am interested in working for your company.	I need a specimen of your blood.
+22005_en	bfi	I am interested in working for your company.	He was injured in a car accident.
+22006_zh_to_en	csl	I am not feeling like myself.	I don't care.
+22006_uk_to_en	ukl	I am not feeling like myself.	I can't feel his pulse.
+22006_ru_to_en	rsl	I am not feeling like myself.	I have cramps.
+22006_bg_to_en	bqn	I am not feeling like myself.	I need a specimen of your urine.
+22006_is_to_en	icl	I am not feeling like myself.	I have finished a university.
+22006_it_to_en	ise	I am not feeling like myself.	It is a sharp pain.
+22006_sv_to_en	swl	I am not feeling like myself.	I lost my bag.
+22006_lt_to_en	lls	I am not feeling like myself.	I can't move my hand.
+22006_en	bfi	I am not feeling like myself.	I have something in my eye.
+22014_zh_to_en	csl	I have finished a basic school.	I want a small milk.
+22014_uk_to_en	ukl	I have finished a basic school.	I don't mind.
+22014_ru_to_en	rsl	I have finished a basic school.	I came into collison with a car which was going in the opposite direction.
+22014_bg_to_en	bqn	I have finished a basic school.	I have to go shopping.
+22014_is_to_en	icl	I have finished a basic school.	I need a specimen of your blood.
+22014_it_to_en	ise	I have finished a basic school.	I have finished a university.
+22014_sv_to_en	swl	I have finished a basic school.	I got a 'D' on my paper.
+22014_lt_to_en	lls	I have finished a basic school.	I have finished a university.
+22014_en	bfi	I have finished a basic school.	I have finished a university.
+22015_zh_to_en	csl	I have finished a college.	I wear contact lenses.
+22015_uk_to_en	ukl	I have finished a college.	I have caught a cold.
+22015_ru_to_en	rsl	I have finished a college.	I have finished a university.
+22015_bg_to_en	bqn	I have finished a college.	I have nothing to do.
+22015_is_to_en	icl	I have finished a college.	I tried to stop smoking several times.
+22015_it_to_en	ise	I have finished a college.	I have to go to the doctor.
+22015_sv_to_en	swl	I have finished a college.	I go training every evening.
+22015_lt_to_en	lls	I have finished a college.	I have finished a university.
+22015_en	bfi	I have finished a college.	I have something in my eye.
+22016_zh_to_en	csl	I have finished a grammar school.	I think my glasses are weak.
+22016_uk_to_en	ukl	I have finished a grammar school.	I have finished a university.
+22016_ru_to_en	rsl	I have finished a grammar school.	I have finished a university.
+22016_bg_to_en	bqn	I have finished a grammar school.	I have a cough.
+22016_is_to_en	icl	I have finished a grammar school.	I have finished a university.
+22016_it_to_en	ise	I have finished a grammar school.	I have finished a university.
+22016_sv_to_en	swl	I have finished a grammar school.	I have been waiting for 20 minutes.
+22016_lt_to_en	lls	I have finished a grammar school.	I can't move my hand.
+22016_en	bfi	I have finished a grammar school.	I have something in my eye.
+22017_zh_to_en	csl	I have finished a teacher's training  college.	I'd like to go for a hike in the mountains.
+22017_uk_to_en	ukl	I have finished a teacher's training  college.	I don't care.
+22017_ru_to_en	rsl	I have finished a teacher's training  college.	I have finished a university.
+22017_bg_to_en	bqn	I have finished a teacher's training  college.	I have finished a university.
+22017_is_to_en	icl	I have finished a teacher's training  college.	I can't see well at a distance.
+22017_de_to_en	gsg	I have finished a teacher's training  college.	It is a constant pain.
+22017_it_to_en	ise	I have finished a teacher's training  college.	I have finished a university.
+22017_sv_to_en	swl	I have finished a teacher's training  college.	I will stay for three nights.
+22017_lt_to_en	lls	I have finished a teacher's training  college.	May I turn the light on?
+22017_en	bfi	I have finished a teacher's training  college.	I came into collison with a car which was going in the opposite direction.
+22027_zh_to_en	csl	Is there a restauratnt car on the train?	What's the name of this street?
+22027_uk_to_en	ukl	Is there a restauratnt car on the train?	Is there a guarantee on this?
+22027_ru_to_en	rsl	Is there a restauratnt car on the train?	How long does the train stop here?
+22027_bg_to_en	bqn	Is there a restauratnt car on the train?	Is there a youth group?
+22027_is_to_en	icl	Is there a restauratnt car on the train?	Excuse me, could you tell me the way to the station, please?
+22027_de_to_en	gsg	Is there a restauratnt car on the train?	Is a car renting company around here?
+22027_it_to_en	ise	Is there a restauratnt car on the train?	Could you give me an advice?
+22027_sv_to_en	swl	Is there a restauratnt car on the train?	Do you want a return tickets?
+22027_lt_to_en	lls	Is there a restauratnt car on the train?	The booking tickets office is closed.
+22027_en	bfi	Is there a restauratnt car on the train?	Could you give me an advice?
+22037_zh_to_en	csl	Leave the clutch.	I have finished a university.
+22037_uk_to_en	ukl	Leave the clutch.	It's your turn now.
+22037_ru_to_en	rsl	Leave the clutch.	It is good for us.
+22037_bg_to_en	bqn	Leave the clutch.	Do you have a nickel?
+22037_is_to_en	icl	Leave the clutch.	The train leaves in ten minutes.
+22037_de_to_en	gsg	Leave the clutch.	Can I park here?
+22037_it_to_en	ise	Leave the clutch.	What is the weather like?
+22037_sv_to_en	swl	Leave the clutch.	I see.
+22037_en	bfi	Leave the clutch.	It is a sharp pain.
+22042_zh_to_en	csl	My brakes failed.	I've burnt my fingers.
+22042_uk_to_en	ukl	My brakes failed.	What is the date today?
+22042_ru_to_en	rsl	My brakes failed.	He is bleeding.
+22042_bg_to_en	bqn	My brakes failed.	The station is within walking distance.
+22042_is_to_en	icl	My brakes failed.	What's the name of this street?
+22042_de_to_en	gsg	My brakes failed.	You have tonsillitis.
+22042_it_to_en	ise	My brakes failed.	It is a sharp pain.
+22042_sv_to_en	swl	My brakes failed.	Is there any discount for students?
+22042_lt_to_en	lls	My brakes failed.	He is bleeding.
+22042_en	bfi	My brakes failed.	I have cramps.
+22045_zh_to_en	csl	No appointments today.	It's an emergency.
+22045_uk_to_en	ukl	No appointments today.	You should go to the doctor.
+22045_ru_to_en	rsl	No appointments today.	Is there any discount for students?
+22045_bg_to_en	bqn	No appointments today.	Do you wear any other glasses?
+22045_is_to_en	icl	No appointments today.	What is the weather like?
+22045_de_to_en	gsg	No appointments today.	I have finished a university.
+22045_it_to_en	ise	No appointments today.	Is it a direct train?
+22045_sv_to_en	swl	No appointments today.	The booking tickets office is closed.
+22045_en	bfi	No appointments today.	Parking is free here.
+22048_zh_to_en	csl	Press down the clutch.	The driver drove away.
+22048_uk_to_en	ukl	Press down the clutch.	What a nonsense!
+22048_ru_to_en	rsl	Press down the clutch.	It's itching.
+22048_bg_to_en	bqn	Press down the clutch.	My favourite hobby is playing soccer.
+22048_de_to_en	gsg	Press down the clutch.	It's an emergency.
+22048_it_to_en	ise	Press down the clutch.	I had to pay a parking fine.
+22048_sv_to_en	swl	Press down the clutch.	What is the temperature?
+22048_lt_to_en	lls	Press down the clutch.	The booking tickets office is closed.
+22048_en	bfi	Press down the clutch.	Not worth it.
+22094_zh_to_en	csl	Where can I get tickets, please?	Where can I go fishing?
+22094_uk_to_en	ukl	Where can I get tickets, please?	What's the best way to the station?
+22094_ru_to_en	rsl	Where can I get tickets, please?	How long does the train stop here?
+22094_bg_to_en	bqn	Where can I get tickets, please?	What is the church's phone number?
+22094_is_to_en	icl	Where can I get tickets, please?	Do all the rooms have air-conditioning?
+22094_de_to_en	gsg	Where can I get tickets, please?	Where can I find a job centre?
+22094_it_to_en	ise	Where can I get tickets, please?	Where can I go fishing?
+22094_sv_to_en	swl	Where can I get tickets, please?	How much is a ticket to _____?
+22094_lt_to_en	lls	Where can I get tickets, please?	Where can I go fishing?
+22094_en	bfi	Where can I get tickets, please?	Where is a waiting room?
+22096_zh_to_en	csl	Where is a letter-box?	What's the best way to the station?
+22096_uk_to_en	ukl	Where is a letter-box?	Where is a waiting room?
+22096_ru_to_en	rsl	Where is a letter-box?	Where is a waiting room?
+22096_bg_to_en	bqn	Where is a letter-box?	Where is the post office?
+22096_is_to_en	icl	Where is a letter-box?	What's the name of this street?
+22096_it_to_en	ise	Where is a letter-box?	Do you know basic first aid?
+22096_sv_to_en	swl	Where is a letter-box?	Where is the nearest bus stop?
+22096_lt_to_en	lls	Where is a letter-box?	Where is the station?
+22096_en	bfi	Where is a letter-box?	Excuse me, could you tell me the way to the station, please?
+22099_zh_to_en	csl	Where is an exchange office?	Where is the station?
+22099_uk_to_en	ukl	Where is an exchange office?	When do you serve breakfast?
+22099_ru_to_en	rsl	Where is an exchange office?	Where is a locker?
+22099_bg_to_en	bqn	Where is an exchange office?	Where is the post office?
+22099_is_to_en	icl	Where is an exchange office?	Where is the station?
+22099_de_to_en	gsg	Where is an exchange office?	Where is the station?
+22099_it_to_en	ise	Where is an exchange office?	Who do you want to talk to?
+22099_sv_to_en	swl	Where is an exchange office?	Where is the nearest bus stop?
+22099_lt_to_en	lls	Where is an exchange office?	The booking tickets office is closed.
+22099_en	bfi	Where is an exchange office?	What's the name of this street?
+22100_zh_to_en	csl	Where is the main post offfice?	Where is the nearest bus stop?
+22100_uk_to_en	ukl	Where is the main post offfice?	Where is the nearest bus stop?
+22100_ru_to_en	rsl	Where is the main post offfice?	Where is the station?
+22100_bg_to_en	bqn	Where is the main post offfice?	Where is the restroom?
+22100_is_to_en	icl	Where is the main post offfice?	How long does the train stop here?
+22100_de_to_en	gsg	Where is the main post offfice?	Where is the station?
+22100_it_to_en	ise	Where is the main post offfice?	Where can I find a job centre?
+22100_sv_to_en	swl	Where is the main post offfice?	Where is the tourist information office?
+22100_lt_to_en	lls	Where is the main post offfice?	Where is a waiting room?
+22100_en	bfi	Where is the main post offfice?	Where is a waiting room?
+22102_zh_to_en	csl	Where is the restaurant car?	Where is a waiting room?
+22102_uk_to_en	ukl	Where is the restaurant car?	Where is the station?
+22102_ru_to_en	rsl	Where is the restaurant car?	Where is the nearest bus stop?
+22102_bg_to_en	bqn	Where is the restaurant car?	Where is the restroom?
+22102_is_to_en	icl	Where is the restaurant car?	Where is the nearest bus stop?
+22102_de_to_en	gsg	Where is the restaurant car?	What's the best way to the station?
+22102_it_to_en	ise	Where is the restaurant car?	Could you recommend me a good general pracitioner?
+22102_sv_to_en	swl	Where is the restaurant car?	Where is the station?
+22102_lt_to_en	lls	Where is the restaurant car?	The booking tickets office is closed.
+22102_en	bfi	Where is the restaurant car?	When the weather is bad, I read books or watch TV.
+22107_zh_to_en	csl	Would you fill in this form, please?	He was injured in a car accident.
+22107_uk_to_en	ukl	Would you fill in this form, please?	Could you give me an advice?
+22107_ru_to_en	rsl	Would you fill in this form, please?	Lovely day today, isn't it?
+22107_bg_to_en	bqn	Would you fill in this form, please?	You look good!
+22107_is_to_en	icl	Would you fill in this form, please?	Could you give me an advice?
+22107_de_to_en	gsg	Would you fill in this form, please?	What's the best way to the station?
+22107_it_to_en	ise	Would you fill in this form, please?	You have tonsillitis.
+22107_sv_to_en	swl	Would you fill in this form, please?	What are you going to order?
+22107_lt_to_en	lls	Would you fill in this form, please?	Is there any discount for students?
+22107_en	bfi	Would you fill in this form, please?	You have tonsillitis.
+22108_zh_to_en	csl	You don't look well.	I have something in my eye.
+22108_uk_to_en	ukl	You don't look well.	You are long-sighted.
+22108_ru_to_en	rsl	You don't look well.	Is there any discount for students?
+22108_bg_to_en	bqn	You don't look well.	Don't touch me!
+22108_is_to_en	icl	You don't look well.	What was I saying?
+22108_de_to_en	gsg	You don't look well.	Do you have a safe?
+22108_it_to_en	ise	You don't look well.	What do you want?
+22108_sv_to_en	swl	You don't look well.	You must follow a diet.
+22108_lt_to_en	lls	You don't look well.	What is the date today?
+22108_en	bfi	You don't look well.	You have the flu.
+22212_zh_to_en	csl	Check the pulse.	He is bleeding.
+22212_uk_to_en	ukl	Check the pulse.	Could you give me an advice?
+22212_ru_to_en	rsl	Check the pulse.	Turn left.
+22212_bg_to_en	bqn	Check the pulse.	I have not seen you in a long time.
+22212_is_to_en	icl	Check the pulse.	He was injured in a car accident.
+22212_de_to_en	gsg	Check the pulse.	It's cheap.
+22212_it_to_en	ise	Check the pulse.	What's the matter?
+22212_sv_to_en	swl	Check the pulse.	Thank you.
+22212_lt_to_en	lls	Check the pulse.	all rights reserved
+22212_en	bfi	Check the pulse.	He is bleeding.
+22360_zh_to_en	csl	He has a first degree burn.	He was injured in a car accident.
+22360_uk_to_en	ukl	He has a first degree burn.	I am colour-blind.
+22360_ru_to_en	rsl	He has a first degree burn.	He was injured in a car accident.
+22360_bg_to_en	bqn	He has a first degree burn.	You have tonsillitis.
+22360_is_to_en	icl	He has a first degree burn.	Could you give me a plastic bag, please?
+22360_it_to_en	ise	He has a first degree burn.	With or without pickles?
+22360_sv_to_en	swl	He has a first degree burn.	He was injured in a car accident.
+22360_lt_to_en	lls	He has a first degree burn.	He has an internal injury.
+22360_en	bfi	He has a first degree burn.	You have pneumonia.
+22372_zh_to_en	csl	Help me stop the bleeding.	He has an internal injury.
+22372_uk_to_en	ukl	Help me stop the bleeding.	I am colour-blind.
+22372_ru_to_en	rsl	Help me stop the bleeding.	The driver drove away.
+22372_bg_to_en	bqn	Help me stop the bleeding.	Do you have a nickel?
+22372_de_to_en	gsg	Help me stop the bleeding.	What's the best way to the station?
+22372_it_to_en	ise	Help me stop the bleeding.	How long do you want to stay here?
+22372_sv_to_en	swl	Help me stop the bleeding.	When does school start?
+22372_lt_to_en	lls	Help me stop the bleeding.	He was injured in a car accident.
+22372_en	bfi	Help me stop the bleeding.	Could you give me an advice?
+22399_zh_to_en	csl	I caught a cold.	I don't feel like eating.
+22399_uk_to_en	ukl	I caught a cold.	I feel weak.
+22399_ru_to_en	rsl	I caught a cold.	I don't care.
+22399_bg_to_en	bqn	I caught a cold.	You must not interrupt.
+22399_is_to_en	icl	I caught a cold.	I can't see well at a distance.
+22399_de_to_en	gsg	I caught a cold.	I have something in my eye.
+22399_it_to_en	ise	I caught a cold.	I have caught a cold.
+22399_sv_to_en	swl	I caught a cold.	I have something in my eye.
+22399_lt_to_en	lls	I caught a cold.	I don't care.
+22399_en	bfi	I caught a cold.	I wear contact lenses.
+22400_zh_to_en	csl	I have a bleeding nose.	He is unconscious.
+22400_uk_to_en	ukl	I have a bleeding nose.	I don't feel like eating.
+22400_ru_to_en	rsl	I have a bleeding nose.	I don't care.
+22400_bg_to_en	bqn	I have a bleeding nose.	You must follow a diet.
+22400_is_to_en	icl	I have a bleeding nose.	I can't see well at a distance.
+22400_de_to_en	gsg	I have a bleeding nose.	I have something in my eye.
+22400_it_to_en	ise	I have a bleeding nose.	I don't care.
+22400_sv_to_en	swl	I have a bleeding nose.	I have something in my eye.
+22400_lt_to_en	lls	I have a bleeding nose.	I wear contact lenses.
+22400_en	bfi	I have a bleeding nose.	I think my glasses are weak.
+22407_zh_to_en	csl	I have an indigestion.	I have finished a university.
+22407_uk_to_en	ukl	I have an indigestion.	I gave notice.
+22407_ru_to_en	rsl	I have an indigestion.	I have cramps.
+22407_bg_to_en	bqn	I have an indigestion.	I need a specimen of your blood.
+22407_is_to_en	icl	I have an indigestion.	I have finished a university.
+22407_de_to_en	gsg	I have an indigestion.	I am colour-blind.
+22407_it_to_en	ise	I have an indigestion.	I have cramps.
+22407_sv_to_en	swl	I have an indigestion.	I think there is a mistake in the bill.
+22407_lt_to_en	lls	I have an indigestion.	I have finished a university.
+22407_en	bfi	I have an indigestion.	I have cramps.
+22425_zh_to_en	csl	Is this first time you've had this?	Could you give me an advice?
+22425_uk_to_en	ukl	Is this first time you've had this?	Is there any discount for students?
+22425_ru_to_en	rsl	Is this first time you've had this?	Are you feeling better?
+22425_bg_to_en	bqn	Is this first time you've had this?	What is the weather like?
+22425_is_to_en	icl	Is this first time you've had this?	Could you give me an advice?
+22425_de_to_en	gsg	Is this first time you've had this?	Is there anything else I can do for you?
+22425_it_to_en	ise	Is this first time you've had this?	Are you sure you wouldn't like to come in?
+22425_sv_to_en	swl	Is this first time you've had this?	Is there a children's menu?
+22425_lt_to_en	lls	Is this first time you've had this?	What is happening?
+22425_en	bfi	Is this first time you've had this?	He is bleeding.
+22440_zh_to_en	csl	I've got a headcache.	I have finished a university.
+22440_uk_to_en	ukl	I've got a headcache.	I'd like to send money.
+22440_ru_to_en	rsl	I've got a headcache.	I wear contact lenses.
+22440_bg_to_en	bqn	I've got a headcache.	I want this.
+22440_is_to_en	icl	I've got a headcache.	I wear contact lenses.
+22440_de_to_en	gsg	I've got a headcache.	Could you give me an advice?
+22440_it_to_en	ise	I've got a headcache.	I don't care.
+22440_sv_to_en	swl	I've got a headcache.	I have already been there.
+22440_en	bfi	I've got a headcache.	I have already been there.
+22638_zh_to_en	csl	Please, undress down to the waist.	I've got a stabbing pain in my hip.
+22638_uk_to_en	ukl	Please, undress down to the waist.	You must follow a diet.
+22638_ru_to_en	rsl	Please, undress down to the waist.	Could you give me an advice?
+22638_bg_to_en	bqn	Please, undress down to the waist.	Please help me.
+22638_de_to_en	gsg	Please, undress down to the waist.	You should go to the doctor.
+22638_it_to_en	ise	Please, undress down to the waist.	The flight has been delayed an hour.
+22638_sv_to_en	swl	Please, undress down to the waist.	Where is the theatre?
+22638_lt_to_en	lls	Please, undress down to the waist.	It's itching.
+22638_en	bfi	Please, undress down to the waist.	Can I offer you anything to drink?
+22791_zh_to_en	csl	Stick your tongue out.	Who do you want to talk to?
+22791_uk_to_en	ukl	Stick your tongue out.	What do you think?
+22791_ru_to_en	rsl	Stick your tongue out.	What do you like?
+22791_bg_to_en	bqn	Stick your tongue out.	Is there any discount for students?
+22791_is_to_en	icl	Stick your tongue out.	Not worth it.
+22791_de_to_en	gsg	Stick your tongue out.	You have tonsillitis.
+22791_it_to_en	ise	Stick your tongue out.	I see.
+22791_sv_to_en	swl	Stick your tongue out.	Farewell!
+22791_en	bfi	Stick your tongue out.	Don't touch.
+22886_zh_to_en	csl	What's troubling you?	What do you like?
+22886_uk_to_en	ukl	What's troubling you?	What do you like?
+22886_ru_to_en	rsl	What's troubling you?	I don't mind.
+22886_bg_to_en	bqn	What's troubling you?	What is the weather like?
+22886_is_to_en	icl	What's troubling you?	What's your personal number?
+22886_de_to_en	gsg	What's troubling you?	What do you like?
+22886_it_to_en	ise	What's troubling you?	What do you like?
+22886_sv_to_en	swl	What's troubling you?	What are you looking for?
+22886_en	bfi	What's troubling you?	What is the weather like?
+22910_zh_to_en	csl	You mustn't eat anything.	He was injured in a car accident.
+22910_uk_to_en	ukl	You mustn't eat anything.	You are too young.
+22910_ru_to_en	rsl	You mustn't eat anything.	When we are on holidays I like walking in the mountains.
+22910_bg_to_en	bqn	You mustn't eat anything.	I have been waiting for 20 minutes.
+22910_is_to_en	icl	You mustn't eat anything.	Who do you want to talk to?
+22910_de_to_en	gsg	You mustn't eat anything.	You have pneumonia.
+22910_it_to_en	ise	You mustn't eat anything.	You have tonsillitis.
+22910_sv_to_en	swl	You mustn't eat anything.	How long are you going to stay here?
+22910_lt_to_en	lls	You mustn't eat anything.	The booking tickets office is closed.
+22910_en	bfi	You mustn't eat anything.	You must follow a diet.
+23032_zh_to_en	csl	Can I use your phone?	Can you wake me at 7 AM?
+23032_uk_to_en	ukl	Can I use your phone?	Can I offer you anything to drink?
+23032_ru_to_en	rsl	Can I use your phone?	I can't see well at a distance.
+23032_bg_to_en	bqn	Can I use your phone?	How can I help you?
+23032_is_to_en	icl	Can I use your phone?	Can you show me the route on the map?
+23032_de_to_en	gsg	Can I use your phone?	How would you like to pay?
+23032_it_to_en	ise	Can I use your phone?	Could you do me a favour?
+23032_sv_to_en	swl	Can I use your phone?	Do you want a return tickets?
+23032_lt_to_en	lls	Can I use your phone?	Can I offer you anything to drink?
+23032_en	bfi	Can I use your phone?	Do you wear any other glasses?
+23034_zh_to_en	csl	Can you suggest another hotel?	Where is the nearest bus stop?
+23034_uk_to_en	ukl	Can you suggest another hotel?	Is there any discount for students?
+23034_ru_to_en	rsl	Can you suggest another hotel?	Do you know basic first aid?
+23034_bg_to_en	bqn	Can you suggest another hotel?	Please tell me.
+23034_is_to_en	icl	Can you suggest another hotel?	What's the best way to the station?
+23034_de_to_en	gsg	Can you suggest another hotel?	Could you send here a car mechanic?
+23034_it_to_en	ise	Can you suggest another hotel?	Could you give me an advice?
+23034_sv_to_en	swl	Can you suggest another hotel?	Can you show me on the map?
+23034_lt_to_en	lls	Can you suggest another hotel?	Can you show me the route on the map?
+23034_en	bfi	Can you suggest another hotel?	Do you wear any other glasses?
+23065_zh_to_en	csl	Do you have any rooms available?	How long does the train stop here?
+23065_uk_to_en	ukl	Do you have any rooms available?	Are you feeling better?
+23065_ru_to_en	rsl	Do you have any rooms available?	Do you have a safe?
+23065_bg_to_en	bqn	Do you have any rooms available?	He is bleeding.
+23065_is_to_en	icl	Do you have any rooms available?	What's the name of this street?
+23065_de_to_en	gsg	Do you have any rooms available?	Is there any discount for students?
+23065_it_to_en	ise	Do you have any rooms available?	You have tonsillitis.
+23065_sv_to_en	swl	Do you have any rooms available?	Do you have any dirty clothes?
+23065_lt_to_en	lls	Do you have any rooms available?	Have you got anything cheaper?
+23065_en	bfi	Do you have any rooms available?	Do you wear any other glasses?
+23080_zh_to_en	csl	Excuse me, I'm looking for the town hall.	When the weather is bad, I read books or watch TV.
+23080_uk_to_en	ukl	Excuse me, I'm looking for the town hall.	We got lost in the desert.
+23080_ru_to_en	rsl	Excuse me, I'm looking for the town hall.	Excuse me, could you tell me the way to the station, please?
+23080_bg_to_en	bqn	Excuse me, I'm looking for the town hall.	Is there a youth group?
+23080_is_to_en	icl	Excuse me, I'm looking for the town hall.	Can you show me the route on the map?
+23080_it_to_en	ise	Excuse me, I'm looking for the town hall.	When the weather is bad, I read books or watch TV.
+23080_sv_to_en	swl	Excuse me, I'm looking for the town hall.	What kind of car have you got?
+23080_lt_to_en	lls	Excuse me, I'm looking for the town hall.	Could you give me a plastic bag, please?
+23080_en	bfi	Excuse me, I'm looking for the town hall.	Do you know basic first aid?
+23105_zh_to_en	csl	He didn't get to the next round.	You should go to the doctor.
+23105_uk_to_en	ukl	He didn't get to the next round.	It is good for us.
+23105_ru_to_en	rsl	He didn't get to the next round.	He is bleeding.
+23105_bg_to_en	bqn	He didn't get to the next round.	He has an internal injury.
+23105_is_to_en	icl	He didn't get to the next round.	He was injured in a car accident.
+23105_de_to_en	gsg	He didn't get to the next round.	How much is a ticket to _____?
+23105_it_to_en	ise	He didn't get to the next round.	What is the date today?
+23105_sv_to_en	swl	He didn't get to the next round.	He is an idiot.
+23105_lt_to_en	lls	He didn't get to the next round.	He is bleeding.
+23105_en	bfi	He didn't get to the next round.	He is bleeding.
+23107_zh_to_en	csl	Hello, can I help you?	Could you give me an advice?
+23107_uk_to_en	ukl	Hello, can I help you?	How would you like to pay?
+23107_ru_to_en	rsl	Hello, can I help you?	Is there any discount for students?
+23107_bg_to_en	bqn	Hello, can I help you?	Is there a children's menu?
+23107_is_to_en	icl	Hello, can I help you?	Do you wear any other glasses?
+23107_it_to_en	ise	Hello, can I help you?	May I offer you a drink?
+23107_sv_to_en	swl	Hello, can I help you?	Could you give me an advice?
+23107_lt_to_en	lls	Hello, can I help you?	Are you feeling better?
+23107_en	bfi	Hello, can I help you?	How did it happen?
+23114_uk_to_en	ukl	How much does it cost to get to the airport?	Do you want a return tickets?
+23114_ru_to_en	rsl	How much does it cost to get to the airport?	How long does the train stop here?
+23114_bg_to_en	bqn	How much does it cost to get to the airport?	What is the weather like?
+23114_is_to_en	icl	How much does it cost to get to the airport?	Where is the nearest bus stop?
+23114_de_to_en	gsg	How much does it cost to get to the airport?	How would you like to pay?
+23114_it_to_en	ise	How much does it cost to get to the airport?	What's the best way to the station?
+23114_sv_to_en	swl	How much does it cost to get to the airport?	How much is a ticket to _____?
+23114_lt_to_en	lls	How much does it cost to get to the airport?	How long does the train stop here?
+23114_en	bfi	How much does it cost to get to the airport?	How long does the train stop here?
+23120_zh_to_en	csl	I do a paper route to earn a little money.	I've got a stabbing pain in my hip.
+23120_uk_to_en	ukl	I do a paper route to earn a little money.	You should go to the doctor.
+23120_ru_to_en	rsl	I do a paper route to earn a little money.	I had a physical last week.
+23120_de_to_en	gsg	I do a paper route to earn a little money.	How long does the train stop here?
+23120_it_to_en	ise	I do a paper route to earn a little money.	The station is within walking distance.
+23120_sv_to_en	swl	I do a paper route to earn a little money.	I go training every evening.
+23120_lt_to_en	lls	I do a paper route to earn a little money.	I tried to stop smoking several times.
+23120_en	bfi	I do a paper route to earn a little money.	I think there is a mistake in the bill.
+23121_zh_to_en	csl	I don't understand.	I see.
+23121_uk_to_en	ukl	I don't understand.	I don't feel like eating.
+23121_bg_to_en	bqn	I don't understand.	I want this.
+23121_is_to_en	icl	I don't understand.	What a shame!
+23121_de_to_en	gsg	I don't understand.	Are you thirsty?
+23121_it_to_en	ise	I don't understand.	I don't care.
+23121_sv_to_en	swl	I don't understand.	I want to brush my teeth.
+23121_lt_to_en	lls	I don't understand.	You have the flu.
+23121_en	bfi	I don't understand.	I wear contact lenses.
+23124_zh_to_en	csl	I got a new computer for my birthday.	My mother works as a clerk in an office.
+23124_uk_to_en	ukl	I got a new computer for my birthday.	I came into collison with a car which was going in the opposite direction.
+23124_ru_to_en	rsl	I got a new computer for my birthday.	I came into collison with a car which was going in the opposite direction.
+23124_bg_to_en	bqn	I got a new computer for my birthday.	My wife is in the hospital.
+23124_is_to_en	icl	I got a new computer for my birthday.	I have something in my eye.
+23124_de_to_en	gsg	I got a new computer for my birthday.	He was injured in a car accident.
+23124_it_to_en	ise	I got a new computer for my birthday.	One of my hobbies is writing letters to my pen-friends.
+23124_sv_to_en	swl	I got a new computer for my birthday.	I have to go to the doctor.
+23124_lt_to_en	lls	I got a new computer for my birthday.	He was injured in a car accident.
+23124_en	bfi	I got a new computer for my birthday.	I have finished a university.
+23125_zh_to_en	csl	I like listening to pop music.	This woman is unconscious.
+23125_uk_to_en	ukl	I like listening to pop music.	I need a specimen of your blood.
+23125_ru_to_en	rsl	I like listening to pop music.	I think there is a mistake in the bill.
+23125_bg_to_en	bqn	I like listening to pop music.	You are long-sighted.
+23125_is_to_en	icl	I like listening to pop music.	He was injured in a car accident.
+23125_de_to_en	gsg	I like listening to pop music.	I'd like to go for a hike in the mountains.
+23125_it_to_en	ise	I like listening to pop music.	When the weather is bad, I read books or watch TV.
+23125_sv_to_en	swl	I like listening to pop music.	I got a 'D' on my paper.
+23125_en	bfi	I like listening to pop music.	I think there is a mistake in the bill.
+23126_zh_to_en	csl	I like visiting friends and talking about this and that.	I go training every evening.
+23126_uk_to_en	ukl	I like visiting friends and talking about this and that.	I think there is a mistake in the bill.
+23126_ru_to_en	rsl	I like visiting friends and talking about this and that.	I wear contact lenses.
+23126_bg_to_en	bqn	I like visiting friends and talking about this and that.	Do you have a safe?
+23126_is_to_en	icl	I like visiting friends and talking about this and that.	When we are on holidays I like walking in the mountains.
+23126_de_to_en	gsg	I like visiting friends and talking about this and that.	I came into collison with a car which was going in the opposite direction.
+23126_sv_to_en	swl	I like visiting friends and talking about this and that.	I bought a new house two years ago.
+23126_lt_to_en	lls	I like visiting friends and talking about this and that.	First of all, I have to examine your eyes.
+23126_en	bfi	I like visiting friends and talking about this and that.	First of all, I have to examine your eyes.
+23131_zh_to_en	csl	I want to check out.	I am ill.
+23131_uk_to_en	ukl	I want to check out.	I am sorry to bother you.
+23131_ru_to_en	rsl	I want to check out.	I lost my bag.
+23131_bg_to_en	bqn	I want to check out.	I want a medium milk.
+23131_it_to_en	ise	I want to check out.	You are too young.
+23131_sv_to_en	swl	I want to check out.	I would like a room for one night.
+23131_lt_to_en	lls	I want to check out.	You have tonsillitis.
+23131_en	bfi	I want to check out.	I have finished a university.
+23137_zh_to_en	csl	I'm fine, thanks.	I don't care.
+23137_uk_to_en	ukl	I'm fine, thanks.	He looks mean.
+23137_ru_to_en	rsl	I'm fine, thanks.	I can't see.
+23137_bg_to_en	bqn	I'm fine, thanks.	Is it important?
+23137_is_to_en	icl	I'm fine, thanks.	I can't see well at a distance.
+23137_de_to_en	gsg	I'm fine, thanks.	You have tonsillitis.
+23137_it_to_en	ise	I'm fine, thanks.	I appreciate your help.
+23137_sv_to_en	swl	I'm fine, thanks.	Thank you.
+23137_lt_to_en	lls	I'm fine, thanks.	I think my glasses are weak.
+23137_en	bfi	I'm fine, thanks.	I wear contact lenses.
+23138_uk_to_en	ukl	I'm interested in punk.	I'd like to go for a hike in the mountains.
+23138_ru_to_en	rsl	I'm interested in punk.	How long do you want to stay here?
+23138_bg_to_en	bqn	I'm interested in punk.	I have been waiting for 20 minutes.
+23138_is_to_en	icl	I'm interested in punk.	I don't care.
+23138_de_to_en	gsg	I'm interested in punk.	When we are on holidays I like walking in the mountains.
+23138_it_to_en	ise	I'm interested in punk.	Could you give me a plastic bag, please?
+23138_sv_to_en	swl	I'm interested in punk.	I need to go to the bank.
+23138_lt_to_en	lls	I'm interested in punk.	I can not sleep.
+23138_en	bfi	I'm interested in punk.	I have finished a university.
+23139_zh_to_en	csl	I'm lost.	I don't feel like eating.
+23139_uk_to_en	ukl	I'm lost.	I have finished a university.
+23139_ru_to_en	rsl	I'm lost.	I have finished a university.
+23139_bg_to_en	bqn	I'm lost.	I don't mind.
+23139_is_to_en	icl	I'm lost.	I am sorry.
+23139_de_to_en	gsg	I'm lost.	Could you do me a favour?
+23139_it_to_en	ise	I'm lost.	It was my pleasure.
+23139_sv_to_en	swl	I'm lost.	I am a bit hoarse.
+23139_en	bfi	I'm lost.	I can't move my hand.
+23140_zh_to_en	csl	I'm sick.	I have cramps.
+23140_uk_to_en	ukl	I'm sick.	I don't mind.
+23140_ru_to_en	rsl	I'm sick.	I am only a beginner.
+23140_bg_to_en	bqn	I'm sick.	He has two graduate degrees.
+23140_is_to_en	icl	I'm sick.	I am ill.
+23140_de_to_en	gsg	I'm sick.	I am a bit hoarse.
+23140_it_to_en	ise	I'm sick.	I am ill.
+23140_sv_to_en	swl	I'm sick.	I have to go to the doctor.
+23140_en	bfi	I'm sick.	I see.
+23141_zh_to_en	csl	I've been injured.	I don't care.
+23141_uk_to_en	ukl	I've been injured.	I was stung by a bee.
+23141_ru_to_en	rsl	I've been injured.	I don't mind.
+23141_bg_to_en	bqn	I've been injured.	I feel weak.
+23141_is_to_en	icl	I've been injured.	I came into collison with a car which was going in the opposite direction.
+23141_de_to_en	gsg	I've been injured.	I don't mind.
+23141_sv_to_en	swl	I've been injured.	I have cramps.
+23141_lt_to_en	lls	I've been injured.	I don't care.
+23141_en	bfi	I've been injured.	I have something in my eye.
+23154_zh_to_en	csl	Is it far from the school to the station?	Where is a locker?
+23154_uk_to_en	ukl	Is it far from the school to the station?	Can you show me the route on the map?
+23154_ru_to_en	rsl	Is it far from the school to the station?	He is bleeding.
+23154_bg_to_en	bqn	Is it far from the school to the station?	Don't worry.
+23154_is_to_en	icl	Is it far from the school to the station?	Where is a locker?
+23154_de_to_en	gsg	Is it far from the school to the station?	How would you like to pay?
+23154_sv_to_en	swl	Is it far from the school to the station?	Can you show me the route on the map?
+23154_lt_to_en	lls	Is it far from the school to the station?	Can you show me the route on the map?
+23154_en	bfi	Is it far from the school to the station?	He was injured in a car accident.
+23175_zh_to_en	csl	Many thanks.	Not worth it.
+23175_uk_to_en	ukl	Many thanks.	I'd like to send money.
+23175_ru_to_en	rsl	Many thanks.	You have tonsillitis.
+23175_bg_to_en	bqn	Many thanks.	Where is the post office?
+23175_is_to_en	icl	Many thanks.	The booking tickets office is closed.
+23175_it_to_en	ise	Many thanks.	Not too bad.
+23175_sv_to_en	swl	Many thanks.	Who?
+23175_lt_to_en	lls	Many thanks.	He is bleeding.
+23175_en	bfi	Many thanks.	Not too bad.
+23343_zh_to_en	csl	My friend and I do lots of puzzles.	The station is within walking distance.
+23343_uk_to_en	ukl	My friend and I do lots of puzzles.	He was injured in a car accident.
+23343_ru_to_en	rsl	My friend and I do lots of puzzles.	I pick up my son from the kindergarten.
+23343_bg_to_en	bqn	My friend and I do lots of puzzles.	I like to complete my work early.
+23343_is_to_en	icl	My friend and I do lots of puzzles.	He was injured in a car accident.
+23343_it_to_en	ise	My friend and I do lots of puzzles.	My mother works as a clerk in an office.
+23343_sv_to_en	swl	My friend and I do lots of puzzles.	Joan doesn't understand French sign language.
+23343_lt_to_en	lls	My friend and I do lots of puzzles.	Excuse me, could you help me lift up my luggage on the rack?
+23343_en	bfi	My friend and I do lots of puzzles.	He likes cycling.
+23366_zh_to_en	csl	On Saturdays I have to cook for the family.	My mother works as a clerk in an office.
+23366_uk_to_en	ukl	On Saturdays I have to cook for the family.	When the weather is bad, I read books or watch TV.
+23366_ru_to_en	rsl	On Saturdays I have to cook for the family.	Could you give me an advice?
+23366_bg_to_en	bqn	On Saturdays I have to cook for the family.	I can't move my hand.
+23366_is_to_en	icl	On Saturdays I have to cook for the family.	The station is within walking distance.
+23366_de_to_en	gsg	On Saturdays I have to cook for the family.	When we are on holidays I like walking in the mountains.
+23366_sv_to_en	swl	On Saturdays I have to cook for the family.	With or without onions?
+23366_lt_to_en	lls	On Saturdays I have to cook for the family.	Do all the rooms have air-conditioning?
+23366_en	bfi	On Saturdays I have to cook for the family.	He likes cycling.
+23394_zh_to_en	csl	Playing football is fun.	He is bleeding.
+23394_uk_to_en	ukl	Playing football is fun.	I'd like to go for a hike in the mountains.
+23394_ru_to_en	rsl	Playing football is fun.	What a nonsense!
+23394_bg_to_en	bqn	Playing football is fun.	How much is a ticket to _____?
+23394_is_to_en	icl	Playing football is fun.	My mother works as a clerk in an office.
+23394_de_to_en	gsg	Playing football is fun.	When we are full up.
+23394_sv_to_en	swl	Playing football is fun.	Where can I go fishing?
+23394_lt_to_en	lls	Playing football is fun.	He is bleeding.
+23394_en	bfi	Playing football is fun.	It's an emergency.
+23678_zh_to_en	csl	She'd like to go skateboarding.	He is bleeding.
+23678_uk_to_en	ukl	She'd like to go skateboarding.	May I see the room first?
+23678_ru_to_en	rsl	She'd like to go skateboarding.	Could you give me an advice?
+23678_bg_to_en	bqn	She'd like to go skateboarding.	I like chocolate.
+23678_de_to_en	gsg	She'd like to go skateboarding.	Do you have a safe?
+23678_it_to_en	ise	She'd like to go skateboarding.	I'd like to go for a hike in the mountains.
+23678_sv_to_en	swl	She'd like to go skateboarding.	This woman is unconscious.
+23678_lt_to_en	lls	She'd like to go skateboarding.	He is bleeding.
+23678_en	bfi	She'd like to go skateboarding.	May I turn the light on?
+23699_zh_to_en	csl	Sometimes I read so much that I forget the housework.	My mother works as a clerk in an office.
+23699_uk_to_en	ukl	Sometimes I read so much that I forget the housework.	When the weather is bad, I read books or watch TV.
+23699_ru_to_en	rsl	Sometimes I read so much that I forget the housework.	When the weather is bad, I read books or watch TV.
+23699_bg_to_en	bqn	Sometimes I read so much that I forget the housework.	It was my pleasure.
+23699_de_to_en	gsg	Sometimes I read so much that I forget the housework.	When the weather is bad, I read books or watch TV.
+23699_sv_to_en	swl	Sometimes I read so much that I forget the housework.	My eyes are itching.
+23699_lt_to_en	lls	Sometimes I read so much that I forget the housework.	I came into collison with a car which was going in the opposite direction.
+23699_en	bfi	Sometimes I read so much that I forget the housework.	When we are on holidays I like walking in the mountains.
+23701_zh_to_en	csl	Sorry, we're fully booked for tonight.	He is bleeding.
+23701_uk_to_en	ukl	Sorry, we're fully booked for tonight.	They played so well.
+23701_ru_to_en	rsl	Sorry, we're fully booked for tonight.	Could you give me a plastic bag, please?
+23701_bg_to_en	bqn	Sorry, we're fully booked for tonight.	You have tonsillitis.
+23701_is_to_en	icl	Sorry, we're fully booked for tonight.	Excuse me, could you tell me the way to the station, please?
+23701_de_to_en	gsg	Sorry, we're fully booked for tonight.	Help me clean the wound.
+23701_it_to_en	ise	Sorry, we're fully booked for tonight.	Could you give me an advice?
+23701_sv_to_en	swl	Sorry, we're fully booked for tonight.	You have tonsillitis.
+23701_en	bfi	Sorry, we're fully booked for tonight.	He was injured in a car accident.
+23746_zh_to_en	csl	Take me to the airport, please.	He was injured in a car accident.
+23746_uk_to_en	ukl	Take me to the airport, please.	Could you give me an advice?
+23746_ru_to_en	rsl	Take me to the airport, please.	When we are on holidays I like walking in the mountains.
+23746_bg_to_en	bqn	Take me to the airport, please.	My computer crashed.
+23746_is_to_en	icl	Take me to the airport, please.	You have pneumonia.
+23746_de_to_en	gsg	Take me to the airport, please.	What's the name of this street?
+23746_sv_to_en	swl	Take me to the airport, please.	Where is the nearest bus stop?
+23746_lt_to_en	lls	Take me to the airport, please.	I've burnt my fingers.
+23746_en	bfi	Take me to the airport, please.	I'd like to send money.
+23752_zh_to_en	csl	Thank you very much!	What do you want?
+23752_uk_to_en	ukl	Thank you very much!	Thank your grandparents.
+23752_ru_to_en	rsl	Thank you very much!	You should go to the doctor.
+23752_bg_to_en	bqn	Thank you very much!	I need a specimen of your blood.
+23752_is_to_en	icl	Thank you very much!	It is a burning pain.
+23752_it_to_en	ise	Thank you very much!	Not too bad.
+23752_sv_to_en	swl	Thank you very much!	Perhaps.
+23752_lt_to_en	lls	Thank you very much!	The driver drove away.
+23752_en	bfi	Thank you very much!	Not worth it.
+23807_zh_to_en	csl	We will see.	You are long-sighted.
+23807_uk_to_en	ukl	We will see.	What a nonsense!
+23807_ru_to_en	rsl	We will see.	Fine, thank you.
+23807_bg_to_en	bqn	We will see.	He always dresses nicely.
+23807_is_to_en	icl	We will see.	What a nonsense!
+23807_de_to_en	gsg	We will see.	You have the flu.
+23807_it_to_en	ise	We will see.	You have to have a shot.
+23807_sv_to_en	swl	We will see.	What is the date today?
+23807_lt_to_en	lls	We will see.	Thank you.
+23807_en	bfi	We will see.	I see.
+23810_zh_to_en	csl	What sport facilities can be found here?	How long does the train stop here?
+23810_uk_to_en	ukl	What sport facilities can be found here?	Where are there a lot of restaurants?
+23810_ru_to_en	rsl	What sport facilities can be found here?	What kind of car have you got?
+23810_bg_to_en	bqn	What sport facilities can be found here?	What is the weather like?
+23810_is_to_en	icl	What sport facilities can be found here?	Where is a locker?
+23810_de_to_en	gsg	What sport facilities can be found here?	How much is a ticket to _____?
+23810_sv_to_en	swl	What sport facilities can be found here?	Where is the station?
+23810_lt_to_en	lls	What sport facilities can be found here?	When the weather is bad, I read books or watch TV.
+23810_en	bfi	What sport facilities can be found here?	When do you serve breakfast?
+23814_zh_to_en	csl	What's the score?	What's the best way to the station?
+23814_uk_to_en	ukl	What's the score?	What's the name of this street?
+23814_ru_to_en	rsl	What's the score?	What is the weather like?
+23814_bg_to_en	bqn	What's the score?	How old were you when you became deaf?
+23814_is_to_en	icl	What's the score?	What's the name of this street?
+23814_de_to_en	gsg	What's the score?	What are you looking for?
+23814_sv_to_en	swl	What's the score?	What is the weather like?
+23814_lt_to_en	lls	What's the score?	How much is a ticket to _____?
+23814_en	bfi	What's the score?	What is the weather like?
+23817_zh_to_en	csl	When is the next lesson?	When do you serve breakfast?
+23817_uk_to_en	ukl	When is the next lesson?	When the weather is bad, I read books or watch TV.
+23817_ru_to_en	rsl	When is the next lesson?	How long do you want to stay here?
+23817_bg_to_en	bqn	When is the next lesson?	What is the church's address?
+23817_is_to_en	icl	When is the next lesson?	How long do you want to stay here?
+23817_de_to_en	gsg	When is the next lesson?	How would you like to pay?
+23817_it_to_en	ise	When is the next lesson?	What kind of car have you got?
+23817_sv_to_en	swl	When is the next lesson?	When does school start?
+23817_lt_to_en	lls	When is the next lesson?	When do you serve breakfast?
+23817_en	bfi	When is the next lesson?	You have tonsillitis.
+23825_zh_to_en	csl	Where is the next bus stop?	Where is the nearest bus stop?
+23825_uk_to_en	ukl	Where is the next bus stop?	Is there any discount for students?
+23825_ru_to_en	rsl	Where is the next bus stop?	Do you know basic first aid?
+23825_bg_to_en	bqn	Where is the next bus stop?	What is the weather like?
+23825_is_to_en	icl	Where is the next bus stop?	Where is a locker?
+23825_de_to_en	gsg	Where is the next bus stop?	Where is the station?
+23825_sv_to_en	swl	Where is the next bus stop?	What's the best way to the station?
+23825_en	bfi	Where is the next bus stop?	Where is a waiting room?
+23832_zh_to_en	csl	Would you like a room with a bath or a shower?	When we are on holidays I like walking in the mountains.
+23832_uk_to_en	ukl	Would you like a room with a bath or a shower?	Do all the rooms have air-conditioning?
+23832_ru_to_en	rsl	Would you like a room with a bath or a shower?	Where are there a lot of restaurants?
+23832_bg_to_en	bqn	Would you like a room with a bath or a shower?	I have a toothache.
+23832_is_to_en	icl	Would you like a room with a bath or a shower?	Do you know basic first aid?
+23832_de_to_en	gsg	Would you like a room with a bath or a shower?	Could you recommend me a good general pracitioner?
+23832_it_to_en	ise	Would you like a room with a bath or a shower?	When the weather is bad, I read books or watch TV.
+23832_sv_to_en	swl	Would you like a room with a bath or a shower?	Do you want a diet or a regular drink?
+23832_lt_to_en	lls	Would you like a room with a bath or a shower?	When we are on holidays I like walking in the mountains.
+23832_en	bfi	Would you like a room with a bath or a shower?	Do you know basic first aid?
+23835_zh_to_en	csl	You can't miss it.	It is a sharp pain.
+23835_uk_to_en	ukl	You can't miss it.	You must follow a diet.
+23835_ru_to_en	rsl	You can't miss it.	Why are you driving so fast?
+23835_bg_to_en	bqn	You can't miss it.	I have finished a university.
+23835_is_to_en	icl	You can't miss it.	When do you serve breakfast?
+23835_de_to_en	gsg	You can't miss it.	You have tonsillitis.
+23835_it_to_en	ise	You can't miss it.	It was my pleasure.
+23835_sv_to_en	swl	You can't miss it.	You have the flu.
+23835_en	bfi	You can't miss it.	You have tonsillitis.

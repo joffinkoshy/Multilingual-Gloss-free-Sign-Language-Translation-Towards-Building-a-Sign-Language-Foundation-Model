@@ -1,0 +1,68 @@
+{
+  "split": "test",
+  "checkpoint": "experiments/proposed/seed1/best.ckpt",
+  "best_epoch": 30,
+  "best_dev_bleu_during_training": 4.794423963536581,
+  "n": 2021,
+  "bleu": 2.4497642360604313,
+  "rouge_l": 17.625990958448234,
+  "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+  "per_language": {
+    "bfi": {
+      "n": 214,
+      "bleu": 2.6295689034747287,
+      "rouge_l": 20.388527927567278
+    },
+    "bqn": {
+      "n": 192,
+      "bleu": 1.261235600677185,
+      "rouge_l": 13.925316899267171
+    },
+    "csl": {
+      "n": 211,
+      "bleu": 2.226378999268209,
+      "rouge_l": 16.039718762562952
+    },
+    "gsg": {
+      "n": 185,
+      "bleu": 2.7414424328482543,
+      "rouge_l": 18.093229235644095
+    },
+    "icl": {
+      "n": 192,
+      "bleu": 3.023246673681926,
+      "rouge_l": 18.48557743318773
+    },
+    "ise": {
+      "n": 201,
+      "bleu": 1.8698480225558016,
+      "rouge_l": 17.47287690069909
+    },
+    "lls": {
+      "n": 194,
+      "bleu": 2.5010291868200323,
+      "rouge_l": 15.860155185495902
+    },
+    "rsl": {
+      "n": 211,
+      "bleu": 3.170545009063317,
+      "rouge_l": 18.729753959971262
+    },
+    "swl": {
+      "n": 212,
+      "bleu": 2.0268946256084615,
+      "rouge_l": 18.36702372145447
+    },
+    "ukl": {
+      "n": 209,
+      "bleu": 2.2006868027519344,
+      "rouge_l": 18.51558609411096
+    }
+  },
+  "trainable_params": 18559777,
+  "lid_frame_acc": 100.0,
+  "lid_utterance_acc": 98.91142998515586,
+  "lid_nonblank_frames": 24289,
+  "selfcond_gate": 0.12109868973493576,
+  "selfcond_params": 3585
+}

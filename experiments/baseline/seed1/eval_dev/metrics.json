@@ -1,0 +1,67 @@
+{
+  "split": "dev",
+  "decoding": "greedy",
+  "checkpoint": "experiments/baseline/seed1/best.ckpt",
+  "best_epoch": 44,
+  "best_dev_bleu_during_training": 4.993664421802826,
+  "n": 1420,
+  "bleu": 4.993664421802826,
+  "rouge_l": 18.772913066081117,
+  "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+  "per_language": {
+    "bfi": {
+      "n": 142,
+      "bleu": 6.248189034369874,
+      "rouge_l": 23.835526758061974
+    },
+    "bqn": {
+      "n": 142,
+      "bleu": 2.680447239461965,
+      "rouge_l": 13.877839687698843
+    },
+    "csl": {
+      "n": 142,
+      "bleu": 5.5553372300006405,
+      "rouge_l": 18.067797984947944
+    },
+    "gsg": {
+      "n": 142,
+      "bleu": 4.723184853196693,
+      "rouge_l": 17.573502911716403
+    },
+    "icl": {
+      "n": 142,
+      "bleu": 5.354544872024802,
+      "rouge_l": 20.130204877512252
+    },
+    "ise": {
+      "n": 142,
+      "bleu": 3.4127576410269618,
+      "rouge_l": 18.0949563355921
+    },
+    "lls": {
+      "n": 142,
+      "bleu": 5.5836689638775,
+      "rouge_l": 18.54521281177192
+    },
+    "rsl": {
+      "n": 142,
+      "bleu": 5.211294835352939,
+      "rouge_l": 18.00837305632702
+    },
+    "swl": {
+      "n": 142,
+      "bleu": 6.204374333493289,
+      "rouge_l": 20.175157393467252
+    },
+    "ukl": {
+      "n": 142,
+      "bleu": 4.011110057882934,
+      "rouge_l": 19.42055884371543
+    }
+  },
+  "trainable_params": 18556192,
+  "lid_frame_acc": 99.99342105263158,
+  "lid_utterance_acc": 98.66197183098592,
+  "lid_nonblank_frames": 15200
+}

@@ -1,0 +1,67 @@
+{
+  "split": "test",
+  "decoding": "greedy",
+  "checkpoint": "experiments/baseline/seed2/best.ckpt",
+  "best_epoch": 29,
+  "best_dev_bleu_during_training": 3.057385697032692,
+  "n": 2021,
+  "bleu": 2.6991109384470953,
+  "rouge_l": 15.324208164087574,
+  "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+  "per_language": {
+    "bfi": {
+      "n": 214,
+      "bleu": 2.7029501164940704,
+      "rouge_l": 16.519930536271207
+    },
+    "bqn": {
+      "n": 192,
+      "bleu": 1.7260277600746248,
+      "rouge_l": 12.577120506808008
+    },
+    "csl": {
+      "n": 211,
+      "bleu": 2.9283163481172836,
+      "rouge_l": 14.83339798336937
+    },
+    "gsg": {
+      "n": 185,
+      "bleu": 2.0878888784148932,
+      "rouge_l": 13.902549226078637
+    },
+    "icl": {
+      "n": 192,
+      "bleu": 2.7819521055901064,
+      "rouge_l": 15.695147184722456
+    },
+    "ise": {
+      "n": 201,
+      "bleu": 2.3341123097527934,
+      "rouge_l": 14.659806018453954
+    },
+    "lls": {
+      "n": 194,
+      "bleu": 2.961234141207127,
+      "rouge_l": 15.304968677586853
+    },
+    "rsl": {
+      "n": 211,
+      "bleu": 2.659855752579154,
+      "rouge_l": 16.476920280788047
+    },
+    "swl": {
+      "n": 212,
+      "bleu": 2.514009739361517,
+      "rouge_l": 15.97508199963805
+    },
+    "ukl": {
+      "n": 209,
+      "bleu": 3.773824305457933,
+      "rouge_l": 16.86953631788982
+    }
+  },
+  "trainable_params": 18556192,
+  "lid_frame_acc": 100.0,
+  "lid_utterance_acc": 88.27313211281543,
+  "lid_nonblank_frames": 16529
+}

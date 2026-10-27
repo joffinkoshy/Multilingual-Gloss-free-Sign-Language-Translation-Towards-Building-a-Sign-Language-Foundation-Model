@@ -1,0 +1,69 @@
+{
+  "split": "dev",
+  "decoding": "greedy",
+  "checkpoint": "experiments/proposed/seed1/best.ckpt",
+  "best_epoch": 30,
+  "best_dev_bleu_during_training": 4.794423963536581,
+  "n": 1420,
+  "bleu": 4.794423963536581,
+  "rouge_l": 19.985467221018467,
+  "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+  "per_language": {
+    "bfi": {
+      "n": 142,
+      "bleu": 6.683090432013705,
+      "rouge_l": 22.980183991118018
+    },
+    "bqn": {
+      "n": 142,
+      "bleu": 2.109203740205732,
+      "rouge_l": 16.078411370457765
+    },
+    "csl": {
+      "n": 142,
+      "bleu": 3.305039435203076,
+      "rouge_l": 19.202413755568596
+    },
+    "gsg": {
+      "n": 142,
+      "bleu": 4.561477073159589,
+      "rouge_l": 18.208602716320375
+    },
+    "icl": {
+      "n": 142,
+      "bleu": 6.452895900097381,
+      "rouge_l": 21.3855236066133
+    },
+    "ise": {
+      "n": 142,
+      "bleu": 4.90026018520323,
+      "rouge_l": 18.952029700895963
+    },
+    "lls": {
+      "n": 142,
+      "bleu": 5.209209509204572,
+      "rouge_l": 21.46065564207543
+    },
+    "rsl": {
+      "n": 142,
+      "bleu": 5.415261862688058,
+      "rouge_l": 19.91747976501294
+    },
+    "swl": {
+      "n": 142,
+      "bleu": 4.685018350459581,
+      "rouge_l": 20.91053427838846
+    },
+    "ukl": {
+      "n": 142,
+      "bleu": 3.878668465943988,
+      "rouge_l": 20.75883738373382
+    }
+  },
+  "trainable_params": 18559777,
+  "lid_frame_acc": 99.98818106606784,
+  "lid_utterance_acc": 99.22535211267606,
+  "lid_nonblank_frames": 16922,
+  "selfcond_gate": 0.12109868973493576,
+  "selfcond_params": 3585
+}

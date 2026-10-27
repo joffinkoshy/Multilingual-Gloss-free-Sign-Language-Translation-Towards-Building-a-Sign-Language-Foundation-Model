@@ -1,0 +1,111 @@
+task: many_to_one
+model:
+  variant: sign2_lid_text
+  d_model: 256
+  d_feat: 384
+  num_encoder_layers: 6
+  num_decoder_layers: 6
+  num_heads: 8
+  ff_size: 2048
+  dropout: 0.1
+  lid_split_layer: 1
+  use_lid_branch: true
+  positional_encoding: sinusoidal
+  init: xavier
+loss:
+  lambda_lid: 1.0
+  lambda_txt: 5.0
+  lambda_attn: 3.0
+  label_smoothing: 0.0
+optimizer:
+  name: adam
+  lr: 0.0001
+  betas:
+  - 0.9
+  - 0.999
+  eps: 1.0e-08
+  weight_decay: 0.0
+scheduler:
+  name: plateau
+  patience: 10
+  decrease_factor: 0.1
+  learning_rate_min: 1.0e-08
+training:
+  batch_size: 16
+  seed: 3
+  grad_clip_norm: 5.0
+  early_stopping_patience: 10
+  max_epochs: 100
+  checkpoint_every_epochs: 1
+  checkpoint_every_minutes: 30
+  use_cuda: true
+  grad_accum_steps: 2
+decode:
+  beam_size: 5
+  ctc_weight: 0.3
+  dev_device: cpu
+  dev_strategy: greedy
+  final_strategy: greedy
+data:
+  dataset: sp10
+  tokenizer:
+    type: word
+    min_freq: 1
+    max_size: 50000
+  feature_cache_dir: data/features/sp10_dinov2
+  splits_dir: data/splits
+  frame_subsampling_ratio: null
+  augmentation:
+    enabled: false
+    video_transforms: []
+    feature_transforms: []
+  pretraining:
+    enabled: false
+    checkpoint: null
+  target_language: en
+  source_languages:
+  - csl
+  - ukl
+  - rsl
+  - icl
+  - gsg
+  - ise
+  - bqn
+  - swl
+  - lls
+  - bfi
+  require_real_features: true
+family_routing:
+  enabled: false
+lid_self_conditioning:
+  enabled: true
+  gate_init: -2.0
+  learn_gate: true
+run_info:
+  config: configs/proposed_lid_selfcond.yaml
+  language_pairs:
+  - - csl
+    - en
+  - - ukl
+    - en
+  - - rsl
+    - en
+  - - icl
+    - en
+  - - gsg
+    - en
+  - - ise
+    - en
+  - - bqn
+    - en
+  - - swl
+    - en
+  - - lls
+    - en
+  - - bfi
+    - en
+  language_pair: null
+  n_train: 8300
+  n_dev: 1420
+  txt_vocab_size: 1417
+  stub_features: false

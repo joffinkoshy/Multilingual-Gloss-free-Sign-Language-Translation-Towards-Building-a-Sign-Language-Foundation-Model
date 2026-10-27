@@ -1,0 +1,72 @@
+2026-10-27 03:59:07,227 INFO mlslt: run info: {"config": "configs/sp10_m2o_dinov2.yaml", "language_pairs": [["csl", "en"], ["ukl", "en"], ["rsl", "en"], ["icl", "en"], ["gsg", "en"], ["ise", "en"], ["bqn", "en"], ["swl", "en"], ["lls", "en"], ["bfi", "en"]], "language_pair": null, "n_train": 8300, "n_dev": 1420, "txt_vocab_size": 1417, "stub_features": false, "trainable_params": 18556192}
+2026-10-27 04:01:21,611 INFO mlslt: epoch 1: mean total loss 125.7805
+2026-10-27 04:01:32,690 INFO mlslt: epoch 1: dev BLEU 0.12 (best so far 0.12)
+2026-10-27 04:03:45,567 INFO mlslt: epoch 2: mean total loss 108.1423
+2026-10-27 04:03:58,528 INFO mlslt: epoch 2: dev BLEU 0.40 (best so far 0.40)
+2026-10-27 04:06:11,062 INFO mlslt: epoch 3: mean total loss 99.5488
+2026-10-27 04:06:26,498 INFO mlslt: epoch 3: dev BLEU 0.31 (best so far 0.40)
+2026-10-27 04:08:36,194 INFO mlslt: epoch 4: mean total loss 92.8422
+2026-10-27 04:08:49,643 INFO mlslt: epoch 4: dev BLEU 1.13 (best so far 1.13)
+2026-10-27 04:11:00,710 INFO mlslt: epoch 5: mean total loss 87.2149
+2026-10-27 04:11:14,576 INFO mlslt: epoch 5: dev BLEU 1.00 (best so far 1.13)
+2026-10-27 04:13:25,659 INFO mlslt: epoch 6: mean total loss 82.5283
+2026-10-27 04:13:39,768 INFO mlslt: epoch 6: dev BLEU 1.04 (best so far 1.13)
+2026-10-27 04:15:50,150 INFO mlslt: epoch 7: mean total loss 78.1205
+2026-10-27 04:16:05,654 INFO mlslt: epoch 7: dev BLEU 1.33 (best so far 1.33)
+2026-10-27 04:18:18,471 INFO mlslt: epoch 8: mean total loss 73.7409
+2026-10-27 04:18:33,436 INFO mlslt: epoch 8: dev BLEU 1.31 (best so far 1.33)
+2026-10-27 04:20:43,666 INFO mlslt: epoch 9: mean total loss 69.3776
+2026-10-27 04:20:58,356 INFO mlslt: epoch 9: dev BLEU 1.73 (best so far 1.73)
+2026-10-27 04:23:10,641 INFO mlslt: epoch 10: mean total loss 65.6917
+2026-10-27 04:23:25,527 INFO mlslt: epoch 10: dev BLEU 2.10 (best so far 2.10)
+2026-10-27 04:25:37,087 INFO mlslt: epoch 11: mean total loss 61.7724
+2026-10-27 04:25:51,333 INFO mlslt: epoch 11: dev BLEU 2.40 (best so far 2.40)
+2026-10-27 04:28:04,272 INFO mlslt: epoch 12: mean total loss 58.2328
+2026-10-27 04:28:18,534 INFO mlslt: epoch 12: dev BLEU 2.45 (best so far 2.45)
+2026-10-27 04:30:29,796 INFO mlslt: epoch 13: mean total loss 54.7158
+2026-10-27 04:30:45,006 INFO mlslt: epoch 13: dev BLEU 2.15 (best so far 2.45)
+2026-10-27 04:32:57,337 INFO mlslt: epoch 14: mean total loss 51.8568
+2026-10-27 04:33:11,205 INFO mlslt: epoch 14: dev BLEU 2.36 (best so far 2.45)
+2026-10-27 04:35:22,495 INFO mlslt: epoch 15: mean total loss 49.1719
+2026-10-27 04:35:35,498 INFO mlslt: epoch 15: dev BLEU 2.62 (best so far 2.62)
+2026-10-27 04:37:47,149 INFO mlslt: epoch 16: mean total loss 47.0582
+2026-10-27 04:38:01,897 INFO mlslt: epoch 16: dev BLEU 2.55 (best so far 2.62)
+2026-10-27 04:40:13,032 INFO mlslt: epoch 17: mean total loss 45.0144
+2026-10-27 04:40:26,800 INFO mlslt: epoch 17: dev BLEU 2.31 (best so far 2.62)
+2026-10-27 04:42:37,062 INFO mlslt: epoch 18: mean total loss 43.5418
+2026-10-27 04:42:51,228 INFO mlslt: epoch 18: dev BLEU 2.71 (best so far 2.71)
+2026-10-27 04:45:01,936 INFO mlslt: epoch 19: mean total loss 42.0009
+2026-10-27 04:45:16,800 INFO mlslt: epoch 19: dev BLEU 2.34 (best so far 2.71)
+2026-10-27 04:47:28,169 INFO mlslt: epoch 20: mean total loss 40.8370
+2026-10-27 04:47:41,922 INFO mlslt: epoch 20: dev BLEU 2.80 (best so far 2.80)
+2026-10-27 04:49:55,875 INFO mlslt: epoch 21: mean total loss 40.0511
+2026-10-27 04:50:11,900 INFO mlslt: epoch 21: dev BLEU 2.57 (best so far 2.80)
+2026-10-27 04:52:22,948 INFO mlslt: epoch 22: mean total loss 39.2507
+2026-10-27 04:52:38,240 INFO mlslt: epoch 22: dev BLEU 2.39 (best so far 2.80)
+2026-10-27 04:54:51,190 INFO mlslt: epoch 23: mean total loss 38.4619
+2026-10-27 04:55:07,181 INFO mlslt: epoch 23: dev BLEU 2.55 (best so far 2.80)
+2026-10-27 04:57:19,532 INFO mlslt: epoch 24: mean total loss 37.5998
+2026-10-27 04:57:35,419 INFO mlslt: epoch 24: dev BLEU 2.37 (best so far 2.80)
+2026-10-27 04:59:46,482 INFO mlslt: epoch 25: mean total loss 37.0613
+2026-10-27 05:00:02,038 INFO mlslt: epoch 25: dev BLEU 2.86 (best so far 2.86)
+2026-10-27 05:02:13,751 INFO mlslt: epoch 26: mean total loss 36.5354
+2026-10-27 05:02:29,152 INFO mlslt: epoch 26: dev BLEU 2.50 (best so far 2.86)
+2026-10-27 05:04:42,747 INFO mlslt: epoch 27: mean total loss 36.0159
+2026-10-27 05:04:57,411 INFO mlslt: epoch 27: dev BLEU 2.59 (best so far 2.86)
+2026-10-27 05:07:08,774 INFO mlslt: epoch 28: mean total loss 35.7042
+2026-10-27 05:07:23,678 INFO mlslt: epoch 28: dev BLEU 2.33 (best so far 2.86)
+2026-10-27 05:09:33,360 INFO mlslt: epoch 29: mean total loss 35.1233
+2026-10-27 05:09:48,719 INFO mlslt: epoch 29: dev BLEU 2.62 (best so far 2.86)
+2026-10-27 05:12:01,368 INFO mlslt: epoch 30: mean total loss 34.7904
+2026-10-27 05:12:16,567 INFO mlslt: epoch 30: dev BLEU 2.64 (best so far 2.86)
+2026-10-27 05:14:27,796 INFO mlslt: epoch 31: mean total loss 34.5384
+2026-10-27 05:14:43,181 INFO mlslt: epoch 31: dev BLEU 2.60 (best so far 2.86)
+2026-10-27 05:16:53,962 INFO mlslt: epoch 32: mean total loss 33.9152
+2026-10-27 05:17:08,703 INFO mlslt: epoch 32: dev BLEU 2.56 (best so far 2.86)
+2026-10-27 05:19:23,581 INFO mlslt: epoch 33: mean total loss 33.4234
+2026-10-27 05:19:39,976 INFO mlslt: epoch 33: dev BLEU 2.69 (best so far 2.86)
+2026-10-27 05:21:53,932 INFO mlslt: epoch 34: mean total loss 33.1858
+2026-10-27 05:22:08,880 INFO mlslt: epoch 34: dev BLEU 2.76 (best so far 2.86)
+2026-10-27 05:24:22,080 INFO mlslt: epoch 35: mean total loss 32.6470
+2026-10-27 05:24:37,787 INFO mlslt: epoch 35: dev BLEU 2.86 (best so far 2.86)
+2026-10-27 05:24:37,790 INFO mlslt: early stopping at epoch 35 (no dev-BLEU improvement for 10 epochs)

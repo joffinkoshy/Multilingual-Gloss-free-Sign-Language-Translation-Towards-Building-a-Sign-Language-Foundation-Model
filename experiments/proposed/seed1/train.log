@@ -1,0 +1,122 @@
+2026-10-26 22:45:07,023 INFO mlslt: run info: {"config": "configs/proposed_lid_selfcond.yaml", "language_pairs": [["csl", "en"], ["ukl", "en"], ["rsl", "en"], ["icl", "en"], ["gsg", "en"], ["ise", "en"], ["bqn", "en"], ["swl", "en"], ["lls", "en"], ["bfi", "en"]], "language_pair": null, "n_train": 8300, "n_dev": 1420, "txt_vocab_size": 1417, "stub_features": false, "trainable_params": 18559777}
+2026-10-26 22:47:21,184 INFO mlslt: epoch 1: mean total loss 129.6884
+2026-10-26 22:47:21,226 INFO mlslt: epoch 1: lid self-conditioning gate g=0.1190
+2026-10-26 22:47:31,384 INFO mlslt: epoch 1: dev BLEU 0.12 (best so far 0.12)
+2026-10-26 22:49:43,237 INFO mlslt: epoch 2: mean total loss 106.3026
+2026-10-26 22:49:43,284 INFO mlslt: epoch 2: lid self-conditioning gate g=0.1193
+2026-10-26 22:49:56,196 INFO mlslt: epoch 2: dev BLEU 0.40 (best so far 0.40)
+2026-10-26 22:52:14,479 INFO mlslt: epoch 3: mean total loss 96.5148
+2026-10-26 22:52:14,527 INFO mlslt: epoch 3: lid self-conditioning gate g=0.1194
+2026-10-26 22:52:32,466 INFO mlslt: epoch 3: dev BLEU 0.23 (best so far 0.40)
+2026-10-26 22:54:41,676 INFO mlslt: epoch 4: mean total loss 89.6849
+2026-10-26 22:54:41,720 INFO mlslt: epoch 4: lid self-conditioning gate g=0.1195
+2026-10-26 22:55:01,013 INFO mlslt: epoch 4: dev BLEU 0.22 (best so far 0.40)
+2026-10-26 22:57:08,558 INFO mlslt: epoch 5: mean total loss 84.0723
+2026-10-26 22:57:08,606 INFO mlslt: epoch 5: lid self-conditioning gate g=0.1196
+2026-10-26 22:57:23,771 INFO mlslt: epoch 5: dev BLEU 0.95 (best so far 0.95)
+2026-10-26 22:59:32,669 INFO mlslt: epoch 6: mean total loss 78.8658
+2026-10-26 22:59:32,719 INFO mlslt: epoch 6: lid self-conditioning gate g=0.1197
+2026-10-26 22:59:48,585 INFO mlslt: epoch 6: dev BLEU 1.49 (best so far 1.49)
+2026-10-26 23:01:58,445 INFO mlslt: epoch 7: mean total loss 73.8610
+2026-10-26 23:01:58,495 INFO mlslt: epoch 7: lid self-conditioning gate g=0.1198
+2026-10-26 23:02:22,184 INFO mlslt: epoch 7: dev BLEU 1.38 (best so far 1.49)
+2026-10-26 23:04:32,372 INFO mlslt: epoch 8: mean total loss 69.5039
+2026-10-26 23:04:32,420 INFO mlslt: epoch 8: lid self-conditioning gate g=0.1199
+2026-10-26 23:04:46,225 INFO mlslt: epoch 8: dev BLEU 2.25 (best so far 2.25)
+2026-10-26 23:07:07,476 INFO mlslt: epoch 9: mean total loss 65.0110
+2026-10-26 23:07:07,527 INFO mlslt: epoch 9: lid self-conditioning gate g=0.1200
+2026-10-26 23:07:20,757 INFO mlslt: epoch 9: dev BLEU 2.54 (best so far 2.54)
+2026-10-26 23:09:37,739 INFO mlslt: epoch 10: mean total loss 61.0422
+2026-10-26 23:09:37,789 INFO mlslt: epoch 10: lid self-conditioning gate g=0.1201
+2026-10-26 23:09:51,019 INFO mlslt: epoch 10: dev BLEU 2.53 (best so far 2.54)
+2026-10-26 23:12:12,912 INFO mlslt: epoch 11: mean total loss 56.7933
+2026-10-26 23:12:12,959 INFO mlslt: epoch 11: lid self-conditioning gate g=0.1202
+2026-10-26 23:12:26,107 INFO mlslt: epoch 11: dev BLEU 2.91 (best so far 2.91)
+2026-10-26 23:14:49,955 INFO mlslt: epoch 12: mean total loss 52.7564
+2026-10-26 23:14:50,006 INFO mlslt: epoch 12: lid self-conditioning gate g=0.1203
+2026-10-26 23:15:04,295 INFO mlslt: epoch 12: dev BLEU 2.96 (best so far 2.96)
+2026-10-26 23:17:38,860 INFO mlslt: epoch 13: mean total loss 49.2955
+2026-10-26 23:17:38,909 INFO mlslt: epoch 13: lid self-conditioning gate g=0.1205
+2026-10-26 23:17:56,278 INFO mlslt: epoch 13: dev BLEU 2.47 (best so far 2.96)
+2026-10-26 23:21:18,617 INFO mlslt: epoch 14: mean total loss 45.8515
+2026-10-26 23:21:18,664 INFO mlslt: epoch 14: lid self-conditioning gate g=0.1206
+2026-10-26 23:21:32,668 INFO mlslt: epoch 14: dev BLEU 3.26 (best so far 3.26)
+2026-10-26 23:23:46,527 INFO mlslt: epoch 15: mean total loss 43.1263
+2026-10-26 23:23:46,575 INFO mlslt: epoch 15: lid self-conditioning gate g=0.1207
+2026-10-26 23:23:59,008 INFO mlslt: epoch 15: dev BLEU 3.12 (best so far 3.26)
+2026-10-26 23:26:08,878 INFO mlslt: epoch 16: mean total loss 40.6430
+2026-10-26 23:26:08,926 INFO mlslt: epoch 16: lid self-conditioning gate g=0.1206
+2026-10-26 23:26:22,059 INFO mlslt: epoch 16: dev BLEU 2.79 (best so far 3.26)
+2026-10-26 23:28:30,931 INFO mlslt: epoch 17: mean total loss 38.5617
+2026-10-26 23:28:30,981 INFO mlslt: epoch 17: lid self-conditioning gate g=0.1206
+2026-10-26 23:28:45,645 INFO mlslt: epoch 17: dev BLEU 2.96 (best so far 3.26)
+2026-10-26 23:30:54,663 INFO mlslt: epoch 18: mean total loss 36.6330
+2026-10-26 23:30:54,710 INFO mlslt: epoch 18: lid self-conditioning gate g=0.1207
+2026-10-26 23:31:07,313 INFO mlslt: epoch 18: dev BLEU 3.31 (best so far 3.31)
+2026-10-26 23:33:17,415 INFO mlslt: epoch 19: mean total loss 34.9544
+2026-10-26 23:33:17,463 INFO mlslt: epoch 19: lid self-conditioning gate g=0.1208
+2026-10-26 23:33:32,068 INFO mlslt: epoch 19: dev BLEU 3.18 (best so far 3.31)
+2026-10-26 23:35:40,658 INFO mlslt: epoch 20: mean total loss 33.5154
+2026-10-26 23:35:40,707 INFO mlslt: epoch 20: lid self-conditioning gate g=0.1208
+2026-10-26 23:35:55,239 INFO mlslt: epoch 20: dev BLEU 3.06 (best so far 3.31)
+2026-10-26 23:38:05,687 INFO mlslt: epoch 21: mean total loss 32.1903
+2026-10-26 23:38:05,736 INFO mlslt: epoch 21: lid self-conditioning gate g=0.1208
+2026-10-26 23:38:19,437 INFO mlslt: epoch 21: dev BLEU 3.33 (best so far 3.33)
+2026-10-26 23:40:31,874 INFO mlslt: epoch 22: mean total loss 30.7294
+2026-10-26 23:40:31,921 INFO mlslt: epoch 22: lid self-conditioning gate g=0.1208
+2026-10-26 23:40:46,639 INFO mlslt: epoch 22: dev BLEU 2.93 (best so far 3.33)
+2026-10-26 23:43:04,302 INFO mlslt: epoch 23: mean total loss 29.4307
+2026-10-26 23:43:04,354 INFO mlslt: epoch 23: lid self-conditioning gate g=0.1208
+2026-10-26 23:43:19,826 INFO mlslt: epoch 23: dev BLEU 3.10 (best so far 3.33)
+2026-10-26 23:45:35,016 INFO mlslt: epoch 24: mean total loss 28.4410
+2026-10-26 23:45:35,069 INFO mlslt: epoch 24: lid self-conditioning gate g=0.1209
+2026-10-26 23:45:49,330 INFO mlslt: epoch 24: dev BLEU 3.27 (best so far 3.33)
+2026-10-26 23:48:05,079 INFO mlslt: epoch 25: mean total loss 27.2305
+2026-10-26 23:48:05,126 INFO mlslt: epoch 25: lid self-conditioning gate g=0.1209
+2026-10-26 23:48:19,682 INFO mlslt: epoch 25: dev BLEU 3.95 (best so far 3.95)
+2026-10-26 23:50:42,334 INFO mlslt: epoch 26: mean total loss 26.2131
+2026-10-26 23:50:42,385 INFO mlslt: epoch 26: lid self-conditioning gate g=0.1209
+2026-10-26 23:50:57,014 INFO mlslt: epoch 26: dev BLEU 3.24 (best so far 3.95)
+2026-10-26 23:53:15,599 INFO mlslt: epoch 27: mean total loss 25.0917
+2026-10-26 23:53:15,651 INFO mlslt: epoch 27: lid self-conditioning gate g=0.1210
+2026-10-26 23:53:30,790 INFO mlslt: epoch 27: dev BLEU 3.63 (best so far 3.95)
+2026-10-26 23:55:43,921 INFO mlslt: epoch 28: mean total loss 24.0380
+2026-10-26 23:55:43,972 INFO mlslt: epoch 28: lid self-conditioning gate g=0.1210
+2026-10-26 23:55:59,362 INFO mlslt: epoch 28: dev BLEU 3.97 (best so far 3.97)
+2026-10-26 23:58:13,272 INFO mlslt: epoch 29: mean total loss 23.0670
+2026-10-26 23:58:13,323 INFO mlslt: epoch 29: lid self-conditioning gate g=0.1211
+2026-10-26 23:58:27,786 INFO mlslt: epoch 29: dev BLEU 4.59 (best so far 4.59)
+2026-10-27 00:00:45,445 INFO mlslt: epoch 30: mean total loss 21.9735
+2026-10-27 00:00:45,495 INFO mlslt: epoch 30: lid self-conditioning gate g=0.1211
+2026-10-27 00:01:00,215 INFO mlslt: epoch 30: dev BLEU 4.79 (best so far 4.79)
+2026-10-27 00:03:17,960 INFO mlslt: epoch 31: mean total loss 20.8089
+2026-10-27 00:03:18,011 INFO mlslt: epoch 31: lid self-conditioning gate g=0.1211
+2026-10-27 00:03:32,352 INFO mlslt: epoch 31: dev BLEU 4.03 (best so far 4.79)
+2026-10-27 00:05:47,988 INFO mlslt: epoch 32: mean total loss 19.9364
+2026-10-27 00:05:48,041 INFO mlslt: epoch 32: lid self-conditioning gate g=0.1212
+2026-10-27 00:06:02,836 INFO mlslt: epoch 32: dev BLEU 4.44 (best so far 4.79)
+2026-10-27 00:08:18,493 INFO mlslt: epoch 33: mean total loss 19.0443
+2026-10-27 00:08:18,546 INFO mlslt: epoch 33: lid self-conditioning gate g=0.1211
+2026-10-27 00:08:33,364 INFO mlslt: epoch 33: dev BLEU 4.12 (best so far 4.79)
+2026-10-27 00:10:46,752 INFO mlslt: epoch 34: mean total loss 18.1010
+2026-10-27 00:10:46,806 INFO mlslt: epoch 34: lid self-conditioning gate g=0.1212
+2026-10-27 00:11:01,706 INFO mlslt: epoch 34: dev BLEU 4.25 (best so far 4.79)
+2026-10-27 00:13:17,097 INFO mlslt: epoch 35: mean total loss 17.0773
+2026-10-27 00:13:17,149 INFO mlslt: epoch 35: lid self-conditioning gate g=0.1212
+2026-10-27 00:13:32,447 INFO mlslt: epoch 35: dev BLEU 4.17 (best so far 4.79)
+2026-10-27 00:15:47,554 INFO mlslt: epoch 36: mean total loss 16.1692
+2026-10-27 00:15:47,601 INFO mlslt: epoch 36: lid self-conditioning gate g=0.1212
+2026-10-27 00:16:02,688 INFO mlslt: epoch 36: dev BLEU 4.31 (best so far 4.79)
+2026-10-27 00:18:13,268 INFO mlslt: epoch 37: mean total loss 15.4730
+2026-10-27 00:18:13,318 INFO mlslt: epoch 37: lid self-conditioning gate g=0.1213
+2026-10-27 00:18:28,034 INFO mlslt: epoch 37: dev BLEU 4.07 (best so far 4.79)
+2026-10-27 00:20:44,980 INFO mlslt: epoch 38: mean total loss 14.5982
+2026-10-27 00:20:45,032 INFO mlslt: epoch 38: lid self-conditioning gate g=0.1212
+2026-10-27 00:21:00,083 INFO mlslt: epoch 38: dev BLEU 4.49 (best so far 4.79)
+2026-10-27 00:23:25,854 INFO mlslt: epoch 39: mean total loss 13.9152
+2026-10-27 00:23:25,900 INFO mlslt: epoch 39: lid self-conditioning gate g=0.1213
+2026-10-27 00:23:40,684 INFO mlslt: epoch 39: dev BLEU 3.87 (best so far 4.79)
+2026-10-27 00:25:56,706 INFO mlslt: epoch 40: mean total loss 13.0060
+2026-10-27 00:25:56,758 INFO mlslt: epoch 40: lid self-conditioning gate g=0.1213
+2026-10-27 00:26:11,854 INFO mlslt: epoch 40: dev BLEU 4.54 (best so far 4.79)
+2026-10-27 00:26:11,854 INFO mlslt: early stopping at epoch 40 (no dev-BLEU improvement for 10 epochs)
